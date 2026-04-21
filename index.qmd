@@ -1,0 +1,21 @@
+---
+title: "Bitácora de Economía de la Innovación"
+subtitle: "Séptimo Ciclo - 2026"
+author: "Erick Fabricio Condoy Seraquive"
+---
+
+# Introducción
+
+Este repositorio centraliza los avances académicos en la materia de Economía de la Innovación, integrando la gestión de datos con el cerebro institucional.
+
+## Objetivos
+
+1.  Modelización de procesos de innovación regional en el Ecuador.
+2.  Análisis de patentes y transferencia tecnológica.
+3.  Reporteo académico bajo normativa APA 7.
+
+## Estructura del Nodo
+
+- `data/`: Insumos estadísticos y registros de patentes.
+- `notebooks/`: Modelos probabilísticos y redes de innovación.
+- `writing/`: Reportes finales y revisiones de literatura.

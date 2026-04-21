@@ -1,4 +1,4 @@
-# AGENTS.md — Nodo Federado: Innovation Economics
+# AGENTS.md — Nodo Federado: Laboratorio de Economía de la Innovación (LEI)
 
 > Este repositorio es un **Nodo Puro** de la Arquitectura Federada v7.4.0.  
 > Opera bajo la Constitución centralizada en `capital-workstation-libs`.
@@ -13,12 +13,12 @@
 
 ---
 
-## Identidad del Nodo
+## Identidad del Nodo (LEI)
 
 | Campo | Valor |
 |:---|:---|
-| **Nodo** | Innovation Economics |
-| **Materia** | 7mo Ciclo — Universidad |
+| **Nodo** | Laboratorio de Economía de la Innovación (LEI) |
+| **Materia** | Emprendimiento y Economía de la Innovación |
 | **Docente** | Econ. Jose Vicente Ordoñez Yaguache |
 | **Estudiante** | Erick Fabricio Condoy Seraquive |
 | **Período** | Marzo - Agosto 2026 |
@@ -28,11 +28,22 @@
 
 ---
 
+## Arquitectura de Bóvedas (Vaults)
+
+Este nodo implementa el sistema de **Bóvedas de Conocimiento**, donde cada unidad del sílabo se gestiona como una unidad de evidencia reproducible:
+
+- `docs/evidence/`: Almacén de workshops, informes y aplicaciones de LEI.
+- `docs/readings/`: Bóveda de lecturas (Schumpeter, Sistemas Nacionales de Innovación).
+- `docs/syllabus/`: Marco normativo y académico de la materia.
+
+---
+
 ## Ley de Nodo Puro (Obligatoria)
 
 1. **No reimplementar** lógica que ya exista en `ecs_quantitative`.
 2. **Importar siempre** desde la librería central.
 3. **RAG**: usar la base central, nunca crear stores locales.
+4. **Bóvedas**: toda evidencia debe seguir el formato Quarto (.qmd) y estar vinculada al índice central.
 
 ---
 
@@ -40,7 +51,7 @@
 
 ```bash
 uv sync
-uv run python main.py  # o el orquestador correspondiente
+uv run python src/orchestration/M01-U1-LEI-Master_Build.py
 ```
 
 ---

@@ -12,6 +12,7 @@ Organización de recursos académicos:
 
 - **[Sílabo de la Materia](docs/syllabus/SYLLABUS.pdf)**: Guía de contenidos y evaluación.
 - **[Lecturas y Referencias](docs/readings/)**: Material sobre Schumpeter, sistemas de innovación y emprendimiento.
+- **[Índice documental por unidades](docs/README.md)**: Navegación por el sílabo y por las evidencias de cada unidad.
 - **[Arquitectura](ARCHITECTURE.md)**: Estructura técnica del repo.
 - **[Roadmap](ROADMAP.md)**: Seguimiento de unidades.
 

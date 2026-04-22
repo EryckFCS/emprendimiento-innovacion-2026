@@ -18,6 +18,15 @@ Organización de recursos académicos:
 
 ---
 
+## 📄 Arquitectura de Reporteo (Quarto)
+
+La redacción de informes y evidencia académica sigue el **Estándar Nivel 5**:
+- El archivo `_quarto.yml` reside en la **raíz del repositorio**.
+- Todo el output generado (HTML/PDF intermedios, dependencias JS/CSS) se concentra automáticamente en el directorio `_site/` o `dist/`.
+- No existen carpetas `*_files/` ad-hoc. Todo está cubierto por el `.gitignore` canónico.
+
+---
+
 ## 🚀 Guía de Inicio
 
 ```bash

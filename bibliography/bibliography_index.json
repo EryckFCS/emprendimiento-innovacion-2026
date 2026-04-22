@@ -1,0 +1,93 @@
+{
+  "node": "innovation_economics",
+  "collection": "innovation_economics",
+  "generated": "2026-04-21",
+  "total_chunks": 22,
+  "documents": [
+    {
+      "source_id": "lei_syllabus",
+      "title": "Sílabo — Emprendimiento y Economía de la Innovación",
+      "authors": [
+        "Ordoñez Yaguache, Jose Vicente"
+      ],
+      "year": 2026,
+      "type": "silabo_docente",
+      "file": "docs/syllabus/SYLLABUS.pdf",
+      "chunks": 22,
+      "collection": "innovation_economics",
+      "date_indexed": "2026-04-21",
+      "status": "INDEXADO",
+      "note": "Único documento disponible actualmente. RAG insuficiente para queries académicas."
+    }
+  ],
+  "pending": [
+    {
+      "title": "The Theory of Economic Development",
+      "authors": [
+        "Schumpeter, Joseph A."
+      ],
+      "year": 1912,
+      "type": "libro",
+      "priority": "CRÍTICA",
+      "note": "Texto fundacional de la innovación schumpeteriana — destrucción creadora"
+    },
+    {
+      "title": "Manual de Oslo: Guía para la recogida e interpretación de datos sobre innovación (3ª ed.)",
+      "authors": [
+        "OCDE/Eurostat"
+      ],
+      "year": 2005,
+      "type": "manual",
+      "priority": "CRÍTICA",
+      "note": "Estándar internacional de definición y medición de innovación"
+    },
+    {
+      "title": "National Innovation Systems: A Comparative Analysis",
+      "authors": [
+        "Nelson, Richard R."
+      ],
+      "year": 1993,
+      "publisher": "Oxford University Press",
+      "type": "libro",
+      "priority": "ALTA",
+      "note": "Marco de Sistemas Nacionales de Innovación (SNI)"
+    },
+    {
+      "title": "Technology Policy and Economic Performance: Lessons from Japan",
+      "authors": [
+        "Freeman, Christopher"
+      ],
+      "year": 1987,
+      "type": "libro",
+      "priority": "ALTA",
+      "note": "Freeman acuña el concepto de Sistema Nacional de Innovación"
+    },
+    {
+      "title": "The Competitive Advantage of Nations",
+      "authors": [
+        "Porter, Michael E."
+      ],
+      "year": 1990,
+      "publisher": "Free Press",
+      "type": "libro",
+      "priority": "ALTA",
+      "note": "Clusters y competitividad — enlace emprendimiento-innovación"
+    },
+    {
+      "title": "Lecturas asignadas por el docente (Ordoñez Yaguache)",
+      "type": "material_docente",
+      "priority": "ALTA",
+      "note": "Solicitar materiales de U1, U2 y U3 al docente. Sin ellos el RAG es inútil para la materia."
+    },
+    {
+      "title": "Innovation and Entrepreneurship",
+      "authors": [
+        "Drucker, Peter F."
+      ],
+      "year": 1985,
+      "type": "libro",
+      "priority": "MEDIA",
+      "note": "Emprendimiento como práctica sistemática"
+    }
+  ]
+}

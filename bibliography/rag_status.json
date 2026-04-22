@@ -1,22 +1,33 @@
 {
   "collection": "innovation_economics",
-  "total_chunks": 22,
+  "total_chunks": 1430,
   "last_audit": "2026-04-21",
+  "status": "SINCRONIZADO",
+  "engine": "ecs_quantitative.ingestion.rag",
   "indexed_documents": [
     {
-      "source_id": "lei_syllabus",
+      "source_name": "Manual_de_Oslo_2005",
+      "chunks": 625
+    },
+    {
+      "source_name": "Schumpeter_Theory_of_Economic_Development",
+      "chunks": 560
+    },
+    {
+      "source_name": "Freeman_Concept_Sharif_2006",
+      "chunks": 152
+    },
+    {
+      "source_name": "Nelson_National_Innovation_Systems_Summary",
+      "chunks": 68
+    },
+    {
       "source_name": "SYLLABUS",
       "chunks": 22
+    },
+    {
+      "source_name": "Freeman_Technology_Policy_EconStor_Summary",
+      "chunks": 3
     }
-  ],
-  "available_in_folder": [
-    "docs/syllabus/SYLLABUS.pdf (indexado)"
-  ],
-  "pending_indexation": [
-    "PENDIENTE: Schumpeter — Theory of Economic Development",
-    "PENDIENTE: Manual de Oslo (OCDE)",
-    "PENDIENTE: Freeman — National Systems of Innovation",
-    "PENDIENTE: Lecturas de la materia (solicitar al docente)"
-  ],
-  "notes": "RAG mínimo con solo 22 chunks del syllabus. Requiere bibliografía real para ser útil."
+  ]
 }

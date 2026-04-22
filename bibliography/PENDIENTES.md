@@ -18,16 +18,12 @@
 
 | Título | Autores | Año | Nota |
 |:---|:---|:---:|:---|
-| The Theory of Economic Development | Schumpeter, J.A. | 1912 | Texto fundacional — destrucción creadora |
-| Manual de Oslo (3ª ed.) | OCDE/Eurostat | 2005 | Estándar internacional de medición de innovación |
 | Lecturas asignadas por el docente | Ordoñez Yaguache, J.V. | 2026 | **Solicitar al docente urgente** |
 
 ### 🟡 ALTA PRIORIDAD
 
 | Título | Autores | Año | Nota |
 |:---|:---|:---:|:---|
-| National Innovation Systems: A Comparative Analysis | Nelson, Richard R. | 1993 | Marco SNI clásico |
-| Technology Policy and Economic Performance: Lessons from Japan | Freeman, Christopher | 1987 | Freeman acuña el SNI |
 | The Competitive Advantage of Nations | Porter, Michael E. | 1990 | Clusters y competitividad |
 
 ### 🟢 COMPLEMENTARIOS

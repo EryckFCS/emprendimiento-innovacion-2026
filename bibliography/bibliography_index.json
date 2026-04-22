@@ -2,7 +2,7 @@
   "node": "innovation_economics",
   "collection": "innovation_economics",
   "generated": "2026-04-21",
-  "total_chunks": 22,
+  "total_chunks": 1430,
   "documents": [
     {
       "source_id": "lei_syllabus",
@@ -17,7 +17,8 @@
       "collection": "innovation_economics",
       "date_indexed": "2026-04-21",
       "status": "INDEXADO",
-      "note": "Único documento disponible actualmente. RAG insuficiente para queries académicas."
+      "note": "Único documento disponible actualmente. RAG insuficiente para queries académicas.",
+      "chunks_indexed": 22
     }
   ],
   "pending": [

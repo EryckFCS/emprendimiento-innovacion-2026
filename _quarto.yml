@@ -1,6 +1,6 @@
 project:
   type: default
-  output-dir: dist
+  output-dir: _site
 
 university: "UNIVERSIDAD NACIONAL DE LOJA"
 faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"

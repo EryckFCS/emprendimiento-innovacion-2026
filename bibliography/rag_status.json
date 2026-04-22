@@ -1,0 +1,22 @@
+{
+  "collection": "innovation_economics",
+  "total_chunks": 22,
+  "last_audit": "2026-04-21",
+  "indexed_documents": [
+    {
+      "source_id": "lei_syllabus",
+      "source_name": "SYLLABUS",
+      "chunks": 22
+    }
+  ],
+  "available_in_folder": [
+    "docs/syllabus/SYLLABUS.pdf (indexado)"
+  ],
+  "pending_indexation": [
+    "PENDIENTE: Schumpeter — Theory of Economic Development",
+    "PENDIENTE: Manual de Oslo (OCDE)",
+    "PENDIENTE: Freeman — National Systems of Innovation",
+    "PENDIENTE: Lecturas de la materia (solicitar al docente)"
+  ],
+  "notes": "RAG mínimo con solo 22 chunks del syllabus. Requiere bibliografía real para ser útil."
+}

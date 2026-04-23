@@ -1,6 +1,5 @@
 project:
   type: default
-  output-dir: _site
 
 university: "UNIVERSIDAD NACIONAL DE LOJA"
 faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
@@ -14,7 +13,7 @@ format:
     number-sections: true
   pdf:
     pdf-engine: lualatex
-    include-in-header: /home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/templates/academic_task.tex
+    template: /home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/templates/academic_task.tex
     toc: false
     number-sections: true
     citeproc: true

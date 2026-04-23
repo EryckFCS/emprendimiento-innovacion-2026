@@ -17,7 +17,8 @@ docs/evidence/
 
 | Unidad | Actividad | Archivo | Estado |
 |:---|:---|:---|:---|
-| U1 | — | — | 🔄 En construcción |
+| U1 | Sistemas de Innovación | [U1-Sistemas-Innovacion/](U1-Sistemas-Innovacion/) | 🔄 En construcción |
+| Proyecto | Consultora Económica Loja | [Business-Project-CEL/](Business-Project-CEL/index.qmd) | 🚀 Inicializado |
 
 ## Gobernanza
 

@@ -19,3 +19,9 @@ Este repositorio centraliza los avances académicos en la materia de Economía d
 - `data/`: Insumos estadísticos y registros de patentes.
 - `notebooks/`: Modelos probabilísticos y redes de innovación.
 - `writing/`: Reportes finales y revisiones de literatura.
+- `docs/evidence/`: Bóvedas de evidencia académica y proyectos.
+
+# Proyectos Destacados
+
+## [Consultora Económica Loja (CEL)](docs/evidence/Business-Project-CEL/index.qmd)
+Proyecto transversal para evaluar la viabilidad de una firma de consultoría especializada en innovación para PYMES en el sur del Ecuador.

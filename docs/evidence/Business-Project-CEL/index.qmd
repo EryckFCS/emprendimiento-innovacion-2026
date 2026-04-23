@@ -1,0 +1,39 @@
+---
+title: "Bóveda de Proyecto: Consultora Económica Loja (CEL)"
+subtitle: "Análisis de Rentabilidad y Probabilidad de Mercado"
+author:
+  - "Erick Fabricio Condoy Seraquive"
+  - "Jeferson"
+  - "Kriste"
+date: "2026-04-22"
+categories: [Emprendimiento, Consultoría, Loja, PYMES]
+format:
+  html:
+    toc: true
+    number-sections: true
+---
+
+# Introducción
+
+Esta bóveda centraliza toda la evidencia, análisis y modelos relacionados con la creación de una consultora económica especializada en PYMES en la ciudad de Loja, Ecuador. El proyecto se desarrolla como eje transversal de la asignatura de **Economía de la Innovación**.
+
+::: {.callout-note}
+## Objetivo General
+Evaluar la viabilidad estratégica y financiera de una firma de consultoría que cubra las brechas de innovación, gestión y estrategia en el ecosistema empresarial lojano.
+:::
+
+# Estructura del Proyecto
+
+La valoración se divide en los siguientes hitos:
+
+| Fase | Documento | Estado |
+|------|-----------|--------|
+| 1. Modelado de Negocio | [01 - Lean Canvas: Consultoría Económica PYMES](01-lean-canvas.qmd) | `[EN PROGRESO]` |
+| 2. Validación de Mercado | [02 - Diagnóstico de Demanda (Loja)](02-mercado.qmd) | `[PENDIENTE]` |
+| 3. Valoración Financiera | [03 - Modelo de Flujos y Probabilidad](03-finanzas.qmd) | `[PENDIENTE]` |
+| 4. Estrategia de Innovación | [04 - Diferenciación y Propuesta Quant](04-innovacion.qmd) | `[PENDIENTE]` |
+
+# Recursos Relacionados
+
+- **Bibliografía Base**: Ubicada en `docs/readings/`.
+- **Insumos de Borrador**: [Lean Canvas Original](../../../bibliography/borradores/Lean%20Canvas%20Modelo%20de%20Negocio%20para%20Consultor%C3%ADa%20Econ%C3%B3mica%20PYMES%20%E2%80%94%20Loja,%20Ecuador.md)

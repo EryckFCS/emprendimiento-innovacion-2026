@@ -1,4 +1,3 @@
-import pytest
 from main import build_status
 
 def test_build_status_structure():

@@ -6,7 +6,7 @@ author:
   - name: "Japón Yaguachi Kristie Susana"
   - name: "Vasquez Japón Jefferson Alexander"
 date: "2026-04-22"
-bibliography: cel_references.bib
+bibliography: assets/cel_references.bib
 csl: templates/apa_7.csl
 university: "UNIVERSIDAD NACIONAL DE LOJA"
 faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
@@ -238,9 +238,11 @@ A continuación, la deconstrucción de nuestra UVP aplicando la metodología de 
 ::: {.content-visible when-format="html"}
 | | | |
 |:---|:---|:---|
-| (6) NUEVA SITUACIÓN<br>Gestión basada en evidencia y proyección estadística. | (7) ATRIBUTOS HABILITADORES<br>Modelos econométricos, análisis de sensibilidad y Dashboards. | (8) BENEFICIOS<br>Optimización de márgenes, certidumbre financiera y mitigación de riesgos. |
-| (1) ENCABEZADO<br>Para PYMES lojanas y empresas familiares en transición. | (V) PROPUESTA DE VALOR<br>"Decisiones basadas en datos, soporte en sitio." | (2) ESCENARIO DESEADO<br>Maximización del valor empresarial y profesionalización operativa. |
-| (3) SITUACIÓN ACTUAL<br>Toma de decisiones por intuición y nula planificación estratégica. | (4) DEFICIENCIAS<br>Contabilidad estática sin visión prospectiva, falta de enfoque en I+D. | (5) CONSECUENCIAS<br>Estancamiento, pérdida de cuota de mercado e incapacidad de escalar. |
+| **(6) NUEVA SITUACIÓN**<br>Gestión basada en evidencia y proyección estadística. | **(7) ATRIBUTOS HABILITADORES**<br>Modelos econométricos, análisis de sensibilidad y Dashboards. | **(8) BENEFICIOS**<br>Optimización de márgenes, certidumbre financiera y mitigación de riesgos. |
+| **(1) ENCABEZADO**<br>Para PYMES lojanas y empresas familiares en transición. | **(V) PROPUESTA DE VALOR**<br>"Decisiones basadas en datos, soporte en sitio." | **(2) ESCENARIO DESEADO**<br>Maximización del valor empresarial y profesionalización operativa. |
+| **(3) SITUACIÓN ACTUAL**<br>Toma de decisiones por intuición y nula planificación estratégica. | **(4) DEFICIENCIAS**<br>Contabilidad estática sin visión prospectiva, falta de enfoque en I+D. | **(5) CONSECUENCIAS**<br>Estancamiento, pérdida de cuota de mercado e incapacidad de escalar. |
+
+: Matriz de Estado de Valor UVP {#tbl-value-matrix}
 :::
 
 ::: {.content-visible when-format="pdf"}
@@ -262,22 +264,27 @@ Nuestra ventaja competitiva reside en la cercanía y el respaldo técnico. Ofrec
 :::
 
 ### Paisaje Competitivo en Loja
+
 Para validar nuestra posición, hemos mapeado los actores actuales y sus limitaciones frente a las necesidades PYME:
 
-| Actor | Especialidad | Debilidad Explotable |
-|-------|-------------|---------------------|
+| **Actor** | **Especialidad** | **Debilidad Explotable** |
+|:---|:---|:---|
 | AGEMIC | Fiscalización y obra civil. | No cubre estrategia ni finanzas. |
 | MB Consultoría | Marketing digital. | Enfoque visual, sin análisis cuantitativo. |
 | Firmas Nacionales | Estudios de mercado. | Costos prohibitivos para la PYME local. |
-| CEL | Estrategia + Quant. | Nicho: Alta técnica a precio local. |
+| **CEL** | **Estrategia + Quant.** | **Nicho: Alta técnica a precio local.** |
+
+: Paisaje Competitivo en el Mercado de Consultoría de Loja {#tbl-competitors}
 
 ## Bloque 4 — Solución {#b4}
 
-| Módulo | Contenido | Valor Agregado |
-|--------|-----------|----------------|
-| M1 — Diagnóstico Estratégico | Análisis FODA cuantitativo y Benchmarking. | Saber dónde está la empresa frente a la competencia. |
-| M2 — Inteligencia Financiera | Flujos de caja proyectados y Dashboards en tiempo real. | Eliminar la incertidumbre sobre la liquidez futura. |
-| M3 — Optimización de Mercado | Modelos de elasticidad precio e inteligencia competitiva. | Cobrar lo justo y vender más mediante datos. |
+| **Módulo** | **Contenido** | **Valor Agregado** |
+|:---|:---|:---|
+| **M1 — Diagnóstico Estratégico** | Análisis FODA cuantitativo y Benchmarking. | Saber dónde está la empresa frente a la competencia. |
+| **M2 — Inteligencia Financiera** | Flujos de caja proyectados y Dashboards en tiempo real. | Eliminar la incertidumbre sobre la liquidez futura. |
+| **M3 — Optimización de Mercado** | Modelos de elasticidad precio e inteligencia competitiva. | Cobrar lo justo y vender más mediante datos. |
+
+: Estructura de Módulos de Solución CEL {#tbl-solution}
 
 
 ## Bloque 5 — Canales {#b5}
@@ -296,11 +303,13 @@ La estrategia de distribución y captación de CEL se despliega a través de una
 
 ## Bloque 6 — Flujo de Ingresos {#b6}
 
-| Capa | Modelo | Precio Referencial |
-|------|--------|--------------------|
-| Retainer mensual | Acompañamiento estratégico (4-8h/mes). | $300–$600/mes |
-| Proyecto puntual | Implementación de módulo específico. | $500–$2,000 |
-| Talleres/Masterclass | Formación para mandos medios. | $50–$150/persona |
+| **Capa** | **Modelo** | **Precio Referencial** |
+|:---|:---|:---|
+| **Retainer mensual** | Acompañamiento estratégico (4-8h/mes). | $300–$600/mes |
+| **Proyecto puntual** | Implementación de módulo específico. | $500–$2,000 |
+| **Talleres/Masterclass** | Formación para mandos medios. | $50–$150/persona |
+
+: Modelo de Monetización y Flujos de Ingresos {#tbl-revenue}
 
 Nuestra estructura de ingresos se basa en el modelo de "Consultoría de Acompañamiento", que reduce la barrera de entrada para la PYME mediante cobros basados en hitos de valor y retribución recurrente, asegurando que la consultoría sea percibida como una inversión de retorno medible y no como un costo operativo estático [@alvarez2020consultoria].
 
@@ -315,12 +324,14 @@ La ausencia de oficina física inicial es una decisión estratégica: el 68% de 
 
 El éxito de CEL se mide a través de indicadores de validación y crecimiento:
 
-| Métrica | Target Mes 3 | Target Mes 12 |
-|---------|-------------|--------------|
-| Clientes retainer activos | 2 | 10 |
-| NPS (Satisfacción) | ≥ 7/10 | ≥ 8/10 |
-| Tasa de renovación | — | ≥ 70% |
-| Ingresos Recurrentes (MRR) | $800 | $4,000 |
+| **Métrica** | **Target Mes 3** | **Target Mes 12** |
+|:---|:---|:---|
+| **Clientes retainer activos** | 2 | 10 |
+| **NPS (Satisfacción)** | ≥ 7/10 | ≥ 8/10 |
+| **Tasa de renovación** | — | ≥ 70% |
+| **Ingresos Recurrentes (MRR)** | $800 | $4,000 |
+
+: Indicadores Clave de Desempeño (KPIs) {#tbl-metrics}
 
 ## Bloque 9 — Ventaja Injusta {#b9} 
 
@@ -335,6 +346,8 @@ La "ventaja injusta" de CEL se fundamenta en la convergencia de activos técnico
 2. Fase 2 (Mes 4-9): Consolidación de 5 clientes retainer y primer caso de éxito público.
 3. Fase 3 (Mes 10-18): Escalamiento mediante productos digitales (Plantillas de Valoración automatizadas).
 :::
+
+\newpage
 
 # Referencias
 

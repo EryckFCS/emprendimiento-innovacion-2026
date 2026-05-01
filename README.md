@@ -5,7 +5,7 @@ El Laboratorio de Economia de la Innovacion organiza la evidencia, la escritura 
 ## Arquitectura de Documentacion
 
 - [Indice documental](docs/README.md)
-- [Boveda de evidencias](docs/evidence/README.md)
+- [Boveda de evidencias](docs/vaults/README.md)
 - [Boveda de escritura](docs/writing/index.qmd)
 - [Boveda de gestion](docs/management/index.qmd)
 - [Boveda de lecturas](docs/readings/index.qmd)
@@ -19,7 +19,7 @@ El Laboratorio de Economia de la Innovacion organiza la evidencia, la escritura 
 uv sync
 uv run python main.py
 uv run pytest tests/test_vault_architecture.py tests/test_main.py
-quarto render docs/evidence/Business-Project-CEL/index.qmd --to pdf
+quarto render docs/vaults/Business-Project-CEL/index.qmd --to pdf
 ```
 
 La carpeta `writing/` en la raiz se conserva solo como transicion historica.

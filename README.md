@@ -1,41 +1,25 @@
-# 🏛️ LEI - Laboratorio de Economía de la Innovación 2026
+# LEI - Laboratorio de Economia de la Innovacion 2026
 
-## Emprendimiento y Economía de la Innovación (Ciclo 7) - UNL
+El Laboratorio de Economia de la Innovacion organiza la evidencia, la escritura canonica y la gestion documental del nodo.
 
-El **Laboratorio de Economía de la Innovación (LEI)** estudia los motores del cambio tecnológico, los ecosistemas emprendedores y su impacto en la productividad regional.
+## Arquitectura de Documentacion
 
----
+- [Indice documental](docs/README.md)
+- [Boveda de evidencias](docs/evidence/README.md)
+- [Boveda de escritura](docs/writing/index.qmd)
+- [Boveda de gestion](docs/management/index.qmd)
+- [Boveda de lecturas](docs/readings/index.qmd)
+- [Silabo oficial](docs/syllabus/oficial/index.qmd)
+- [Arquitectura](ARCHITECTURE.md)
+- [Roadmap](ROADMAP.md)
 
-## 🏗️ Arquitectura de Documentación
-
-Organización de recursos académicos:
-
-- **[Sílabo de la Materia](docs/syllabus/SYLLABUS.pdf)**: Guía de contenidos y evaluación.
-- **[Lecturas y Referencias](docs/readings/)**: Material sobre Schumpeter, sistemas de innovación y emprendimiento.
-- **[Índice documental por unidades](docs/README.md)**: Navegación por el sílabo y por las evidencias de cada unidad.
-- **[Arquitectura](ARCHITECTURE.md)**: Estructura técnica del repo.
-- **[Roadmap](ROADMAP.md)**: Seguimiento de unidades.
-
----
-
-## 📄 Arquitectura de Reporteo (Quarto)
-
-La redacción de informes y evidencia académica sigue el **Estándar Nivel 5**:
-- El archivo `_quarto.yml` reside en la **raíz del repositorio**.
-- Todo el output generado (HTML/PDF intermedios, dependencias JS/CSS) se concentra automáticamente en el directorio `_site/` o `dist/`.
-- No existen carpetas `*_files/` ad-hoc. Todo está cubierto por el `.gitignore` canónico.
-
----
-
-## 🚀 Guía de Inicio
+## Guia de Inicio
 
 ```bash
-# Sincronización de entorno
 uv sync
-
-# Análisis de innovación
-python src/orchestration/M01-U1-LEI-Master_Build.py
+uv run python main.py
+uv run pytest tests/test_vault_architecture.py tests/test_main.py
+quarto render docs/evidence/Business-Project-CEL/index.qmd --to pdf
 ```
 
----
-*LEI - Centro de Investigación Econométrica. UNL.*
+La carpeta `writing/` en la raiz se conserva solo como transicion historica.

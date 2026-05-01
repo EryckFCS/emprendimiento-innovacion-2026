@@ -1,0 +1,18 @@
+---
+title: "Sílabo Oficial"
+subtitle: "Economía de la Innovación"
+author: "Erick Fabricio Condoy Seraquive"
+date: "2026-04-23"
+format:
+  html:
+    toc: true
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+---
+
+# Documento oficial
+
+El sílabo institucional se conserva como asset canónico del nodo.
+
+- [Abrir PDF](assets/SYLLABUS.pdf)

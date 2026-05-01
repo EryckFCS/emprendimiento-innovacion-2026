@@ -1,0 +1,24 @@
+---
+title: "Entrega canónica"
+subtitle: "Consultora Económica Loja (CEL)"
+author: "Erick Fabricio Condoy Seraquive"
+date: "2026-04-23"
+bibliography: ../references.bib
+csl: ../apa.csl
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: true
+---
+
+# Entrega
+
+Esta página actúa como la capa de entrega canonizada del nodo. Desde aquí se accede a la evidencia principal del proyecto CEL y a la bóveda de escritura.
+
+- [Proyecto CEL](../../evidence/Business-Project-CEL/index.qmd)
+- [Lean Canvas](../../evidence/Business-Project-CEL/01-lean-canvas.qmd)
+- [Bóveda de escritura](../index.qmd)

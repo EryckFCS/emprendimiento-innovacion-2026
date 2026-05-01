@@ -1,0 +1,26 @@
+---
+title: "Bóveda de Escritura"
+subtitle: "Narrativa canónica y entregas del nodo LEI"
+author: "Erick Fabricio Condoy Seraquive"
+date: "2026-04-23"
+bibliography: references.bib
+csl: apa.csl
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: true
+---
+
+# Propósito
+
+Esta bóveda concentra la redacción canónica del nodo y centraliza la bibliografía usada por las entregas oficiales.
+
+# Recursos
+
+- [Entrega canónica](delivery/index.qmd)
+- [Bibliografía canónica](references.bib)
+- [Estilo APA](apa.csl)

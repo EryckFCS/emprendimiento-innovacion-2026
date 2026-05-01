@@ -6,8 +6,8 @@ author:
   - name: "Japón Yaguachi Kristie Susana"
   - name: "Vasquez Japón Jefferson Alexander"
 date: "2026-04-22"
-bibliography: assets/cel_references.bib
-csl: templates/apa_7.csl
+bibliography: ../../writing/references.bib
+csl: ../../writing/apa.csl
 university: "UNIVERSIDAD NACIONAL DE LOJA"
 faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
 school: "CARRERA DE ECONOMÍA"

@@ -1,0 +1,31 @@
+---
+title: "U1 - Sistemas de Innovación"
+subtitle: "Bóveda de evidencia en construcción"
+author: "Erick Fabricio Condoy Seraquive"
+date: "2026-04-23"
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: true
+---
+
+# Propósito
+
+Esta unidad organiza las notas, actividades y materiales base de la primera unidad del curso.
+
+# Estructura
+
+- `assets/`
+- `data/`
+- `logs/`
+- `scripts/`
+
+# Enlaces
+
+- [Proyecto CEL](../Business-Project-CEL/index.qmd)
+- [Lecturas teóricas](../../readings/index.qmd)
+- [Bóveda de escritura](../../writing/index.qmd)

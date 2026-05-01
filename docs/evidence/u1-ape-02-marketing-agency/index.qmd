@@ -1,0 +1,42 @@
+---
+title: "Business Project: Agencia de Marketing Digital Loja"
+subtitle: "Laboratorio de Economía de la Innovación (LEI)"
+author: "Condoy Seraquive Erick Fabricio"
+date: "2026-04-24"
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    pdf-engine: lualatex
+    template: templates/academic_task.tex
+---
+
+# Introducción
+
+Este repositorio constituye la bóveda de evidencia para el desarrollo del proyecto empresarial orientado al sector de marketing digital en la ciudad de Loja, Ecuador. El objetivo es aplicar metodologías de innovación y análisis cuantitativo para resolver las brechas de digitalización en el tejido empresarial local.
+
+# Estructura del Proyecto
+
+La bóveda está organizada siguiendo los estándares de la Arquitectura Federada Nivel 5:
+
+- `01-lean-canvas.qmd`: Borrador inicial del modelo de negocio (Lean Canvas).
+- `assets/`: Recursos visuales, figuras y tablas generadas.
+- `data/`: Datos brutos y procesados sobre el mercado de marketing en Loja.
+- `scripts/`: Lógica analítica para el estudio de mercado y proyecciones.
+- `logs/`: Registros de ejecución y auditoría.
+
+# Estado del Proyecto
+
+- [x] Creación de estructura de bóveda.
+- [x] Generación de borrador de Lean Canvas.
+- [x] Enriquecimiento con datos de mercado (REEM-INEC 2023, Benchmarks 2026, Análisis de Competencia).
+- [x] Validación de mercado secundaria (Inferencia basada en datos de inteligencia).
+- [ ] Validación de mercado primaria (Entrevistas cualitativas en campo).
+- [ ] Definición de stack tecnológico (GTM, Meta Pixel, Looker Studio).
+
+# Próximos Pasos
+
+1. Realizar entrevistas cualitativas a 5 dueños de restaurantes en el centro de Loja.
+2. Definir los paquetes de servicios (Retainers) basados en los benchmarks de CPC encontrados.
+3. Configurar el entorno de analítica predictiva en `scripts/` para proyecciones de ROAS.

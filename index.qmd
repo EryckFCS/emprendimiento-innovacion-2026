@@ -1,27 +1,30 @@
 ---
 title: "Bitácora de Economía de la Innovación"
-subtitle: "Séptimo Ciclo - 2026"
+subtitle: "Nodo LEI - 2026"
 author: "Erick Fabricio Condoy Seraquive"
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: true
 ---
 
 # Introducción
 
-Este repositorio centraliza los avances académicos en la materia de Economía de la Innovación, integrando la gestión de datos con el cerebro institucional.
+Este espacio recoge la bitácora y los materiales de trabajo del nodo LEI bajo la doctrina Level 5.
 
-## Objetivos
+## Bóvedas
 
-1.  Modelización de procesos de innovación regional en el Ecuador.
-2.  Análisis de patentes y transferencia tecnológica.
-3.  Reporteo académico bajo normativa APA 7.
+- [Evidencias](docs/evidence/README.md)
+- [Escritura canónica](docs/writing/index.qmd)
+- [Gestión](docs/management/index.qmd)
+- [Lecturas](docs/readings/index.qmd)
+- [Silabo oficial](docs/syllabus/oficial/index.qmd)
 
-## Estructura del Nodo
+## Proyectos activos
 
-- `data/`: Insumos estadísticos y registros de patentes.
-- `notebooks/`: Modelos probabilísticos y redes de innovación.
-- `writing/`: Reportes finales y revisiones de literatura.
-- `docs/evidence/`: Bóvedas de evidencia académica y proyectos.
-
-# Proyectos Destacados
-
-## [Consultora Económica Loja (CEL)](docs/evidence/Business-Project-CEL/index.qmd)
-Proyecto transversal para evaluar la viabilidad de una firma de consultoría especializada en innovación para PYMES en el sur del Ecuador.
+- [Consultora Económica Loja (CEL)](docs/evidence/Business-Project-CEL/index.qmd)
+- [Unidad 1 - Sistemas de Innovación](docs/evidence/U1-Sistemas-Innovacion/index.qmd)

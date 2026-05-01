@@ -1,7 +1,7 @@
 {
   "collection": "innovation_economics",
   "total_chunks": 1430,
-  "last_audit": "2026-04-21",
+  "last_audit": "2026-04-24",
   "status": "SINCRONIZADO",
   "engine": "ecs_quantitative.ingestion.rag",
   "indexed_documents": [

@@ -1,0 +1,28 @@
+---
+title: "Planificación"
+subtitle: "Hoja de ruta del nodo LEI"
+author: "Erick Fabricio Condoy Seraquive"
+date: "2026-04-23"
+format:
+  html:
+    toc: true
+    number-sections: true
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: true
+---
+
+# Estado
+
+La migración Level 5 prioriza la canonización de escritura, gestión y evidencias.
+
+| Fase | Estado | Enfoque |
+| --- | --- | --- |
+| 1. Canonización documental | En curso | `docs/writing`, `docs/management`, `docs/readings` |
+| 2. Evidencias | En curso | U1 y CEL |
+| 3. Validación | Pendiente | `tests/test_vault_architecture.py` |
+
+# Nota
+
+La ruta raíz `writing/` queda solo como soporte histórico mientras se estabiliza la nueva bóveda.

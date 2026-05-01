@@ -1,7 +1,7 @@
 {
   "node": "innovation_economics",
   "collection": "innovation_economics",
-  "generated": "2026-04-21",
+  "generated": "2026-04-24",
   "total_chunks": 1430,
   "documents": [
     {
@@ -12,57 +12,91 @@
       ],
       "year": 2026,
       "type": "silabo_docente",
-      "file": "docs/syllabus/SYLLABUS.pdf",
+      "file": "docs/syllabus/oficial/assets/SYLLABUS.pdf",
       "chunks": 22,
       "collection": "innovation_economics",
       "date_indexed": "2026-04-21",
       "status": "INDEXADO",
-      "note": "Único documento disponible actualmente. RAG insuficiente para queries académicas.",
+      "note": "Documento institucional base.",
       "chunks_indexed": 22
-    }
-  ],
-  "pending": [
-    {
-      "title": "The Theory of Economic Development",
-      "authors": [
-        "Schumpeter, Joseph A."
-      ],
-      "year": 1912,
-      "type": "libro",
-      "priority": "CRÍTICA",
-      "note": "Texto fundacional de la innovación schumpeteriana — destrucción creadora"
     },
     {
+      "source_id": "oslo_manual_2005",
       "title": "Manual de Oslo: Guía para la recogida e interpretación de datos sobre innovación (3ª ed.)",
       "authors": [
         "OCDE/Eurostat"
       ],
       "year": 2005,
       "type": "manual",
-      "priority": "CRÍTICA",
-      "note": "Estándar internacional de definición y medición de innovación"
+      "file": "bibliography/Manual_de_Oslo_2005.pdf",
+      "chunks": 625,
+      "collection": "innovation_economics",
+      "date_indexed": "2026-04-21",
+      "status": "INDEXADO",
+      "chunks_indexed": 625
     },
     {
-      "title": "National Innovation Systems: A Comparative Analysis",
+      "source_id": "schumpeter_1912",
+      "title": "The Theory of Economic Development",
       "authors": [
-        "Nelson, Richard R."
+        "Schumpeter, Joseph A."
       ],
-      "year": 1993,
-      "publisher": "Oxford University Press",
+      "year": 1912,
       "type": "libro",
-      "priority": "ALTA",
-      "note": "Marco de Sistemas Nacionales de Innovación (SNI)"
+      "file": "bibliography/Schumpeter_Theory_of_Economic_Development.pdf",
+      "chunks": 560,
+      "collection": "innovation_economics",
+      "date_indexed": "2026-04-21",
+      "status": "INDEXADO",
+      "chunks_indexed": 560
     },
     {
+      "source_id": "freeman_1987",
       "title": "Technology Policy and Economic Performance: Lessons from Japan",
       "authors": [
         "Freeman, Christopher"
       ],
       "year": 1987,
       "type": "libro",
-      "priority": "ALTA",
-      "note": "Freeman acuña el concepto de Sistema Nacional de Innovación"
+      "file": "bibliography/Freeman_Technology_Policy_EconStor_Summary.pdf",
+      "chunks": 3,
+      "collection": "innovation_economics",
+      "date_indexed": "2026-04-21",
+      "status": "INDEXADO",
+      "chunks_indexed": 3
     },
+    {
+      "source_id": "freeman_2006_concept",
+      "title": "The 'National System of Innovation' in Historical Perspective",
+      "authors": [
+        "Freeman, Christopher"
+      ],
+      "year": 2006,
+      "type": "articulo",
+      "file": "bibliography/Freeman_Concept_Sharif_2006.pdf",
+      "chunks": 152,
+      "collection": "innovation_economics",
+      "date_indexed": "2026-04-21",
+      "status": "INDEXADO",
+      "chunks_indexed": 152
+    },
+    {
+      "source_id": "nelson_1993",
+      "title": "National Innovation Systems: A Comparative Analysis",
+      "authors": [
+        "Nelson, Richard R."
+      ],
+      "year": 1993,
+      "type": "libro",
+      "file": "bibliography/Nelson_National_Innovation_Systems_Summary.pdf",
+      "chunks": 68,
+      "collection": "innovation_economics",
+      "date_indexed": "2026-04-21",
+      "status": "INDEXADO",
+      "chunks_indexed": 68
+    }
+  ],
+  "pending": [
     {
       "title": "The Competitive Advantage of Nations",
       "authors": [
@@ -78,7 +112,7 @@
       "title": "Lecturas asignadas por el docente (Ordoñez Yaguache)",
       "type": "material_docente",
       "priority": "ALTA",
-      "note": "Solicitar materiales de U1, U2 y U3 al docente. Sin ellos el RAG es inútil para la materia."
+      "note": "Solicitar materiales de U1, U2 y U3 al docente. Pendiente integración de diapositivas oficiales."
     },
     {
       "title": "Innovation and Entrepreneurship",

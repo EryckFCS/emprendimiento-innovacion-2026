@@ -1,0 +1,35 @@
+{
+  "datasets": [],
+  "bibliography": [
+    {
+      "id": "freeman_concept_sharif_2006",
+      "filename": "freeman_concept_sharif_2006.pdf",
+      "lake_path": "/home/erick-fcs/.capital/lake/bibliography/raw/freeman_concept_sharif_2006.pdf"
+    },
+    {
+      "id": "nelson_national_innovation_systems_summary",
+      "filename": "nelson_national_innovation_systems_summary.pdf",
+      "lake_path": "/home/erick-fcs/.capital/lake/bibliography/raw/nelson_national_innovation_systems_summary.pdf"
+    },
+    {
+      "id": "schumpeter_theory_of_economic_development",
+      "filename": "schumpeter_theory_of_economic_development.pdf",
+      "lake_path": "/home/erick-fcs/.capital/lake/bibliography/raw/schumpeter_theory_of_economic_development.pdf"
+    },
+    {
+      "id": "manual_de_oslo_2005",
+      "filename": "manual_de_oslo_2005.pdf",
+      "lake_path": "/home/erick-fcs/.capital/lake/bibliography/raw/manual_de_oslo_2005.pdf"
+    },
+    {
+      "id": "freeman_technology_policy_econstor_summary",
+      "filename": "freeman_technology_policy_econstor_summary.pdf",
+      "lake_path": "/home/erick-fcs/.capital/lake/bibliography/raw/freeman_technology_policy_econstor_summary.pdf"
+    },
+    {
+      "id": "clase-2",
+      "filename": "clase-2.pdf",
+      "lake_path": "/home/erick-fcs/.capital/lake/bibliography/raw/clase-2.pdf"
+    }
+  ]
+}

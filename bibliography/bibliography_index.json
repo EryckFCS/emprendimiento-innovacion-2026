@@ -6,9 +6,9 @@
   "documents": [
     {
       "source_id": "lei_syllabus",
-      "title": "Sílabo — Emprendimiento y Economía de la Innovación",
+      "title": "S\u00edlabo \u2014 Emprendimiento y Econom\u00eda de la Innovaci\u00f3n",
       "authors": [
-        "Ordoñez Yaguache, Jose Vicente"
+        "Ordo\u00f1ez Yaguache, Jose Vicente"
       ],
       "year": 2026,
       "type": "silabo_docente",
@@ -22,7 +22,7 @@
     },
     {
       "source_id": "oslo_manual_2005",
-      "title": "Manual de Oslo: Guía para la recogida e interpretación de datos sobre innovación (3ª ed.)",
+      "title": "Manual de Oslo: Gu\u00eda para la recogida e interpretaci\u00f3n de datos sobre innovaci\u00f3n (3\u00aa ed.)",
       "authors": [
         "OCDE/Eurostat"
       ],
@@ -106,13 +106,13 @@
       "publisher": "Free Press",
       "type": "libro",
       "priority": "ALTA",
-      "note": "Clusters y competitividad — enlace emprendimiento-innovación"
+      "note": "Clusters y competitividad \u2014 enlace emprendimiento-innovaci\u00f3n"
     },
     {
-      "title": "Lecturas asignadas por el docente (Ordoñez Yaguache)",
+      "title": "Lecturas asignadas por el docente (Ordo\u00f1ez Yaguache)",
       "type": "material_docente",
       "priority": "ALTA",
-      "note": "Solicitar materiales de U1, U2 y U3 al docente. Pendiente integración de diapositivas oficiales."
+      "note": "Solicitar materiales de U1, U2 y U3 al docente. Pendiente integraci\u00f3n de diapositivas oficiales."
     },
     {
       "title": "Innovation and Entrepreneurship",
@@ -122,7 +122,7 @@
       "year": 1985,
       "type": "libro",
       "priority": "MEDIA",
-      "note": "Emprendimiento como práctica sistemática"
+      "note": "Emprendimiento como pr\u00e1ctica sistem\u00e1tica"
     }
   ]
 }

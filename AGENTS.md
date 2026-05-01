@@ -39,7 +39,7 @@
 ├── config/                  # intelligence_map.json, settings.toml
 ├── data/                    # Non-bibliographic source data
 ├── docs/
-│   ├── evidence/            # Standardized English vaults (uX-[cat]-[seq]-slug)
+│   ├── vaults/            # Standardized English vaults (uX-[cat]-[seq]-slug)
 │   ├── writing/             # Canonical narrative and legacy layer
 │   ├── management/          # Planning, architecture, and risks
 │   ├── readings/            # Theoretical frameworks

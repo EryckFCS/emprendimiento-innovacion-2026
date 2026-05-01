@@ -18,7 +18,7 @@ Este espacio recoge la bitácora y los materiales de trabajo del nodo LEI bajo l
 
 ## Bóvedas
 
-- [Evidencias](docs/evidence/README.md)
+- [Evidencias](docs/vaults/README.md)
 - [Escritura canónica](docs/writing/index.qmd)
 - [Gestión](docs/management/index.qmd)
 - [Lecturas](docs/readings/index.qmd)
@@ -26,5 +26,5 @@ Este espacio recoge la bitácora y los materiales de trabajo del nodo LEI bajo l
 
 ## Proyectos activos
 
-- [Consultora Económica Loja (CEL)](docs/evidence/Business-Project-CEL/index.qmd)
-- [Unidad 1 - Sistemas de Innovación](docs/evidence/U1-Sistemas-Innovacion/index.qmd)
+- [Consultora Económica Loja (CEL)](docs/vaults/Business-Project-CEL/index.qmd)
+- [Unidad 1 - Sistemas de Innovación](docs/vaults/U1-Sistemas-Innovacion/index.qmd)

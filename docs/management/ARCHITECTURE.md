@@ -22,3 +22,8 @@ This repository organizes the evidence, canonical writing, and documentary manag
 2. **Standardized Naming**: All vaults must follow the institutional naming convention.
 3. **USP Compliance**: Literature MUST be sanitized through the USP pipeline before RAG ingestion.
 4. **Path Resilience**: Use relative pathing within vaults to ensure portability.
+
+
+## Intervención v8.1.5 (Endurecimiento)
+
+El nodo ha sido endurecido y unificado en Python 3.12. Se eliminaron archivos flotantes y se centralizó la gestión del Data Lake vía `ecs_core`.

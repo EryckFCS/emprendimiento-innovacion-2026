@@ -15,11 +15,11 @@ urls = [
     "https://miro.com/es/planificacion-estrategica/que-es-lean-canvas/",
     "https://anefi.com.ec/blog/perspectivas-economicas-ecuador-2026",
     "https://cronica.com.ec/2026/01/20/fernando-flores-camara-comercio/",
-    "https://cronica.com.ec/2026/02/15/industria-loja-resiliencia/"
+    "https://cronica.com.ec/2026/02/15/industria-loja-resiliencia/",
 ]
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
 for url in urls:
@@ -29,7 +29,9 @@ for url in urls:
             print(f"[OK] {response.status_code} - {url}")
         else:
             # Fallback to GET if HEAD is not supported
-            response = requests.get(url, headers=headers, allow_redirects=True, timeout=10, stream=True)
+            response = requests.get(
+                url, headers=headers, allow_redirects=True, timeout=10, stream=True
+            )
             if response.status_code < 400:
                 print(f"[OK] {response.status_code} - {url}")
             else:

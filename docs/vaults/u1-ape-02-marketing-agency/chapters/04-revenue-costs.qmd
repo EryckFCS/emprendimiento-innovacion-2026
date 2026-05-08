@@ -1,0 +1,16 @@
+## Flujo de Ingresos {#b6}
+
+La arquitectura financiera de AMDL se diversifica para garantizar sostenibilidad y escalabilidad mediante tres pilares de monetización. El núcleo operativo reside en los **Retainers de Gestión**, con tarifas escalonadas entre **USD 300 y 850 mensuales**, calibradas según la complejidad técnica y el volumen de pauta administrada. Este modelo se complementa con un **Success Fee por Performance**, capturando entre el **10% y 15%** del crecimiento incremental en ventas atribuibles, alineando así los incentivos de la agencia con la rentabilidad del cliente. Finalmente, el **Setup de Infraestructura Analítica** actúa como una barrera de entrada técnica de pago único (**USD 150**), cubriendo la configuración crítica de protocolos de tracking y la auditoría forense inicial.
+
+| Nivel de Servicio | Fee Gestión | Pauta Sugerida | Entregables |
+|---|---|---|---|
+| **Básico (Semilla)** | $300 - $450 | $200 - $400 | Ads + Reporte Mensual |
+| **Intermedio (Escala)** | $500 - $850 | $500 - $1,200 | Ads + SEO + Dashboards |
+| **Premium (Elite)** | $1,000+ | $1,500+ | 360° + Analítica Predictiva |
+
+: Matriz de Paquetes y Pricing AMDL {#tbl-pricing}
+
+## Estructura de Costos {#b7}
+
+La optimización de costos se fundamenta en un modelo de eficiencia operativa que prioriza la flexibilidad y el talento local. El stack tecnológico aprovecha herramientas líderes de la industria como **Meta Business Suite, Google Keyword Planner y Canva Pro**, minimizando el gasto en software mediante soluciones integradas. El rubro de **Ad Spend Propio** se mantiene en un rango controlado de **USD 50-100 mensuales** para la captación de prospectos de alta calidad. Crucialmente, la agencia dinamiza la economía local mediante una **Red de Freelancers Lojanos**, permitiendo una ejecución ágil de servicios de fotografía y diseño gráfico sin los costos fijos de una nómina extensa, garantizando a la vez una infraestructura de conectividad y hosting robusta para la gestión de landing pages de conversión.
+

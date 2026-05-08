@@ -1,0 +1,20 @@
+## Propuesta de Valor {#b3}
+
+La propuesta de AMDL se fundamenta en el concepto de **"Crecimiento mediante Disciplina Operativa"**. A diferencia de las agencias convencionales centradas en la estética, AMDL integra un sistema de ventas medible que reduce la incertidumbre del dueño de negocio tradicional. El valor central reside en el desplazamiento de la producción audiovisual genérica hacia la **atribución de datos**, implementando protocolos de medición que aseguran el retorno de cada activo digital y entregando reportes de conversión vinculados directamente al flujo de caja del cliente.
+
+## Solución {#b4}
+
+La solución operativa se despliega en tres ejes técnicos fundamentales. En primer lugar, la gestión de **Paid Media** se orienta exclusivamente a la generación de transacciones inmediatas, complementada por la optimización de **SEO Local** para dominar la visibilidad en Google Maps. Finalmente, se integra la producción de **Contenido Estratégico** diseñado específicamente para la conversión. Este enfoque integral asegura que el negocio no solo sea visto, sino que capture la demanda existente en los momentos críticos de decisión del consumidor.
+
+## Canales {#b5}
+
+La estrategia de captación de clientes se apoya en una estructura multicanal diversificada. La presencia digital se centraliza en Instagram, TikTok y LinkedIn, plataformas elegidas específicamente para alcanzar tanto al mercado masivo como al segmento empresarial. De manera paralela, la agencia cultiva relaciones gremiales a través de alianzas estratégicas con Cámaras de Comercio y asociaciones de jóvenes empresarios. Este despliegue se refuerza mediante tácticas de contacto directo, priorizando el networking local y la entrega de auditorías de presencia digital gratuitas como el principal mecanismo de entrada.
+
+| Formato Meta Ads | CTR Promedio (LATAM) | Aplicación en Loja |
+|---|---|---|
+| Reels Ads | 1.8% – 3.2% | Awareness de platos/menú |
+| Collection Ads | 1.5% – 2.8% | Catálogo de Retail |
+| Instant Experience | 2.4% – 4.1% | Landing de reservas |
+| Carousel | 1.2% – 2.1% | E-commerce local |
+
+: Benchmarks de Formatos Publicitarios (Andromeda Algorithm 2026) {#tbl-meta-formats}

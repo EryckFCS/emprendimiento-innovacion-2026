@@ -1,0 +1,15 @@
+## Métricas Clave {#b8}
+
+La viabilidad del modelo se sustenta en la optimización del **Retorno sobre la Inversión Publicitaria (ROAS)**, estableciendo una meta mínima de 4.0x para garantizar la rentabilidad del cliente. El control operativo se complementa con la vigilancia del **Costo de Adquisición de Cliente (CAC)**, el cual debe permanecer por debajo del margen de contribución inicial para evitar el consumo de capital. Finalmente, la tracción en el punto de venta físico se audita mediante la **Tasa de Conversión Drive-to-Store**, monitoreando específicamente el volumen de llamadas y solicitudes de navegación en perfiles locales.
+
+## Ventaja Competitiva {#b9}
+
+La diferenciación estratégica de AMDL se basa en la **Metodología de Control Propietaria**, un marco de trabajo que permite auditar el impacto económico de cada intervención digital con un rigor superior a la oferta creativa convencional. Esta capacidad técnica se traduce en una **Eficiencia de Pauta Local** superior, logrando optimizar presupuestos limitados mediante el dominio de la subasta en el mercado ecuatoriano [@mentinno2024]. La propuesta culmina con la entrega de **Soberanía de Datos**, proporcionando al cliente dashboards automatizados que eliminan la opacidad informativa y garantizan el control total sobre los activos de inteligencia del negocio.
+
+| Métrica | Benchmark Ecuador | Meta Saludable AMDL |
+|---|---|---|
+| ROAS Promedio | 3.2x - 4.5x | > 4.0x |
+| CTR (Meta Ads) | 0.9% - 1.8% | > 1.5% |
+| CPM (Meta) | USD 1.50 - 3.50 | < USD 3.00 |
+
+: Benchmarks de Performance Operativa 2026 {#tbl-benchmarks}

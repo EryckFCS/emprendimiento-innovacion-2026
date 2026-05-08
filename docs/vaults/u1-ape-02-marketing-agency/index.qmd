@@ -3,6 +3,13 @@ title: "Business Project: Agencia de Marketing Digital Loja"
 subtitle: "Laboratorio de Economía de la Innovación (LEI)"
 author: "Condoy Seraquive Erick Fabricio"
 date: "2026-04-24"
+university: "Universidad Nacional de Loja"
+faculty: "Facultad Jurídica, Social y Administrativa"
+school: "Carrera de Economía"
+course: "Economía de la Innovación"
+assignment: "Agencia de Marketing Digital Loja"
+professor: "Econ. Jose Vicente Ordonez Yaguache"
+submission_date: "08 de Mayo de 2026"
 format:
   html:
     toc: true

@@ -149,15 +149,15 @@ $endif$
 % --- Encabezados ---
 \pagestyle{fancy}
 \fancyhf{} 
-\fancyhead[L]{\includegraphics[height=1.2cm]{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_unl.png}}
-\fancyhead[R]{\includegraphics[height=1.2cm]{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_economia.jpg}}
+\fancyhead[L]{\includegraphics[height=1.2cm]{assets/logos/logo_unl.png}}
+\fancyhead[R]{\includegraphics[height=1.2cm]{assets/logos/logo_economia.jpg}}
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[R]{\thepage}
 
 \fancypagestyle{plain}{
   \fancyhf{}
-  \fancyhead[L]{\includegraphics[height=1.2cm]{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_unl.png}}
-  \fancyhead[R]{\includegraphics[height=1.2cm]{/home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/logos/logo_economia.jpg}}
+  \fancyhead[L]{\includegraphics[height=1.2cm]{assets/logos/logo_unl.png}}
+  \fancyhead[R]{\includegraphics[height=1.2cm]{assets/logos/logo_economia.jpg}}
   \fancyfoot[R]{\thepage}
   \renewcommand{\headrulewidth}{0pt}
 }
@@ -180,27 +180,44 @@ $header-includes$
 
 \begin{document}
 
+\begin{titlepage}
+\thispagestyle{fancy}
 \begin{center}
-    {\bfseries \Large $university$}\\[0.3cm]
-    {\bfseries \large $faculty$}\\[0.2cm]
-    {\bfseries $school$}\\[1.5cm]
+    \vspace*{1cm}
+    {\bfseries \Large $university$}\\[0.5cm]
+    {\bfseries \large $faculty$}\\[0.3cm]
+    {\bfseries $school$}\\[0.5cm]
+    
+    \vfill
     
     {\bfseries \large $course$}\\[1cm]
     
-    {\bfseries \Large $assignment$}\\[1.5cm]
-\end{center}
-
-\begin{center}
-    \setstretch{1.1}
+    {\bfseries \Huge $assignment$}\\[0.5cm]
+    {\large $subtitle$}\\[1cm]
+    
+    \vfill
+    
+    {\bfseries \large INTEGRANTES:}\\[0.5cm]
+    \setstretch{1.2}
     $if(author)$
         $for(author)$
-            $if(author.name)$$author.name$$else$$author$$endif$ \\
+            {\large $if(author.name)$$author.name$$else$$author$$endif$}\\[0.2cm]
         $endfor$
     $endif$
-    \vspace{0.5cm}
-    $if(professor)$$professor$ \\ $endif$
-    $if(submission_date)$$submission_date$$endif$
+    
+    \vfill
+    
+    {\bfseries \large DOCENTE:}\\[0.3cm]
+    $if(professor)$ {\large $professor$} \\[0.5cm] $endif$
+    
+    \vfill
+    
+    {\large LOJA - ECUADOR}\\[0.3cm]
+    {\large $submission_date$}
+    \vspace*{1.5cm}
 \end{center}
+\end{titlepage}
+\newpage
 
 \vspace{1cm}
 

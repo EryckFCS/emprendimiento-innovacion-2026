@@ -1,0 +1,30 @@
+# Plan de Investigación de Mercado (Validación Primaria)
+
+Para validar el modelo sistémico de **AMDL**, se ha definido una metodología de investigación cualitativa orientada a identificar las barreras estructurales entre la gestión empírica y la adopción de analítica de datos en el sector gastronómico de Loja.
+
+## Objetivos de la Investigación
+1. **Identificar Barreras de Adopción**: Evaluar si la baja digitalización responde a brechas de alfabetización digital, resistencia generacional o desconfianza en la oferta de servicios actual.
+2. **Validar la Informalidad en la Gestión**: Determinar si la gestión de contenidos sin indicadores de rendimiento (KPIs) es percibida como una ineficiencia crítica por los propietarios.
+3. **Evaluar Modelos de Monetización**: Testear la aceptación del esquema de *Retainer + Success Fee* en el contexto económico local.
+
+## Diseño de la Muestra
+Se seleccionarán **5 establecimientos** del sector gastronómico:
+- Ubicación: Áreas de alta densidad comercial (Centro Histórico y San Sebastián).
+- Perfil: Negocios de administración familiar con más de 5 años de operación.
+- Estado Digital: Presencia en plataformas sociales con gestión interna no profesionalizada.
+
+## Validación con el Operador
+
+El instrumento se ha diseñado como una entrevista semiestructurada, traduciendo los conceptos técnicos de AMDL a un lenguaje cotidiano que permita extraer hallazgos honestos del administrador. En lugar de interrogar sobre métricas de atribución, la investigación busca entender el flujo real de caja y la percepción de control.
+
+Las interrogantes clave se centran en la **gestión de resultados diarios**, preguntando directamente cómo identifica el propietario de dónde vienen los clientes que llegan al local y si puede vincular ese flujo a una publicación específica. Sobre la **eficiencia operativa**, se indaga en la utilidad percibida de los contenidos actuales: "¿Siente que lo que publica en redes realmente se traduce en mesas llenas o es solo para mantener la página activa?".
+
+Para evaluar la **fricción tecnológica**, la entrevista explora los motivos por los cuales no se utilizan sistemas de reserva o control automático, identificando si la barrera es económica, técnica o de tiempo. Finalmente, se testea el **valor de la solución** planteando un escenario de reducción de incertidumbre: "¿Cuánto tiempo o dinero le ahorraría saber con exactitud qué video le trajo más ventas este mes?".
+
+## Cronograma de Ejecución (Fases de Validación)
+1. **Fase I: Diagnóstico y Prospección (Semana 1)**: Identificación de perfiles críticos, reclutamiento de la muestra y establecimiento de protocolos de contacto inicial.
+2. **Fase II: Inmersión y Trabajo de Campo (Semana 2)**: Despliegue de entrevistas semiestructuradas de Customer Discovery en los 5 establecimientos seleccionados.
+3. **Fase III: Síntesis de Inteligencia y Pivotaje (Semana 3)**: Procesamiento de hallazgos cualitativos, auditoría de barreras identificadas y refinamiento del modelo de negocio (Lean Canvas) bajo evidencia empírica.
+
+## Justificación Teórica
+Este plan se basa en la metodología de **Customer Discovery** de Steve Blank, priorizando la validación del "encaje problema-solución" antes de cualquier inversión técnica, mitigando los riesgos identificados en la literatura sobre PYMES familiares [@ahmad2024; @casillas2024].

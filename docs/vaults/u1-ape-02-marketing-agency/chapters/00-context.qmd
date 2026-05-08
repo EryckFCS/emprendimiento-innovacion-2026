@@ -1,0 +1,17 @@
+La **Agencia de Marketing Digital Loja (AMDL)** aplica un modelo de *Performance Marketing* para optimizar el **Retorno sobre la Inversión Publicitaria (ROAS)** en el sur del país, integrando análisis de datos en sectores donde el **70% de las PYMES carecen de analítica**.
+
+# Mercado y Normativa
+
+Según el REEM-INEC 2023, el cantón Loja registra **38.679 establecimientos económicos** [@uasb2024loja]. El potencial se concentra en los **2.190 restaurantes** y **1.108 locales de retail**, sectores con alta fricción tecnológica pero con una demanda latente de **3.200 prospectos**.
+
+| Actividad Económica (CIIU 4) | Establecimientos | % del Total |
+|---|---|---|
+| Comercio al por menor (alimentos) | 4.806 | 12% |
+| Servicios personales | 2.296 | 6% |
+| **Restaurantes y servicios de comida** | **2.190** | **6%** |
+| Actividades profesionales/técnicas | 1.697 | 4% |
+| **Retail (Prendas de vestir/calzado)** | **1.108** | **3%** |
+
+: Estructura Empresarial de Loja (Segmentos Objetivo) {#tbl-loja-market}
+
+La **Ordenanza No. 0068-2024 para la Transformación Digital** obliga a la digitalización de servicios municipales y promueve la adopción tecnológica en el sector privado [@municipioloja2025]. Con una **penetración de redes sociales del 93,87%**, el mercado lojano presenta una paradoja: alta conectividad del consumidor frente a una baja madurez técnica de la oferta de servicios digitales [@mintel2024; @mentinno2024].

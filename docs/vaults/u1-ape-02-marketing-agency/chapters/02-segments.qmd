@@ -1,0 +1,106 @@
+## Problemas de Mercado {#b1}
+
+El ecosistema empresarial de Loja enfrenta una crisis de invisibilidad digital y caos operativo. Aproximadamente el **70% de las PYMES locales carecen de protocolos de analítica**, lo que deriva en una gestión empírica donde las decisiones se basan en la intuición y no en datos verificables. Esta brecha tecnológica se agrava por el uso de personal no profesionalizado que, aunque genera interacciones superficiales en redes sociales, no logra establecer sistemas disciplinados para medir la conversión real del gasto publicitario [@copromerco2024].
+
+Esta problemática se manifiesta con mayor intensidad en el posicionamiento local. Los negocios operan bajo una ilusión de presencia digital, pero enfrentan una invisibilidad crítica en el ecosistema de búsqueda geolocalizada. Al no figurar en el **Local Pack de Google**, las empresas pierden cerca del 46% del tráfico con intención de compra inmediata en la ciudad [@brightlocal2024]. Finalmente, la oferta actual de consultoría se limita a la "creatividad estética" sin responsabilidad sobre los resultados económicos. AMDL resuelve este vacío mediante la integración de procesos de **atribución y disciplina analítica**, garantizando que cada intervención tenga un impacto auditable [@mentinno2024].
+
+| Agencia | Enfoque Principal | Debilidad Identificada |
+|---|---|---|
+| The Blue Manakin | Producción creativa/video | Sin reporting de ROI/ROAS |
+| Símbolo | SEO/SEM Genérico | Sin segmentación quant local |
+| Monkey Plus (Cuenca) | Estrategia 360 | Ticket alto, inaccesible a PYME |
+
+: Análisis de Brecha Competitiva (Loja/Cuenca) {#tbl-competitors}
+
+## Segmentos de Clientes {#b2}
+
+La estrategia de AMDL prioriza al **sector gastronómico**, identificando a los **2.190 restaurantes registrados en el cantón Loja** como la masa crítica con mayor necesidad de diferenciación técnica. En este mercado, el costo por clic promedio en Ecuador permite ejecutar campañas de alta eficiencia con presupuestos moderados, siempre que se aplique una segmentación precisa [@mentinno2024]. Complementariamente, se atiende al **retail de moda y calzado**, compuesto por 1.108 establecimientos que compiten directamente con cadenas nacionales y requieren optimizar su inventario mediante pautas geolocalizadas.
+
+El perfil del adoptante temprano (*early adopter*) se identifica en los **sucesores familiares de entre 25 y 40 años**. Este grupo demográfico, motivado por la reciente **Ordenanza de Transformación Digital 2024**, busca modernizar la estructura operativa de sus negocios, rompiendo con la inercia de la gestión tradicional para adoptar herramientas de control basadas en datos.
+
+### Buyer Persona: Carlos (Segunda Generación)
+
+::: {.content-visible when-format="html"}
+```{=html}
+<div class="buyer-persona-container" style="background-color: #FDFCE9; padding: 20px; font-family: sans-serif; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 2em;">
+  <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+    <!-- Columna Izquierda: Perfil -->
+    <div style="background-color: #1a2a6c; width: calc(25% - 15px); min-width: 200px; border-radius: 5px; padding: 15px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;">
+      <div style="background-color: white; border-radius: 50%; width: 100px; height: 100px; display: flex; align-items: center; justify-content: center; font-size: 40px; margin-bottom: 10px;">
+        👨‍💼
+      </div>
+      <h3 style="color: white; text-transform: uppercase; margin: 0 0 15px 0; text-align: center; font-size: 1.1em;">Carlos Valdivieso</h3>
+      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
+        <span style="float: left; color: #777;">edad</span> 32-40
+      </div>
+      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
+        <span style="float: left; color: #777;">localidad</span> Loja / Quito
+      </div>
+      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
+        <span style="float: left; color: #777;">nivel de estudios</span> Tercer Nivel
+      </div>
+      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
+        <span style="float: left; color: #777;">sector</span> Retail / Gastr.
+      </div>
+      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
+        <span style="float: left; color: #777;">redes sociales</span> LinkedIn / IG
+      </div>
+    </div>
+
+    <!-- Columna Central -->
+    <div style="display: flex; flex-direction: column; width: calc(37.5% - 15px); min-width: 250px; gap: 15px; flex-grow: 1;">
+      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
+        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">personalidad</div>
+        <div style="font-size: 0.85em; color: #444;">Escéptico, conservador, opera bajo inercia comercial ("siempre se ha hecho así"), desconfía de la inversión intangible.</div>
+      </div>
+      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
+        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">hobbies y habilidades</div>
+        <div style="font-size: 0.85em; color: #444;">Gestión operativa tradicional, uso de redes personales para ocio, limitado conocimiento técnico de pauta digital.</div>
+      </div>
+      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
+        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">metas y objetivos</div>
+        <div style="font-size: 0.85em; color: #444;">Preservar el legado familiar, mantener el flujo de caja diario, evitar que la competencia nueva absorba a sus clientes frecuentes.</div>
+      </div>
+      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
+        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">pain points</div>
+        <div style="font-size: 0.85em; color: #444;">Considera la publicidad un "gasto evitable". No dimensiona la pérdida de mercado por invisibilidad digital. Siente que la digitalización es "complicarse la vida" y prefiere el control manual de su negocio.</div>
+      </div>
+    </div>
+
+    <!-- Columna Derecha -->
+    <div style="display: flex; flex-direction: column; width: calc(37.5% - 15px); min-width: 250px; gap: 15px; flex-grow: 1;">
+      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
+        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">puesto de trabajo</div>
+        <div style="font-size: 0.85em; color: #444;">Director de Operaciones / Marketing (Hijo del fundador).</div>
+      </div>
+      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
+        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">método de trabajo</div>
+        <div style="font-size: 0.85em; color: #444;">Uso de métricas (KPIs), reuniones semanales, enfoque en ROI.</div>
+      </div>
+      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 2;">
+        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">herramientas que usa</div>
+        <div style="font-size: 0.85em; color: #444;">Shopify, Meta Business Suite básico, Excel avanzado, ChatGPT para copys.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Inferior -->
+  <div style="margin-top: 15px; border-left: 5px solid #b21f1f; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 15px; background-color: white;">
+    <div style="font-size: 0.85em; font-weight: bold; color: #333; text-align: right; margin-bottom: 5px; text-transform: uppercase;">¿Qué aportamos como su Growth Partner?</div>
+    <div style="font-size: 0.9em; color: #444; text-align: right;"><strong>Crecimiento Predecible:</strong> Dejamos de adivinar para ejecutar con datos. Implementamos sistemas que capturan y activan sus propios datos de clientes (First-Party Data) para que su negocio no dependa solo de los algoritmos de Facebook.<br><strong>Soberanía Digital:</strong> Le entregamos el control total de sus métricas con claridad absoluta sobre el retorno de cada centavo.</div>
+  </div>
+</div>
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+![Matriz de Buyer Persona: Carlos, Segunda Generación](assets/buyer_persona_carlos.png){width=100%}
+:::
+
+### Perfil del Buyer Persona: "Operador Gastronómico Tradicional"
+
+*   **Perfil**: Propietario de establecimiento de alimentos y bebidas en el área consolidada de Loja (45-55 años). 
+*   **Punto de Dolor**: Percepción de la inversión publicitaria como un costo hundido sin trazabilidad de ingresos.
+*   **Motivación**: Sostenibilidad competitiva ante la expansión de franquicias nacionales en el mercado local.
+*   **Barrera**: Escepticismo hacia servicios creativos carentes de métricas de rentabilidad directa.
+*   **Solución AMDL**: Implementación de tableros de control (Dashboards) que vinculen el gasto publicitario con el volumen de ventas proyectado.

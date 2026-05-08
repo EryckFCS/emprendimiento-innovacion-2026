@@ -1,0 +1,61 @@
+# Modelo de Negocio: Lean Canvas AMDL
+
+::: {.content-visible when-format="html"}
+<style>
+  .lean-canvas { 
+    width: 100%; 
+    table-layout: fixed; 
+    border-collapse: separate; 
+    border-spacing: 8px;
+    text-align: center; 
+    font-family: 'Inter', sans-serif; 
+    margin-bottom: 2rem; 
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  .lean-canvas td { 
+    border: none;
+    padding: 20px 10px; 
+    vertical-align: top; 
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+  }
+  .lc-prob { background-color: #1a2a6c; } /* Navy */
+  .lc-sol { background-color: #b21f1f; } /* Red */
+  .lc-uvp { background-color: #fdbb2d; color: #333; } /* Gold */
+  .lc-ven { background-color: #1a2a6c; } /* Navy */
+  .lc-seg { background-color: #b21f1f; } /* Red */
+  .lc-met { background-color: #444; } /* Gray */
+  .lc-can { background-color: #444; } /* Gray */
+  .lc-cos { background-color: #333; } /* Dark Gray */
+  .lc-ing { background-color: #222; } /* Blackish */
+  .lc-icon { font-size: 1.5em; display: block; margin-bottom: 5px; }
+</style>
+
+<table class="lean-canvas">
+  <tr style="height: 140px;">
+    <td rowspan="2" class="lc-prob"><span class="lc-icon">🛡️</span>1. PROBLEMA<br><small style="font-weight: normal;">Gestión empírica, fricción técnica e informalidad.</small></td>
+    <td class="lc-sol"><span class="lc-icon">💡</span>4. SOLUCIÓN<br><small style="font-weight: normal;">Pauta optimizada, SEO local y Dashboards de control.</small></td>
+    <td rowspan="2" class="lc-uvp"><span class="lc-icon">💎</span>3. PROPUESTA DE VALOR<br><small style="font-weight: normal;">"Sistema de Crecimiento y Disciplina Operativa."</small></td>
+    <td class="lc-ven"><span class="lc-icon">🚀</span>9. VENTAJA ESPECIAL<br><small style="font-weight: normal;">Metodología de Auditoría y Atribución Quant.</small></td>
+    <td rowspan="2" class="lc-seg"><span class="lc-icon">🎯</span>2. SEGMENTO<br><small style="font-weight: normal;">Gastronomía, Retail y PYMES Loja.</small></td>
+  </tr>
+  <tr style="height: 140px;">
+    <td class="lc-met"><span class="lc-icon">📈</span>8. MÉTRICAS CLAVE<br><small style="font-weight: normal;">ROAS, CPA, Tasa de Conversión.</small></td>
+    <td class="lc-can"><span class="lc-icon">📣</span>5. CANALES<br><small style="font-weight: normal;">Redes sociales, Alianzas Gremiales.</small></td>
+  </tr>
+  <tr style="height: 80px;">
+    <td colspan="2" class="lc-cos"><span class="lc-icon">💰</span>7. ESTRUCTURA DE COSTOS<br><small style="font-weight: normal;">SaaS, Ads, Equipo Creativo.</small></td>
+    <td colspan="3" class="lc-ing"><span class="lc-icon">💵</span>6. FLUJO DE INGRESOS<br><small style="font-weight: normal;">Retainers, Proyectos, Cursos.</small></td>
+  </tr>
+</table>
+:::
+
+::: {.content-visible when-format="pdf"}
+![Lean Canvas: Agencia de Marketing Digital Loja](assets/lean_canvas.png){fig-align="center" width=100%}
+:::
+

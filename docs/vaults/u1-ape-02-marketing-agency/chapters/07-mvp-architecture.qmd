@@ -1,0 +1,23 @@
+# Producto Mínimo Viable (MVP): Arquitectura del Sistema
+
+La propuesta de MVP de **AMDL** se fundamenta en la integración sistémica de soluciones tecnológicas existentes (Low-Code/No-Code), diseñadas para mitigar la brecha de visibilidad y atribución con la mínima fricción operativa para el usuario final.
+
+## Definición del MVP: "Sistema de Control Gastronómico"
+La intervención busca validar el impacto económico en un ciclo de **15 días** a través de tres pilares estratégicos:
+
+### 1. Optimización de Presencia Local
+El primer pilar estratégico consiste en la configuración avanzada del **Google Business Profile (GBP)**. Esta intervención se justifica por la necesidad de capturar la demanda de alta intención que actualmente es absorbida por la competencia mediante perfiles optimizados. El indicador de éxito principal para esta etapa es el incremento porcentual en las solicitudes de direcciones y llamadas directas registradas en la plataforma [@shodhvichar2025].
+
+### 2. Motor de Conversión Directa (The Lead Engine)
+Para la generación de flujo de caja inmediato, se despliegan campañas en Meta Ads optimizadas para el tráfico hacia mensajería instantánea. A diferencia del contenido convencional, este motor utiliza catálogos estructurados que permiten la trazabilidad de la demanda por producto, desplazando el enfoque de las métricas de vanidad hacia la generación de leads calificados y tasas de cierre verificables.
+
+### 3. Panel de Soberanía Digital (The Insight Desk)
+La infraestructura se consolida en un dashboard interactivo en Google Looker Studio. Este panel integra las métricas de GBP y Meta Ads en una interfaz simplificada, eliminando la asimetría de información tradicional. El valor fundamental reside en proporcionar al dueño del negocio soberanía absoluta sobre su información, permitiendo una toma de decisiones basada en el retorno consolidado de la inversión publicitaria.
+
+## Hoja de Ruta de Validación
+1. **Fase I (Día 1-3)**: Auditoría técnica de activos y configuración de protocolos de tracking.
+2. **Fase II (Día 4-10)**: Despliegue de pauta experimental con asignación presupuestaria controlada.
+3. **Fase III (Día 15)**: Análisis de resultados y reporte de ventas atribuibles.
+
+## Vulnerabilidades Sistémicas y Riesgos de Ejecución
+La viabilidad operativa de AMDL enfrenta desafíos críticos que trascienden la infraestructura técnica. La limitación fundamental reside en la **asimetría operativa del cliente**, donde un incremento exitoso en la demanda digital puede colapsar la capacidad de servicio offline, degradando la experiencia de marca y comprometiendo la retención. Asimismo, el sistema es vulnerable a la **fragilidad algorítmica y económica** de plataformas externas; una saturación de la subasta publicitaria por competidores con mayor capital o cambios restrictivos en las políticas de mensajería de Meta podrían invalidar el ROAS proyectado [@begnini2024; @pushparaj2025]. Finalmente, la carencia de sistemas de fidelización locales en las PYMES genera un modelo de "atrición silenciosa", donde el valor se diluye al depender exclusivamente de la captación externa sin una infraestructura de retención sólida, una barrera recurrente en negocios de administración familiar [@porfirio2024; @moreno2024].

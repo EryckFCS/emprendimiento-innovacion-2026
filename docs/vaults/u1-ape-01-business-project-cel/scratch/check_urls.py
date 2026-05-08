@@ -1,15 +1,16 @@
 import requests
-import re
+
 
 def check_url(url):
     try:
-        response = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
+        response = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
         if response.status_code == 200:
             return True, response.status_code
         else:
             return False, response.status_code
     except Exception as e:
         return False, str(e)
+
 
 urls = [
     "https://www.eumed.net/rev/oel/2019/10/necesidades-consultoria-mipymes.pdf",
@@ -29,7 +30,7 @@ urls = [
     "https://doi.org/10.18623/rvd.v22.n2.3185",
     "https://www.anefi.com.ec/noticias/perspectivas-2026-un-ano-de-crecimiento-moderado-y-riesgos-inminentes",
     "https://cronica.com.ec/2026/03/13/camara-de-comercio-de-loja-bajo-la-tutela-de-raul-flores/",
-    "https://cronica.com.ec/2026/01/21/camara-de-industrias-de-loja-con-expectativas-que-2026-sera-un-ano-productivo/"
+    "https://cronica.com.ec/2026/01/21/camara-de-industrias-de-loja-con-expectativas-que-2026-sera-un-ano-productivo/",
 ]
 
 print("| URL | Status | Result |")

@@ -1,0 +1,34 @@
+# Investigación Primaria: Encuesta de Validación Operativa
+
+Como complemento a los benchmarks secundarios, se despliega un instrumento de recolección de datos primarios dirigido a los tomadores de decisiones (dueños de locales) en Loja. El objetivo es validar la **disposición a pagar** y los **puntos de dolor** específicos que el modelo de AMDL busca resolver.
+
+## Diseño del Instrumento (Encuesta)
+
+La encuesta se estructura en las siguientes preguntas clave:
+
+1. **¿En qué jornada de atención tiene menos clientes?** (Mañana, Tarde, Noche).
+2. **¿Qué objetivo le gustaría lograr con marketing digital?** (Clientes, Ventas, Pedidos, Seguidores, Reconocimiento).
+3. **¿Actualmente invierte en publicidad digital?** (Sí/No).
+4. **¿Quién maneja actualmente las redes sociales del restaurante?** (Familiar, Trabajador, Yo mismo, Agencia, Otro).
+5. **¿Qué tipo de contenido cree que atrae más clientes?** (Fotos, Videos, Promociones).
+6. **¿Le interesaría conocer cuántos clientes llegan gracias a redes sociales?** (Sí/No).
+7. **¿Qué considera más importante al invertir en publicidad?** (Ventas, Bajo costo, Alcance).
+8. **¿Qué le haría confiar en contratar una agencia de marketing digital?** (Abierta).
+
+## Resultados Esperados y Objetivos
+
+Mediante esta recolección, AMDL busca confirmar las siguientes hipótesis:
+- **H1 (Asimetría de Datos)**: Los dueños de negocios priorizan el alcance/seguidores por encima de las ventas debido a falta de cultura analítica.
+- **H2 (Gestión Empírica)**: La mayoría de las redes son manejadas por el dueño o familiares, lo que limita la escala técnica.
+- **H3 (Interés en Atribución)**: Existe un alto interés en conocer el origen real de los clientes (atribución), lo que valida nuestra propuesta de valor técnica.
+
+## Validez y Poder Estadístico
+
+Para que los resultados de esta encuesta tengan validez institucional y sirvan como prueba de concepto (PoC) para el negocio, se definen los siguientes parámetros:
+
+*   **Población Objetivo**: Dueños de PYMES en los sectores de Gastronomía, Retail de Moda y Salud en el cantón Loja.
+*   **Tamaño de Muestra Mínimo ($n$):** 
+    - Para un **estudio piloto** (validación inicial de hipótesis), se requiere un mínimo de **$n = 30$ respuestas** para permitir la aplicación del Teorema del Límite Central.
+    - Para un **poder estadístico riguroso** (Margen de error del 10% y Confianza del 95%), se requiere una muestra de **$n = 81$ respuestas**, considerando una población estimada de 500 establecimientos objetivo en Loja.
+    - **Meta Recomendada**: **40-50 respuestas** como punto de equilibrio entre viabilidad operativa y representatividad para un proyecto de innovación.
+*   **Técnica de Muestreo**: Muestreo por conveniencia y bola de nieve, aprovechando gremios locales como la Cámara de Comercio de Loja.

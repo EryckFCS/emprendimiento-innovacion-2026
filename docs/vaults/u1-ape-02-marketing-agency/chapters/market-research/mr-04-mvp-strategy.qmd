@@ -1,0 +1,26 @@
+# Estrategia de Producto Mínimo Viable (MVP)
+
+El MVP de **AMDL** se fundamenta en la metodología de validación rápida para startups, priorizando el aprendizaje sobre la escala inicial [@maulida2022lean; @razabillah2023lean]. El objetivo es validar el modelo de negocio con un grupo reducido de 3 a 5 clientes piloto mediante una oferta de "baja fricción y alto impacto".
+
+## El Paquete "Performance Pilot"
+
+El servicio MVP incluye los componentes críticos para demostrar retorno en un ciclo comprimido de ejecución:
+
+1. **Setup de Auditoría Analítica**: Configuración de GTM y Dashboards básicos.
+2. **Optimización de Local SEO**: Google Business Profile para captar tráfico inmediato.
+3. **Campaña de Meta Ads Direct-to-Sales**: Enfoque 100% en ventas/leads, no en branding.
+4. **Construcción de Base de Datos (Activo Propio)**: Dado que las PYMES suelen carecer de registros, AMDL crea y entrega una base de datos estructurada de todos los leads capturados (Nombre, Celular, Interés) como un activo de propiedad del cliente.
+
+## Modelo de Monetización del MVP (Híbrido)
+
+Para validar la disposición a pagar en Loja, el MVP utiliza un esquema que reduce el riesgo financiero para el empresario [@alvarez2020consultoria]:
+- **Fee Base Operativo**: USD 250 - 400 (Cubre costos de setup y horas de gestión).
+- **Success Fee**: 10% de la facturación atribuible que supere el baseline histórico del negocio.
+
+## Indicadores de Éxito del Piloto
+
+Para transicionar del MVP a una agencia formal, la operación debe alcanzar los siguientes hitos de rendimiento:
+
+- **Retención de Cartera**: Al menos el 60% de los clientes piloto renuevan el servicio para un segundo periodo mensual.
+- **Evidencia de Retorno**: Dos de cada tres clientes alcanzan un ROAS superior a 3.0x en el primer ciclo de 30 días.
+- **Eficiencia Operativa**: El tiempo de gestión técnica se estandariza por debajo de las 10 horas mensuales por cuenta mediante la automatización de tableros.

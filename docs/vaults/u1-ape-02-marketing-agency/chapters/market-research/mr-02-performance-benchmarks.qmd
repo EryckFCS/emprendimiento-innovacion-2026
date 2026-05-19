@@ -1,0 +1,22 @@
+# Benchmarks de Performance y Métricas de Éxito
+
+## Costos Publicitarios en Ecuador (2026)
+
+Ecuador mantiene una ventaja competitiva en términos de costos de adquisición digital comparado con otros mercados de la región (LATAM). El Costo por Clic (CPC) promedio nacional se sitúa en **USD 0.43**, lo que permite un mayor alcance con presupuestos limitados [@copromerco2024; @zamora2024estrategias].
+
+### Benchmarks por Industria
+
+| Industria | CPC Search (ECU) | CPC Display | ROAS Objetivo |
+|-----------|------------------|-------------|---------------|
+| **Gastronomía** | USD 0.20 – 0.65  | USD 0.03 – 0.10 | 3.5x          |
+| **Retail**      | USD 0.30 – 1.20  | USD 0.05 – 0.15 | 4.2x          |
+| Salud           | USD 0.45 – 1.80  | USD 0.06 – 0.18 | 3.9x          |
+
+## Proyección de Retorno en Loja
+
+Para ciudades intermedias como Loja, se aplica un **ajuste de eficiencia del 15-25%** a favor del anunciante, dado que la subasta publicitaria local es menos densa que en Quito o Guayaquil. Esto permite proyectar escenarios de **ROAS de 4.0x a 5.0x** para el segmento de retail de moda, lo que significa que por cada dólar invertido en pauta, el negocio puede esperar generar $5.00 en ventas atribuibles.
+
+## Métricas Saludables de Referencia
+- **CPA (Costo por Adquisición)**: Debe ser inferior al 30% del margen de contribución del producto.
+- **CTR (Click-Through Rate)**: Meta de 2.0% para campañas de gastronomía en Meta Ads.
+- **Frecuencia**: Mantener por debajo de 3.0 impresiones por usuario para evitar fatiga publicitaria.

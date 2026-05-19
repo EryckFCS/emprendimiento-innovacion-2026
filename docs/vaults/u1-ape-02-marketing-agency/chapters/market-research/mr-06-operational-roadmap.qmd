@@ -1,0 +1,33 @@
+## 1. Cronograma de Validación Relámpago (14 Días)
+
+Para maximizar la velocidad de aprendizaje y minimizar el gasto, el ciclo de validación se comprime a dos semanas:
+
+| Día | Fase | Actividad Crítica | Entregable |
+|-----|------|-------------------|------------|
+| **1-2** | **Inteligencia (Discovery)** | Ejecución de scrapers y auditoría de misterio (Digital Mystery Shopping). | Reporte de Brechas Operativas. |
+| **3-5** | **Ghost Testing** | Lanzamiento de anuncios fantasma con presupuesto mínimo ($5/día). | Datos de CTR y CPC real de la categoría. |
+| **7** | **Pitch de Resultados** | Presentación de la auditoría y los costos reales al prospecto objetivo. | Propuesta de Piloto en Vivo. |
+| **8-14** | **Piloto Express** | Ejecución de pauta directa en la cuenta del cliente para capturar los primeros 5-10 leads. | Prueba de ROAS (Proof of Concept). |
+
+## 2. Requerimientos de Recursos (Lean Budget)
+
+La premisa es la **austeridad técnica**:
+- **Inversión en Pauta (Shadow Phase)**: USD $30 - $50 (suficiente para obtener significancia estadística en CPC).
+- **Herramientas**: Stack 100% gratuito (GTM, Looker Studio, Python local).
+- **Tiempo**: 5-8 horas de ejecución técnica total en la primera semana.
+
+## 3. Matriz de Riesgos y Mitigación (FMEA)
+
+| Riesgo Identificado | Impacto | Probabilidad | Estrategia de Mitigación |
+|---------------------|---------|--------------|--------------------------|
+| **Bajo ROAS Inicial** | Alto | Media | Pruebas A/B intensivas de creatividades en las primeras 72 horas. |
+| **Carencia de datos históricos** | Medio | Alta | Implementación de AppSheet para captura manual en el establecimiento. |
+| **Resistencia al esquema variable** | Medio | Baja | Validación previa mediante el Shadow Pilot para garantizar resultados. |
+| **Inestabilidad Algorítmica** | Bajo | Media | Diversificación estratégica entre Meta Ads y Local SEO en Google. |
+
+## 4. Criterios de Éxito (Go/No-Go)
+
+El proyecto procederá a la fase de escalamiento institucional si y solo si se cumplen los siguientes hitos al final de la Semana 4:
+1. **ROAS Real > 3.0x** en al menos uno de los canales.
+2. **CPA < $10.00** para el sector gastronómico.
+3. **Aceptación del Cliente**: Firma de carta de intención o contrato de servicio recurrente.

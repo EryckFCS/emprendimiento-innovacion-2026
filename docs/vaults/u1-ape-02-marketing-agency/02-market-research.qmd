@@ -1,0 +1,57 @@
+---
+title: "02 - Investigación de Mercado: AMDL"
+subtitle: "Validación de Mercado Secundaria y Estrategia de Ejecución"
+author: 
+  - name: "Condoy Seraquive Erick Fabricio"
+  - name: "Japón Yaguachi Kristie Susana"
+  - name: "Vasquez Japón Jefferson Alexander"
+date: "2026-05-14"
+lang: es-ES
+bibliography: 
+  - ../../writing/references.bib
+  - /home/erick-fcs/Capital_Workstation/capital-workstation-libs/src/ecs_quantitative/reporting/assets/references.bib
+csl: templates/apa_7.csl
+university: "UNIVERSIDAD NACIONAL DE LOJA"
+faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
+school: "CARRERA DE ECONOMÍA"
+course: "ECONOMÍA DE LA INNOVACIÓN"
+professor: "Econ. Jose Vicente Ordoñez Yaguache"
+assignment: "Agencia de Marketing Digital Loja (AMDL)"
+submission_date: "2026-05-14"
+format:
+  html:
+    toc: true
+    number-sections: true
+    include-before-body: templates/header.html
+  pdf:
+    pdf-engine: lualatex
+    template: templates/academic_task.tex
+---
+
+# Introducción
+
+Este documento profundiza en la validación del modelo de negocio de la **Agencia de Marketing Digital Loja (AMDL)**, detallando la segmentación del mercado, los benchmarks de performance, la metodología técnica de implementación y la arquitectura del Producto Mínimo Viable (MVP).
+
+{{< include chapters/market-research/mr-01-context-segmentation.qmd >}}
+
+{{< include chapters/market-research/mr-02-performance-benchmarks.qmd >}}
+
+{{< include chapters/market-research/mr-03-technical-methodology.qmd >}}
+
+{{< include chapters/market-research/mr-04-mvp-strategy.qmd >}}
+
+{{< include chapters/market-research/mr-05-shadow-validation.qmd >}}
+
+{{< include chapters/market-research/mr-06-operational-roadmap.qmd >}}
+
+{{< include chapters/market-research/mr-07-primary-research-survey.qmd >}}
+
+
+# Conclusiones de la Investigación
+
+La investigación de mercado confirma una oportunidad estructural en Loja basada en la asimetría de madurez analítica. La viabilidad del proyecto no depende únicamente de la existencia de demanda, sino de la capacidad técnica de la AMDL para demostrar un retorno de inversión (ROAS) superior a los benchmarks nacionales mediante el stack tecnológico propuesto.
+
+# Referencias
+
+::: {#refs}
+:::

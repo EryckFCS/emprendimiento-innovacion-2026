@@ -1,7 +1,11 @@
 ---
 title: "Business Project: Agencia de Marketing Digital Loja"
 subtitle: "Laboratorio de Economía de la Innovación (LEI)"
-author: "Condoy Seraquive Erick Fabricio"
+author: 
+  - name: "Condoy Seraquive Erick Fabricio"
+  - name: "Japón Yaguachi Kristie Susana"
+  - name: "Vasquez Japón Jefferson Alexander"
+
 date: "2026-04-24"
 university: "Universidad Nacional de Loja"
 faculty: "Facultad Jurídica, Social y Administrativa"
@@ -28,7 +32,10 @@ Este repositorio constituye la bóveda de evidencia para el desarrollo del proye
 La bóveda está organizada siguiendo los estándares de la Arquitectura Federada Nivel 5:
 
 - `01-lean-canvas.qmd`: Borrador inicial del modelo de negocio (Lean Canvas).
+- `02-market-research.qmd`: Validación de mercado secundaria y estrategia de ejecución.
+- `survey-instrument.qmd`: Herramienta de recolección de datos primarios (encuesta).
 - `assets/`: Recursos visuales, figuras y tablas generadas.
+
 - `data/`: Datos brutos y procesados sobre el mercado de marketing en Loja.
 - `scripts/`: Lógica analítica para el estudio de mercado y proyecciones.
 - `logs/`: Registros de ejecución y auditoría.
@@ -38,8 +45,9 @@ La bóveda está organizada siguiendo los estándares de la Arquitectura Federad
 - [x] Creación de estructura de bóveda.
 - [x] Generación de borrador de Lean Canvas.
 - [x] Enriquecimiento con datos de mercado (REEM-INEC 2023, Benchmarks 2026, Análisis de Competencia).
-- [x] Validación de mercado secundaria (Inferencia basada en datos de inteligencia).
-- [ ] Validación de mercado primaria (Entrevistas cualitativas en campo).
+- [x] Validación de mercado secundaria (Informe 02-market-research.qmd).
+- [x] Implementación de lógica analítica (scripts/market_analysis.py).
+- [/] Validación de mercado primaria (Entrevistas cualitativas en campo).
 - [ ] Definición de stack tecnológico (GTM, Meta Pixel, Looker Studio).
 
 # Próximos Pasos

@@ -1,0 +1,31 @@
+# Protocolo de Implementación Técnica
+
+La ejecución operativa de **AMDL** se fundamenta en una arquitectura de seguimiento de datos que asegura la trazabilidad del retorno de inversión.
+
+## Infraestructura de Atribución
+
+El despliegue técnico para la validación de conversiones se estructura en tres niveles, integrando herramientas que han demostrado un impacto significativo en el éxito de negocios locales [@shodhvichar2025]:
+
+1. **Gestión de Eventos vía GTM**: Configuración de Google Tag Manager para centralizar la captura de interacciones críticas, tales como clics en reservas, llamadas directas y envío de formularios.
+2. **API de Conversiones de Meta**: Integración del protocolo CAPI para mitigar la degradación de datos derivada de bloqueadores de publicidad y restricciones de privacidad en sistemas operativos móviles.
+3. **Modelos de Atribución Basados en Datos**: Transición del modelo de "último clic" hacia una atribución multicanal que identifica la contribución de cada punto de contacto en la conversión final.
+
+## Diseño del Ecosistema Operativo
+
+La arquitectura del MVP prioriza la soberanía de los datos mediante herramientas de alta escalabilidad y bajo costo operativo:
+
+*   **Interfaz de Visualización**: **Google Looker Studio**. Funciona como el punto de contacto con el cliente, entregando un tablero dinámico con indicadores de ROAS, CPA y volumen de prospectos.
+*   **Motor de Inteligencia**: **Google Sheets y Scripts en Python**.
+    *   **Google Sheets**: Actúa como repositorio central para la consolidación de métricas publicitarias y registros operativos.
+    *   **Scripts de Python**: Ejecutan los procesos de limpieza, normalización y los modelos de inferencia de ROAS que alimentan la capa de visualización.
+*   **Captura de Datos en Campo**: **AppSheet**. En establecimientos sin digitalización de ventas, se despliega una interfaz móvil para el registro manual del origen de cada cliente atendido.
+
+## Automatización del Reporting (The Insight Desk)
+
+La transparencia se logra mediante la conexión de las fuentes de datos a **Google Looker Studio**:
+- **Consolidación Automática**: Los datos de Google Ads, Meta Ads y Google Business Profile se unifican en un solo panel.
+- **Reporting de Negocio**: El panel no muestra "likes", muestra **CPA (Costo por Adquisición)** y **ROAS (Retorno de Inversión)** en tiempo real.
+
+## Estrategia de Optimización Semanal
+- **A/B Testing**: Pruebas continuas de creatividades (video vs estático) y copies.
+- **Optimización de Presupuesto**: Redistribución del capital hacia las campañas con mejor ROAS detectado por el modelo econométrico básico.

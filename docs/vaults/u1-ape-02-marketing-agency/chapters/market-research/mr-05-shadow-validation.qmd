@@ -1,0 +1,21 @@
+# Estrategia de Validación Fantasma (Shadow Validation)
+
+Para mitigar la barrera de desconfianza inicial y la carencia de datos estructurados en las empresas locales, **AMDL** implementa un protocolo de validación externa que no requiere acceso inmediato a los activos del cliente.
+
+## 1. Ghost Ads: Inferencia de Costos
+Esta técnica valida la demanda y los costos publicitarios (CPC/CTR) de un sector sin requerir el control de los activos digitales del prospecto.
+- **Metodología**: Creación de una marca neutral, como *Loja Gourmet*, que funcione como paraguas de categoría.
+- **Ejecución**: Despliegue de micro-campañas de entre 10 y 20 dólares para productos similares a los del cliente potencial.
+- **Resultado**: Obtención de evidencia empírica sobre costos de adquisición que se presenta como garantía de conocimiento técnico del mercado.
+
+## 2. Auditoría de Atención: Digital Mystery Shopping
+Validación de deficiencias operativas mediante el contacto simulado con el establecimiento.
+- **Métricas de Evaluación**:
+    - **TTR (Time to Response)**: Tiempo transcurrido hasta la primera interacción humana efectiva.
+    - **Efectividad del Cierre**: Evaluación de guiones de venta, manejo de objeciones y claridad en la llamada a la acción.
+    - **Fuga de Leads**: Detección de mensajes o comentarios sin respuesta en los últimos 30 días.
+
+## 3. Scraping de Sentimiento y Demanda Latente
+Uso de herramientas de extracción de datos para mapear la insatisfacción o necesidades no resueltas en la competencia y en el prospecto [@brightlocal2024].
+- **Fuente**: Google Maps Reviews y comentarios en Meta Ads de competidores.
+- **Uso**: Diseño de creatividades que ataquen directamente los puntos de dolor (pain points) identificados en el mercado.

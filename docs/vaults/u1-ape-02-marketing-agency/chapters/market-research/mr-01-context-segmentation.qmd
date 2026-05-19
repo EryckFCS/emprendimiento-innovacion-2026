@@ -1,0 +1,19 @@
+# Análisis del Mercado Objetivo y Madurez Digital
+
+## Estructura Empresarial de Loja (REEM-INEC 2023)
+
+El mercado objetivo de la **AMDL** se fundamenta en la alta densidad de establecimientos económicos en el cantón Loja, que concentra **38,679 unidades activas** [@uasb2024loja]. El análisis segmentado revela una oportunidad crítica en los sectores de gastronomía y retail de moda, que presentan la mayor predisposición al consumo digital pero la menor madurez analítica.
+
+| Actividad Económica (CIIU 4) | Establecimientos | % del Total |
+|------------------------------|------------------|-------------|
+| Comercio al por menor        | 4,806            | 12%         |
+| **Restaurantes**             | **2,190**        | **6%**      |
+| **Retail (Moda/Calzado)**    | **1,108**        | **3%**      |
+
+## La Brecha de Madurez Digital: La Ventana de Oportunidad
+
+A pesar de que Loja tiene una de las tasas de uso de redes sociales más altas del país con un **93.87%**, el **70% de las PYMES** locales carece de herramientas de analítica digital [@mintel2024; @mentinno2024]. Esto implica que los negocios invierten en pauta publicitaria "a ciegas", sin capacidad de atribuir ventas a publicaciones específicas. Esta asimetría es la base de la propuesta de valor de la AMDL: transformar el gasto en inversión medible.
+
+## Marco Normativo Local
+
+La **Ordenanza No. 0068-2024 para la Transformación Digital de Loja** establece un ecosistema favorable, impulsando la digitalización no solo en el sector público sino fomentando la competitividad privada mediante el uso de TICs [@municipioloja2025].

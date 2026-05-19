@@ -10,7 +10,7 @@
 <meta name="author" content="Japón Yaguachi Kristie Susana">
 <meta name="author" content="Vasquez Japón Jefferson Alexander">
 
-<title>01 - Lean Canvas: Agencia de Marketing Digital Loja (AMDL)</title>
+<title>02 - Investigación de Mercado: AMDL</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -49,18 +49,47 @@ div.csl-indent {
 }</style>
 
 
-<script src="01-lean-canvas_files/libs/clipboard/clipboard.min.js"></script>
-<script src="01-lean-canvas_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="01-lean-canvas_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="01-lean-canvas_files/libs/quarto-html/popper.min.js"></script>
-<script src="01-lean-canvas_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="01-lean-canvas_files/libs/quarto-html/anchor.min.js"></script>
-<link href="01-lean-canvas_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="01-lean-canvas_files/libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="01-lean-canvas_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="01-lean-canvas_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="01-lean-canvas_files/libs/bootstrap/bootstrap-114036edf1626c642e1a8ef4be56aac6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="02-market-research_files/libs/clipboard/clipboard.min.js"></script>
+<script src="02-market-research_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="02-market-research_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="02-market-research_files/libs/quarto-html/popper.min.js"></script>
+<script src="02-market-research_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="02-market-research_files/libs/quarto-html/anchor.min.js"></script>
+<link href="02-market-research_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="02-market-research_files/libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="02-market-research_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="02-market-research_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="02-market-research_files/libs/bootstrap/bootstrap-114036edf1626c642e1a8ef4be56aac6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -72,46 +101,60 @@ div.csl-indent {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#lean-canvas-amdl" id="toc-lean-canvas-amdl" class="nav-link active" data-scroll-target="#lean-canvas-amdl"><span class="header-section-number">1</span> Lean Canvas: AMDL</a></li>
-  <li><a href="#mercado-y-normativa" id="toc-mercado-y-normativa" class="nav-link" data-scroll-target="#mercado-y-normativa"><span class="header-section-number">2</span> Mercado y Normativa</a></li>
-  <li><a href="#modelo-de-negocio-lean-canvas-amdl" id="toc-modelo-de-negocio-lean-canvas-amdl" class="nav-link" data-scroll-target="#modelo-de-negocio-lean-canvas-amdl"><span class="header-section-number">3</span> Modelo de Negocio: Lean Canvas AMDL</a>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción"><span class="header-section-number">1</span> Introducción</a></li>
+  <li><a href="#análisis-del-mercado-objetivo-y-madurez-digital" id="toc-análisis-del-mercado-objetivo-y-madurez-digital" class="nav-link" data-scroll-target="#análisis-del-mercado-objetivo-y-madurez-digital"><span class="header-section-number">2</span> Análisis del Mercado Objetivo y Madurez Digital</a>
   <ul class="collapse">
-  <li><a href="#b1" id="toc-b1" class="nav-link" data-scroll-target="#b1"><span class="header-section-number">3.1</span> Problemas de Mercado</a></li>
-  <li><a href="#b2" id="toc-b2" class="nav-link" data-scroll-target="#b2"><span class="header-section-number">3.2</span> Segmentos de Clientes</a>
+  <li><a href="#estructura-empresarial-de-loja-reem-inec-2023" id="toc-estructura-empresarial-de-loja-reem-inec-2023" class="nav-link" data-scroll-target="#estructura-empresarial-de-loja-reem-inec-2023"><span class="header-section-number">2.1</span> Estructura Empresarial de Loja (REEM-INEC 2023)</a></li>
+  <li><a href="#la-brecha-de-madurez-digital-la-ventana-de-oportunidad" id="toc-la-brecha-de-madurez-digital-la-ventana-de-oportunidad" class="nav-link" data-scroll-target="#la-brecha-de-madurez-digital-la-ventana-de-oportunidad"><span class="header-section-number">2.2</span> La Brecha de Madurez Digital: La Ventana de Oportunidad</a></li>
+  <li><a href="#marco-normativo-local" id="toc-marco-normativo-local" class="nav-link" data-scroll-target="#marco-normativo-local"><span class="header-section-number">2.3</span> Marco Normativo Local</a></li>
+  </ul></li>
+  <li><a href="#benchmarks-de-performance-y-métricas-de-éxito" id="toc-benchmarks-de-performance-y-métricas-de-éxito" class="nav-link" data-scroll-target="#benchmarks-de-performance-y-métricas-de-éxito"><span class="header-section-number">3</span> Benchmarks de Performance y Métricas de Éxito</a>
   <ul class="collapse">
-  <li><a href="#buyer-persona-carlos-segunda-generación" id="toc-buyer-persona-carlos-segunda-generación" class="nav-link" data-scroll-target="#buyer-persona-carlos-segunda-generación"><span class="header-section-number">3.2.1</span> Buyer Persona: Carlos (Segunda Generación)</a></li>
-  <li><a href="#perfil-del-buyer-persona-operador-gastronómico-tradicional" id="toc-perfil-del-buyer-persona-operador-gastronómico-tradicional" class="nav-link" data-scroll-target="#perfil-del-buyer-persona-operador-gastronómico-tradicional"><span class="header-section-number">3.2.2</span> Perfil del Buyer Persona: “Operador Gastronómico Tradicional”</a></li>
-  </ul></li>
-  <li><a href="#b3" id="toc-b3" class="nav-link" data-scroll-target="#b3"><span class="header-section-number">3.3</span> Propuesta de Valor</a></li>
-  <li><a href="#b4" id="toc-b4" class="nav-link" data-scroll-target="#b4"><span class="header-section-number">3.4</span> Solución</a></li>
-  <li><a href="#b5" id="toc-b5" class="nav-link" data-scroll-target="#b5"><span class="header-section-number">3.5</span> Canales</a></li>
-  <li><a href="#b6" id="toc-b6" class="nav-link" data-scroll-target="#b6"><span class="header-section-number">3.6</span> Flujo de Ingresos</a></li>
-  <li><a href="#b7" id="toc-b7" class="nav-link" data-scroll-target="#b7"><span class="header-section-number">3.7</span> Estructura de Costos</a></li>
-  <li><a href="#b8" id="toc-b8" class="nav-link" data-scroll-target="#b8"><span class="header-section-number">3.8</span> Métricas Clave</a></li>
-  <li><a href="#b9" id="toc-b9" class="nav-link" data-scroll-target="#b9"><span class="header-section-number">3.9</span> Ventaja Competitiva</a></li>
-  </ul></li>
-  <li><a href="#plan-de-investigación-de-mercado-validación-primaria" id="toc-plan-de-investigación-de-mercado-validación-primaria" class="nav-link" data-scroll-target="#plan-de-investigación-de-mercado-validación-primaria"><span class="header-section-number">4</span> Plan de Investigación de Mercado (Validación Primaria)</a>
+  <li><a href="#costos-publicitarios-en-ecuador-2026" id="toc-costos-publicitarios-en-ecuador-2026" class="nav-link" data-scroll-target="#costos-publicitarios-en-ecuador-2026"><span class="header-section-number">3.1</span> Costos Publicitarios en Ecuador (2026)</a>
   <ul class="collapse">
-  <li><a href="#objetivos-de-la-investigación" id="toc-objetivos-de-la-investigación" class="nav-link" data-scroll-target="#objetivos-de-la-investigación"><span class="header-section-number">4.1</span> Objetivos de la Investigación</a></li>
-  <li><a href="#diseño-de-la-muestra" id="toc-diseño-de-la-muestra" class="nav-link" data-scroll-target="#diseño-de-la-muestra"><span class="header-section-number">4.2</span> Diseño de la Muestra</a></li>
-  <li><a href="#validación-con-el-operador" id="toc-validación-con-el-operador" class="nav-link" data-scroll-target="#validación-con-el-operador"><span class="header-section-number">4.3</span> Validación con el Operador</a></li>
-  <li><a href="#cronograma-de-ejecución-fases-de-validación" id="toc-cronograma-de-ejecución-fases-de-validación" class="nav-link" data-scroll-target="#cronograma-de-ejecución-fases-de-validación"><span class="header-section-number">4.4</span> Cronograma de Ejecución (Fases de Validación)</a></li>
-  <li><a href="#justificación-teórica" id="toc-justificación-teórica" class="nav-link" data-scroll-target="#justificación-teórica"><span class="header-section-number">4.5</span> Justificación Teórica</a></li>
+  <li><a href="#benchmarks-por-industria" id="toc-benchmarks-por-industria" class="nav-link" data-scroll-target="#benchmarks-por-industria"><span class="header-section-number">3.1.1</span> Benchmarks por Industria</a></li>
   </ul></li>
-  <li><a href="#producto-mínimo-viable-mvp-arquitectura-del-sistema" id="toc-producto-mínimo-viable-mvp-arquitectura-del-sistema" class="nav-link" data-scroll-target="#producto-mínimo-viable-mvp-arquitectura-del-sistema"><span class="header-section-number">5</span> Producto Mínimo Viable (MVP): Arquitectura del Sistema</a>
+  <li><a href="#proyección-de-retorno-en-loja" id="toc-proyección-de-retorno-en-loja" class="nav-link" data-scroll-target="#proyección-de-retorno-en-loja"><span class="header-section-number">3.2</span> Proyección de Retorno en Loja</a></li>
+  <li><a href="#métricas-saludables-de-referencia" id="toc-métricas-saludables-de-referencia" class="nav-link" data-scroll-target="#métricas-saludables-de-referencia"><span class="header-section-number">3.3</span> Métricas Saludables de Referencia</a></li>
+  </ul></li>
+  <li><a href="#protocolo-de-implementación-técnica" id="toc-protocolo-de-implementación-técnica" class="nav-link" data-scroll-target="#protocolo-de-implementación-técnica"><span class="header-section-number">4</span> Protocolo de Implementación Técnica</a>
   <ul class="collapse">
-  <li><a href="#definición-del-mvp-sistema-de-control-gastronómico" id="toc-definición-del-mvp-sistema-de-control-gastronómico" class="nav-link" data-scroll-target="#definición-del-mvp-sistema-de-control-gastronómico"><span class="header-section-number">5.1</span> Definición del MVP: “Sistema de Control Gastronómico”</a>
+  <li><a href="#infraestructura-de-atribución" id="toc-infraestructura-de-atribución" class="nav-link" data-scroll-target="#infraestructura-de-atribución"><span class="header-section-number">4.1</span> Infraestructura de Atribución</a></li>
+  <li><a href="#diseño-del-ecosistema-operativo" id="toc-diseño-del-ecosistema-operativo" class="nav-link" data-scroll-target="#diseño-del-ecosistema-operativo"><span class="header-section-number">4.2</span> Diseño del Ecosistema Operativo</a></li>
+  <li><a href="#automatización-del-reporting-the-insight-desk" id="toc-automatización-del-reporting-the-insight-desk" class="nav-link" data-scroll-target="#automatización-del-reporting-the-insight-desk"><span class="header-section-number">4.3</span> Automatización del Reporting (The Insight Desk)</a></li>
+  <li><a href="#estrategia-de-optimización-semanal" id="toc-estrategia-de-optimización-semanal" class="nav-link" data-scroll-target="#estrategia-de-optimización-semanal"><span class="header-section-number">4.4</span> Estrategia de Optimización Semanal</a></li>
+  </ul></li>
+  <li><a href="#estrategia-de-producto-mínimo-viable-mvp" id="toc-estrategia-de-producto-mínimo-viable-mvp" class="nav-link" data-scroll-target="#estrategia-de-producto-mínimo-viable-mvp"><span class="header-section-number">5</span> Estrategia de Producto Mínimo Viable (MVP)</a>
   <ul class="collapse">
-  <li><a href="#optimización-de-presencia-local" id="toc-optimización-de-presencia-local" class="nav-link" data-scroll-target="#optimización-de-presencia-local"><span class="header-section-number">5.1.1</span> 1. Optimización de Presencia Local</a></li>
-  <li><a href="#motor-de-conversión-directa-the-lead-engine" id="toc-motor-de-conversión-directa-the-lead-engine" class="nav-link" data-scroll-target="#motor-de-conversión-directa-the-lead-engine"><span class="header-section-number">5.1.2</span> 2. Motor de Conversión Directa (The Lead Engine)</a></li>
-  <li><a href="#panel-de-soberanía-digital-the-insight-desk" id="toc-panel-de-soberanía-digital-the-insight-desk" class="nav-link" data-scroll-target="#panel-de-soberanía-digital-the-insight-desk"><span class="header-section-number">5.1.3</span> 3. Panel de Soberanía Digital (The Insight Desk)</a></li>
+  <li><a href="#el-paquete-performance-pilot" id="toc-el-paquete-performance-pilot" class="nav-link" data-scroll-target="#el-paquete-performance-pilot"><span class="header-section-number">5.1</span> El Paquete “Performance Pilot”</a></li>
+  <li><a href="#modelo-de-monetización-del-mvp-híbrido" id="toc-modelo-de-monetización-del-mvp-híbrido" class="nav-link" data-scroll-target="#modelo-de-monetización-del-mvp-híbrido"><span class="header-section-number">5.2</span> Modelo de Monetización del MVP (Híbrido)</a></li>
+  <li><a href="#indicadores-de-éxito-del-piloto" id="toc-indicadores-de-éxito-del-piloto" class="nav-link" data-scroll-target="#indicadores-de-éxito-del-piloto"><span class="header-section-number">5.3</span> Indicadores de Éxito del Piloto</a></li>
   </ul></li>
-  <li><a href="#hoja-de-ruta-de-validación" id="toc-hoja-de-ruta-de-validación" class="nav-link" data-scroll-target="#hoja-de-ruta-de-validación"><span class="header-section-number">5.2</span> Hoja de Ruta de Validación</a></li>
-  <li><a href="#vulnerabilidades-sistémicas-y-riesgos-de-ejecución" id="toc-vulnerabilidades-sistémicas-y-riesgos-de-ejecución" class="nav-link" data-scroll-target="#vulnerabilidades-sistémicas-y-riesgos-de-ejecución"><span class="header-section-number">5.3</span> Vulnerabilidades Sistémicas y Riesgos de Ejecución</a></li>
+  <li><a href="#estrategia-de-validación-fantasma-shadow-validation" id="toc-estrategia-de-validación-fantasma-shadow-validation" class="nav-link" data-scroll-target="#estrategia-de-validación-fantasma-shadow-validation"><span class="header-section-number">6</span> Estrategia de Validación Fantasma (Shadow Validation)</a>
+  <ul class="collapse">
+  <li><a href="#ghost-ads-inferencia-de-costos" id="toc-ghost-ads-inferencia-de-costos" class="nav-link" data-scroll-target="#ghost-ads-inferencia-de-costos"><span class="header-section-number">6.1</span> 1. Ghost Ads: Inferencia de Costos</a></li>
+  <li><a href="#auditoría-de-atención-digital-mystery-shopping" id="toc-auditoría-de-atención-digital-mystery-shopping" class="nav-link" data-scroll-target="#auditoría-de-atención-digital-mystery-shopping"><span class="header-section-number">6.2</span> 2. Auditoría de Atención: Digital Mystery Shopping</a></li>
+  <li><a href="#scraping-de-sentimiento-y-demanda-latente" id="toc-scraping-de-sentimiento-y-demanda-latente" class="nav-link" data-scroll-target="#scraping-de-sentimiento-y-demanda-latente"><span class="header-section-number">6.3</span> 3. Scraping de Sentimiento y Demanda Latente</a></li>
+  <li><a href="#cronograma-de-validación-relámpago-14-días" id="toc-cronograma-de-validación-relámpago-14-días" class="nav-link" data-scroll-target="#cronograma-de-validación-relámpago-14-días"><span class="header-section-number">6.4</span> 1. Cronograma de Validación Relámpago (14 Días)</a></li>
+  <li><a href="#requerimientos-de-recursos-lean-budget" id="toc-requerimientos-de-recursos-lean-budget" class="nav-link" data-scroll-target="#requerimientos-de-recursos-lean-budget"><span class="header-section-number">6.5</span> 2. Requerimientos de Recursos (Lean Budget)</a></li>
+  <li><a href="#matriz-de-riesgos-y-mitigación-fmea" id="toc-matriz-de-riesgos-y-mitigación-fmea" class="nav-link" data-scroll-target="#matriz-de-riesgos-y-mitigación-fmea"><span class="header-section-number">6.6</span> 3. Matriz de Riesgos y Mitigación (FMEA)</a></li>
+  <li><a href="#criterios-de-éxito-gono-go" id="toc-criterios-de-éxito-gono-go" class="nav-link" data-scroll-target="#criterios-de-éxito-gono-go"><span class="header-section-number">6.7</span> 4. Criterios de Éxito (Go/No-Go)</a></li>
   </ul></li>
-  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias"><span class="header-section-number">6</span> Referencias</a></li>
+  <li><a href="#investigación-primaria-encuesta-de-validación-operativa" id="toc-investigación-primaria-encuesta-de-validación-operativa" class="nav-link" data-scroll-target="#investigación-primaria-encuesta-de-validación-operativa"><span class="header-section-number">7</span> Investigación Primaria: Encuesta de Validación Operativa</a>
+  <ul class="collapse">
+  <li><a href="#diseño-del-instrumento-encuesta" id="toc-diseño-del-instrumento-encuesta" class="nav-link" data-scroll-target="#diseño-del-instrumento-encuesta"><span class="header-section-number">7.1</span> Diseño del Instrumento (Encuesta)</a>
+  <ul class="collapse">
+  <li><a href="#bloque-a-diagnóstico-de-madurez-digital" id="toc-bloque-a-diagnóstico-de-madurez-digital" class="nav-link" data-scroll-target="#bloque-a-diagnóstico-de-madurez-digital"><span class="header-section-number">7.1.1</span> Bloque A: Diagnóstico de Madurez Digital</a></li>
+  <li><a href="#bloque-b-identificación-de-pain-points" id="toc-bloque-b-identificación-de-pain-points" class="nav-link" data-scroll-target="#bloque-b-identificación-de-pain-points"><span class="header-section-number">7.1.2</span> Bloque B: Identificación de Pain Points</a></li>
+  <li><a href="#bloque-c-validación-de-modelo-de-negocio-amdl" id="toc-bloque-c-validación-de-modelo-de-negocio-amdl" class="nav-link" data-scroll-target="#bloque-c-validación-de-modelo-de-negocio-amdl"><span class="header-section-number">7.1.3</span> Bloque C: Validación de Modelo de Negocio (AMDL)</a></li>
+  </ul></li>
+  <li><a href="#resultados-esperados-y-objetivos" id="toc-resultados-esperados-y-objetivos" class="nav-link" data-scroll-target="#resultados-esperados-y-objetivos"><span class="header-section-number">7.2</span> Resultados Esperados y Objetivos</a></li>
+  <li><a href="#validez-y-poder-estadístico" id="toc-validez-y-poder-estadístico" class="nav-link" data-scroll-target="#validez-y-poder-estadístico"><span class="header-section-number">7.3</span> Validez y Poder Estadístico</a></li>
+  </ul></li>
+  <li><a href="#conclusiones-de-la-investigación" id="toc-conclusiones-de-la-investigación" class="nav-link" data-scroll-target="#conclusiones-de-la-investigación"><span class="header-section-number">8</span> Conclusiones de la Investigación</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias"><span class="header-section-number">9</span> Referencias</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="01-lean-canvas.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="02-market-research.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
 <main class="content" id="quarto-document-content">
 <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 2px solid #004a99; margin-bottom: 20px;">
@@ -127,8 +170,8 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">01 - Lean Canvas: Agencia de Marketing Digital Loja (AMDL)</h1>
-<p class="subtitle lead">Estrategia de Crecimiento Basada en Datos para el Sur del País</p>
+<h1 class="title">02 - Investigación de Mercado: AMDL</h1>
+<p class="subtitle lead">Validación de Mercado Secundaria y Estrategia de Ejecución</p>
 </div>
 
 
@@ -147,7 +190,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">8 de mayo de 2026</p>
+      <p class="date">14 de mayo de 2026</p>
     </div>
   </div>
   
@@ -159,19 +202,15 @@ div.csl-indent {
 </header>
 
 
-<section id="lean-canvas-amdl" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Lean Canvas: AMDL</h1>
-<p>La <strong>Agencia de Marketing Digital Loja (AMDL)</strong> aplica un modelo de <em>Performance Marketing</em> para optimizar el <strong>Retorno sobre la Inversión Publicitaria (ROAS)</strong> en el sur del país, integrando análisis de datos en sectores donde el <strong>70% de las PYMES carecen de analítica</strong>.</p>
+<section id="introducción" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introducción</h1>
+<p>Este documento profundiza en la validación del modelo de negocio de la <strong>Agencia de Marketing Digital Loja (AMDL)</strong>, detallando la segmentación del mercado, los benchmarks de performance, la metodología técnica de implementación y la arquitectura del Producto Mínimo Viable (MVP).</p>
 </section>
-<section id="mercado-y-normativa" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Mercado y Normativa</h1>
-<p>Según el REEM-INEC 2023, el cantón Loja registra <strong>38.679 establecimientos económicos</strong> <span class="citation" data-cites="uasb2024loja">(<a href="#ref-uasb2024loja" role="doc-biblioref">UASB, 2024</a>)</span>. El potencial se concentra en los <strong>2.190 restaurantes</strong> y <strong>1.108 locales de retail</strong>, sectores con alta fricción tecnológica pero con una demanda latente de <strong>3.200 prospectos</strong>.</p>
-<div id="tbl-loja-market" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-loja-market-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;1: Estructura Empresarial de Loja (Segmentos Objetivo)
-</figcaption>
-<div aria-describedby="tbl-loja-market-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<section id="análisis-del-mercado-objetivo-y-madurez-digital" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Análisis del Mercado Objetivo y Madurez Digital</h1>
+<section id="estructura-empresarial-de-loja-reem-inec-2023" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="estructura-empresarial-de-loja-reem-inec-2023"><span class="header-section-number">2.1</span> Estructura Empresarial de Loja (REEM-INEC 2023)</h2>
+<p>El mercado objetivo de la <strong>AMDL</strong> se fundamenta en la alta densidad de establecimientos económicos en el cantón Loja, que concentra <strong>38,679 unidades activas</strong> <span class="citation" data-cites="uasb2024loja">(<a href="#ref-uasb2024loja" role="doc-biblioref">UASB, 2024</a>)</span>. El análisis segmentado revela una oportunidad crítica en los sectores de gastronomía y retail de moda, que presentan la mayor predisposición al consumo digital pero la menor madurez analítica.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -182,471 +221,329 @@ Tabla&nbsp;1: Estructura Empresarial de Loja (Segmentos Objetivo)
 </thead>
 <tbody>
 <tr class="odd">
-<td>Comercio al por menor (alimentos)</td>
-<td>4.806</td>
+<td>Comercio al por menor</td>
+<td>4,806</td>
 <td>12%</td>
 </tr>
 <tr class="even">
-<td>Servicios personales</td>
-<td>2.296</td>
-<td>6%</td>
-</tr>
-<tr class="odd">
-<td><strong>Restaurantes y servicios de comida</strong></td>
-<td><strong>2.190</strong></td>
+<td><strong>Restaurantes</strong></td>
+<td><strong>2,190</strong></td>
 <td><strong>6%</strong></td>
 </tr>
-<tr class="even">
-<td>Actividades profesionales/técnicas</td>
-<td>1.697</td>
-<td>4%</td>
-</tr>
 <tr class="odd">
-<td><strong>Retail (Prendas de vestir/calzado)</strong></td>
-<td><strong>1.108</strong></td>
+<td><strong>Retail (Moda/Calzado)</strong></td>
+<td><strong>1,108</strong></td>
 <td><strong>3%</strong></td>
 </tr>
 </tbody>
 </table>
-</div>
-</figure>
-</div>
-<p>La <strong>Ordenanza No.&nbsp;0068-2024 para la Transformación Digital</strong> obliga a la digitalización de servicios municipales y promueve la adopción tecnológica en el sector privado <span class="citation" data-cites="municipioloja2025">(<a href="#ref-municipioloja2025" role="doc-biblioref">Municipio de Loja, 2025</a>)</span>. Con una <strong>penetración de redes sociales del 93,87%</strong>, el mercado lojano presenta una paradoja: alta conectividad del consumidor frente a una baja madurez técnica de la oferta de servicios digitales <span class="citation" data-cites="mintel2024 mentinno2024">(<a href="#ref-mentinno2024" role="doc-biblioref">Mentinno, 2024</a>; <a href="#ref-mintel2024" role="doc-biblioref">MINTEL / INEC, 2024</a>)</span>.</p>
 </section>
-<section id="modelo-de-negocio-lean-canvas-amdl" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Modelo de Negocio: Lean Canvas AMDL</h1>
-<style>
-  .lean-canvas { 
-    width: 100%; 
-    table-layout: fixed; 
-    border-collapse: separate; 
-    border-spacing: 8px;
-    text-align: center; 
-    font-family: 'Inter', sans-serif; 
-    margin-bottom: 2rem; 
-    background-color: #f8f9fa;
-    border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  }
-  .lean-canvas td { 
-    border: none;
-    padding: 20px 10px; 
-    vertical-align: top; 
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
-    font-size: 0.85em;
-  }
-  .lc-prob { background-color: #1a2a6c; } /* Navy */
-  .lc-sol { background-color: #b21f1f; } /* Red */
-  .lc-uvp { background-color: #fdbb2d; color: #333; } /* Gold */
-  .lc-ven { background-color: #1a2a6c; } /* Navy */
-  .lc-seg { background-color: #b21f1f; } /* Red */
-  .lc-met { background-color: #444; } /* Gray */
-  .lc-can { background-color: #444; } /* Gray */
-  .lc-cos { background-color: #333; } /* Dark Gray */
-  .lc-ing { background-color: #222; } /* Blackish */
-  .lc-icon { font-size: 1.5em; display: block; margin-bottom: 5px; }
-</style>
-<table class="lean-canvas">
-<tbody><tr style="height: 140px;">
-<td rowspan="2" class="lc-prob">
-<span class="lc-icon">🛡️</span>1. PROBLEMA<br><small style="font-weight: normal;">Gestión empírica, fricción técnica e informalidad.</small>
-</td>
-<td class="lc-sol">
-<span class="lc-icon">💡</span>4. SOLUCIÓN<br><small style="font-weight: normal;">Pauta optimizada, SEO local y Dashboards de control.</small>
-</td>
-<td rowspan="2" class="lc-uvp">
-<span class="lc-icon">💎</span>3. PROPUESTA DE VALOR<br><small style="font-weight: normal;">“Sistema de Crecimiento y Disciplina Operativa.”</small>
-</td>
-<td class="lc-ven">
-<span class="lc-icon">🚀</span>9. VENTAJA ESPECIAL<br><small style="font-weight: normal;">Metodología de Auditoría y Atribución Quant.</small>
-</td>
-<td rowspan="2" class="lc-seg">
-<span class="lc-icon">🎯</span>2. SEGMENTO<br><small style="font-weight: normal;">Gastronomía, Retail y PYMES Loja.</small>
-</td>
-</tr>
-<tr style="height: 140px;">
-<td class="lc-met">
-<span class="lc-icon">📈</span>8. MÉTRICAS CLAVE<br><small style="font-weight: normal;">ROAS, CPA, Tasa de Conversión.</small>
-</td>
-<td class="lc-can">
-<span class="lc-icon">📣</span>5. CANALES<br><small style="font-weight: normal;">Redes sociales, Alianzas Gremiales.</small>
-</td>
-</tr>
-<tr style="height: 80px;">
-<td colspan="2" class="lc-cos">
-<span class="lc-icon">💰</span>7. ESTRUCTURA DE COSTOS<br><small style="font-weight: normal;">SaaS, Ads, Equipo Creativo.</small>
-</td>
-<td colspan="3" class="lc-ing">
-<span class="lc-icon">💵</span>6. FLUJO DE INGRESOS<br><small style="font-weight: normal;">Retainers, Proyectos, Cursos.</small>
-</td>
-</tr>
-</tbody></table>
-<section id="b1" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="b1"><span class="header-section-number">3.1</span> Problemas de Mercado</h2>
-<p>El ecosistema empresarial de Loja enfrenta una crisis de invisibilidad digital y caos operativo. Aproximadamente el <strong>70% de las PYMES locales carecen de protocolos de analítica</strong>, lo que deriva en una gestión empírica donde las decisiones se basan en la intuición y no en datos verificables. Esta brecha tecnológica se agrava por el uso de personal no profesionalizado que, aunque genera interacciones superficiales en redes sociales, no logra establecer sistemas disciplinados para medir la conversión real del gasto publicitario <span class="citation" data-cites="copromerco2024">(<a href="#ref-copromerco2024" role="doc-biblioref">COPROMERCO, 2024</a>)</span>.</p>
-<p>Esta problemática se manifiesta con mayor intensidad en el posicionamiento local. Los negocios operan bajo una ilusión de presencia digital, pero enfrentan una invisibilidad crítica en el ecosistema de búsqueda geolocalizada. Al no figurar en el <strong>Local Pack de Google</strong>, las empresas pierden cerca del 46% del tráfico con intención de compra inmediata en la ciudad <span class="citation" data-cites="brightlocal2024">(<a href="#ref-brightlocal2024" role="doc-biblioref">BrightLocal, 2024</a>)</span>. Finalmente, la oferta actual de consultoría se limita a la “creatividad estética” sin responsabilidad sobre los resultados económicos. AMDL resuelve este vacío mediante la integración de procesos de <strong>atribución y disciplina analítica</strong>, garantizando que cada intervención tenga un impacto auditable <span class="citation" data-cites="mentinno2024">(<a href="#ref-mentinno2024" role="doc-biblioref">Mentinno, 2024</a>)</span>.</p>
-<div id="tbl-competitors" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-competitors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;2: Análisis de Brecha Competitiva (Loja/Cuenca)
-</figcaption>
-<div aria-describedby="tbl-competitors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<section id="la-brecha-de-madurez-digital-la-ventana-de-oportunidad" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="la-brecha-de-madurez-digital-la-ventana-de-oportunidad"><span class="header-section-number">2.2</span> La Brecha de Madurez Digital: La Ventana de Oportunidad</h2>
+<p>A pesar de que Loja tiene una de las tasas de uso de redes sociales más altas del país con un <strong>93.87%</strong>, el <strong>70% de las PYMES</strong> locales carece de herramientas de analítica digital <span class="citation" data-cites="mintel2024 mentinno2024">(<a href="#ref-mentinno2024" role="doc-biblioref">Mentinno, 2024</a>; <a href="#ref-mintel2024" role="doc-biblioref">MINTEL / INEC, 2024</a>)</span>. Esto implica que los negocios invierten en pauta publicitaria “a ciegas”, sin capacidad de atribuir ventas a publicaciones específicas. Esta asimetría es la base de la propuesta de valor de la AMDL: transformar el gasto en inversión medible.</p>
+</section>
+<section id="marco-normativo-local" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="marco-normativo-local"><span class="header-section-number">2.3</span> Marco Normativo Local</h2>
+<p>La <strong>Ordenanza No.&nbsp;0068-2024 para la Transformación Digital de Loja</strong> establece un ecosistema favorable, impulsando la digitalización no solo en el sector público sino fomentando la competitividad privada mediante el uso de TICs <span class="citation" data-cites="municipioloja2025">(<a href="#ref-municipioloja2025" role="doc-biblioref">Municipio de Loja, 2025</a>)</span>.</p>
+</section>
+</section>
+<section id="benchmarks-de-performance-y-métricas-de-éxito" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Benchmarks de Performance y Métricas de Éxito</h1>
+<section id="costos-publicitarios-en-ecuador-2026" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="costos-publicitarios-en-ecuador-2026"><span class="header-section-number">3.1</span> Costos Publicitarios en Ecuador (2026)</h2>
+<p>Ecuador mantiene una ventaja competitiva en términos de costos de adquisición digital comparado con otros mercados de la región (LATAM). El Costo por Clic (CPC) promedio nacional se sitúa en <strong>USD 0.43</strong>, lo que permite un mayor alcance con presupuestos limitados <span class="citation" data-cites="copromerco2024 zamora2024estrategias">(<a href="#ref-copromerco2024" role="doc-biblioref">COPROMERCO, 2024</a>; <a href="#ref-zamora2024estrategias" role="doc-biblioref">Zamora Montenegro, 2024</a>)</span>.</p>
+<section id="benchmarks-por-industria" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="benchmarks-por-industria"><span class="header-section-number">3.1.1</span> Benchmarks por Industria</h3>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Agencia</th>
-<th>Enfoque Principal</th>
-<th>Debilidad Identificada</th>
+<th>Industria</th>
+<th>CPC Search (ECU)</th>
+<th>CPC Display</th>
+<th>ROAS Objetivo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>The Blue Manakin</td>
-<td>Producción creativa/video</td>
-<td>Sin reporting de ROI/ROAS</td>
+<td><strong>Gastronomía</strong></td>
+<td>USD 0.20 – 0.65</td>
+<td>USD 0.03 – 0.10</td>
+<td>3.5x</td>
 </tr>
 <tr class="even">
-<td>Símbolo</td>
-<td>SEO/SEM Genérico</td>
-<td>Sin segmentación quant local</td>
+<td><strong>Retail</strong></td>
+<td>USD 0.30 – 1.20</td>
+<td>USD 0.05 – 0.15</td>
+<td>4.2x</td>
 </tr>
 <tr class="odd">
-<td>Monkey Plus (Cuenca)</td>
-<td>Estrategia 360</td>
-<td>Ticket alto, inaccesible a PYME</td>
+<td>Salud</td>
+<td>USD 0.45 – 1.80</td>
+<td>USD 0.06 – 0.18</td>
+<td>3.9x</td>
 </tr>
 </tbody>
 </table>
-</div>
-</figure>
-</div>
 </section>
-<section id="b2" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="b2"><span class="header-section-number">3.2</span> Segmentos de Clientes</h2>
-<p>La estrategia de AMDL prioriza al <strong>sector gastronómico</strong>, identificando a los <strong>2.190 restaurantes registrados en el cantón Loja</strong> como la masa crítica con mayor necesidad de diferenciación técnica. En este mercado, el costo por clic promedio en Ecuador permite ejecutar campañas de alta eficiencia con presupuestos moderados, siempre que se aplique una segmentación precisa <span class="citation" data-cites="mentinno2024">(<a href="#ref-mentinno2024" role="doc-biblioref">Mentinno, 2024</a>)</span>. Complementariamente, se atiende al <strong>retail de moda y calzado</strong>, compuesto por 1.108 establecimientos que compiten directamente con cadenas nacionales y requieren optimizar su inventario mediante pautas geolocalizadas.</p>
-<p>El perfil del adoptante temprano (<em>early adopter</em>) se identifica en los <strong>sucesores familiares de entre 25 y 40 años</strong>. Este grupo demográfico, motivado por la reciente <strong>Ordenanza de Transformación Digital 2024</strong>, busca modernizar la estructura operativa de sus negocios, rompiendo con la inercia de la gestión tradicional para adoptar herramientas de control basadas en datos.</p>
-<section id="buyer-persona-carlos-segunda-generación" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="buyer-persona-carlos-segunda-generación"><span class="header-section-number">3.2.1</span> Buyer Persona: Carlos (Segunda Generación)</h3>
-<div class="buyer-persona-container" style="background-color: #FDFCE9; padding: 20px; font-family: sans-serif; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 2em;">
-  <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-    <!-- Columna Izquierda: Perfil -->
-    <div style="background-color: #1a2a6c; width: calc(25% - 15px); min-width: 200px; border-radius: 5px; padding: 15px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;">
-      <div style="background-color: white; border-radius: 50%; width: 100px; height: 100px; display: flex; align-items: center; justify-content: center; font-size: 40px; margin-bottom: 10px;">
-        👨‍💼
-      </div>
-      <h3 style="color: white; text-transform: uppercase; margin: 0 0 15px 0; text-align: center; font-size: 1.1em;" class="anchored">Carlos Valdivieso</h3>
-      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
-        <span style="float: left; color: #777;">edad</span> 32-40
-      </div>
-      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
-        <span style="float: left; color: #777;">localidad</span> Loja / Quito
-      </div>
-      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
-        <span style="float: left; color: #777;">nivel de estudios</span> Tercer Nivel
-      </div>
-      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
-        <span style="float: left; color: #777;">sector</span> Retail / Gastr.
-      </div>
-      <div style="width: 100%; background-color: white; margin-bottom: 8px; padding: 5px 10px; border-radius: 3px; font-size: 0.85em; text-align: right; box-sizing: border-box;">
-        <span style="float: left; color: #777;">redes sociales</span> LinkedIn / IG
-      </div>
-    </div>
-
-    <!-- Columna Central -->
-    <div style="display: flex; flex-direction: column; width: calc(37.5% - 15px); min-width: 250px; gap: 15px; flex-grow: 1;">
-      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
-        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">personalidad</div>
-        <div style="font-size: 0.85em; color: #444;">Escéptico, conservador, opera bajo inercia comercial ("siempre se ha hecho así"), desconfía de la inversión intangible.</div>
-      </div>
-      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
-        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">hobbies y habilidades</div>
-        <div style="font-size: 0.85em; color: #444;">Gestión operativa tradicional, uso de redes personales para ocio, limitado conocimiento técnico de pauta digital.</div>
-      </div>
-      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
-        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">metas y objetivos</div>
-        <div style="font-size: 0.85em; color: #444;">Preservar el legado familiar, mantener el flujo de caja diario, evitar que la competencia nueva absorba a sus clientes frecuentes.</div>
-      </div>
-      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
-        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">pain points</div>
-        <div style="font-size: 0.85em; color: #444;">Considera la publicidad un "gasto evitable". No dimensiona la pérdida de mercado por invisibilidad digital. Siente que la digitalización es "complicarse la vida" y prefiere el control manual de su negocio.</div>
-      </div>
-    </div>
-
-    <!-- Columna Derecha -->
-    <div style="display: flex; flex-direction: column; width: calc(37.5% - 15px); min-width: 250px; gap: 15px; flex-grow: 1;">
-      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
-        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">puesto de trabajo</div>
-        <div style="font-size: 0.85em; color: #444;">Director de Operaciones / Marketing (Hijo del fundador).</div>
-      </div>
-      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 1;">
-        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">método de trabajo</div>
-        <div style="font-size: 0.85em; color: #444;">Uso de métricas (KPIs), reuniones semanales, enfoque en ROI.</div>
-      </div>
-      <div style="border: 4px solid #1a2a6c; background-color: white; border-radius: 5px; padding: 10px; flex: 2;">
-        <div style="text-align: right; font-weight: bold; font-size: 0.8em; color: #333; margin-bottom: 5px;">herramientas que usa</div>
-        <div style="font-size: 0.85em; color: #444;">Shopify, Meta Business Suite básico, Excel avanzado, ChatGPT para copys.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Sección Inferior -->
-  <div style="margin-top: 15px; border-left: 5px solid #b21f1f; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 15px; background-color: white;">
-    <div style="font-size: 0.85em; font-weight: bold; color: #333; text-align: right; margin-bottom: 5px; text-transform: uppercase;">¿Qué aportamos como su Growth Partner?</div>
-    <div style="font-size: 0.9em; color: #444; text-align: right;"><strong>Crecimiento Predecible:</strong> Dejamos de adivinar para ejecutar con datos. Implementamos sistemas que capturan y activan sus propios datos de clientes (First-Party Data) para que su negocio no dependa solo de los algoritmos de Facebook.<br><strong>Soberanía Digital:</strong> Le entregamos el control total de sus métricas con claridad absoluta sobre el retorno de cada centavo.</div>
-  </div>
-</div>
 </section>
-<section id="perfil-del-buyer-persona-operador-gastronómico-tradicional" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="perfil-del-buyer-persona-operador-gastronómico-tradicional"><span class="header-section-number">3.2.2</span> Perfil del Buyer Persona: “Operador Gastronómico Tradicional”</h3>
+<section id="proyección-de-retorno-en-loja" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="proyección-de-retorno-en-loja"><span class="header-section-number">3.2</span> Proyección de Retorno en Loja</h2>
+<p>Para ciudades intermedias como Loja, se aplica un <strong>ajuste de eficiencia del 15-25%</strong> a favor del anunciante, dado que la subasta publicitaria local es menos densa que en Quito o Guayaquil. Esto permite proyectar escenarios de <strong>ROAS de 4.0x a 5.0x</strong> para el segmento de retail de moda, lo que significa que por cada dólar invertido en pauta, el negocio puede esperar generar $5.00 en ventas atribuibles.</p>
+</section>
+<section id="métricas-saludables-de-referencia" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="métricas-saludables-de-referencia"><span class="header-section-number">3.3</span> Métricas Saludables de Referencia</h2>
 <ul>
-<li><strong>Perfil</strong>: Propietario de establecimiento de alimentos y bebidas en el área consolidada de Loja (45-55 años).</li>
-<li><strong>Punto de Dolor</strong>: Percepción de la inversión publicitaria como un costo hundido sin trazabilidad de ingresos.</li>
-<li><strong>Motivación</strong>: Sostenibilidad competitiva ante la expansión de franquicias nacionales en el mercado local.</li>
-<li><strong>Barrera</strong>: Escepticismo hacia servicios creativos carentes de métricas de rentabilidad directa.</li>
-<li><strong>Solución AMDL</strong>: Implementación de tableros de control (Dashboards) que vinculen el gasto publicitario con el volumen de ventas proyectado.</li>
+<li><strong>CPA (Costo por Adquisición)</strong>: Debe ser inferior al 30% del margen de contribución del producto.</li>
+<li><strong>CTR (Click-Through Rate)</strong>: Meta de 2.0% para campañas de gastronomía en Meta Ads.</li>
+<li><strong>Frecuencia</strong>: Mantener por debajo de 3.0 impresiones por usuario para evitar fatiga publicitaria.</li>
 </ul>
 </section>
 </section>
-<section id="b3" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="b3"><span class="header-section-number">3.3</span> Propuesta de Valor</h2>
-<p>La propuesta de AMDL se fundamenta en el concepto de <strong>“Crecimiento mediante Disciplina Operativa”</strong>. A diferencia de las agencias convencionales centradas en la estética, AMDL integra un sistema de ventas medible que reduce la incertidumbre del dueño de negocio tradicional. El valor central reside en el desplazamiento de la producción audiovisual genérica hacia la <strong>atribución de datos</strong>, implementando protocolos de medición que aseguran el retorno de cada activo digital y entregando reportes de conversión vinculados directamente al flujo de caja del cliente.</p>
+<section id="protocolo-de-implementación-técnica" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Protocolo de Implementación Técnica</h1>
+<p>La ejecución operativa de <strong>AMDL</strong> se fundamenta en una arquitectura de seguimiento de datos que asegura la trazabilidad del retorno de inversión.</p>
+<section id="infraestructura-de-atribución" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="infraestructura-de-atribución"><span class="header-section-number">4.1</span> Infraestructura de Atribución</h2>
+<p>El despliegue técnico para la validación de conversiones se estructura en tres niveles, integrando herramientas que han demostrado un impacto significativo en el éxito de negocios locales <span class="citation" data-cites="shodhvichar2025">(<a href="#ref-shodhvichar2025" role="doc-biblioref">Shankar et&nbsp;al., 2025</a>)</span>:</p>
+<ol type="1">
+<li><strong>Gestión de Eventos vía GTM</strong>: Configuración de Google Tag Manager para centralizar la captura de interacciones críticas, tales como clics en reservas, llamadas directas y envío de formularios.</li>
+<li><strong>API de Conversiones de Meta</strong>: Integración del protocolo CAPI para mitigar la degradación de datos derivada de bloqueadores de publicidad y restricciones de privacidad en sistemas operativos móviles.</li>
+<li><strong>Modelos de Atribución Basados en Datos</strong>: Transición del modelo de “último clic” hacia una atribución multicanal que identifica la contribución de cada punto de contacto en la conversión final.</li>
+</ol>
 </section>
-<section id="b4" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="b4"><span class="header-section-number">3.4</span> Solución</h2>
-<p>La solución operativa se despliega en tres ejes técnicos fundamentales. En primer lugar, la gestión de <strong>Paid Media</strong> se orienta exclusivamente a la generación de transacciones inmediatas, complementada por la optimización de <strong>SEO Local</strong> para dominar la visibilidad en Google Maps. Finalmente, se integra la producción de <strong>Contenido Estratégico</strong> diseñado específicamente para la conversión. Este enfoque integral asegura que el negocio no solo sea visto, sino que capture la demanda existente en los momentos críticos de decisión del consumidor.</p>
+<section id="diseño-del-ecosistema-operativo" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="diseño-del-ecosistema-operativo"><span class="header-section-number">4.2</span> Diseño del Ecosistema Operativo</h2>
+<p>La arquitectura del MVP prioriza la soberanía de los datos mediante herramientas de alta escalabilidad y bajo costo operativo:</p>
+<ul>
+<li><strong>Interfaz de Visualización</strong>: <strong>Google Looker Studio</strong>. Funciona como el punto de contacto con el cliente, entregando un tablero dinámico con indicadores de ROAS, CPA y volumen de prospectos.</li>
+<li><strong>Motor de Inteligencia</strong>: <strong>Google Sheets y Scripts en Python</strong>.
+<ul>
+<li><strong>Google Sheets</strong>: Actúa como repositorio central para la consolidación de métricas publicitarias y registros operativos.</li>
+<li><strong>Scripts de Python</strong>: Ejecutan los procesos de limpieza, normalización y los modelos de inferencia de ROAS que alimentan la capa de visualización.</li>
+</ul></li>
+<li><strong>Captura de Datos en Campo</strong>: <strong>AppSheet</strong>. En establecimientos sin digitalización de ventas, se despliega una interfaz móvil para el registro manual del origen de cada cliente atendido.</li>
+</ul>
 </section>
-<section id="b5" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="b5"><span class="header-section-number">3.5</span> Canales</h2>
-<p>La estrategia de captación de clientes se apoya en una estructura multicanal diversificada. La presencia digital se centraliza en Instagram, TikTok y LinkedIn, plataformas elegidas específicamente para alcanzar tanto al mercado masivo como al segmento empresarial. De manera paralela, la agencia cultiva relaciones gremiales a través de alianzas estratégicas con Cámaras de Comercio y asociaciones de jóvenes empresarios. Este despliegue se refuerza mediante tácticas de contacto directo, priorizando el networking local y la entrega de auditorías de presencia digital gratuitas como el principal mecanismo de entrada.</p>
-<div id="tbl-meta-formats" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-meta-formats-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;3: Benchmarks de Formatos Publicitarios (Andromeda Algorithm 2026)
-</figcaption>
-<div aria-describedby="tbl-meta-formats-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Formato Meta Ads</th>
-<th>CTR Promedio (LATAM)</th>
-<th>Aplicación en Loja</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Reels Ads</td>
-<td>1.8% – 3.2%</td>
-<td>Awareness de platos/menú</td>
-</tr>
-<tr class="even">
-<td>Collection Ads</td>
-<td>1.5% – 2.8%</td>
-<td>Catálogo de Retail</td>
-</tr>
-<tr class="odd">
-<td>Instant Experience</td>
-<td>2.4% – 4.1%</td>
-<td>Landing de reservas</td>
-</tr>
-<tr class="even">
-<td>Carousel</td>
-<td>1.2% – 2.1%</td>
-<td>E-commerce local</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
+<section id="automatización-del-reporting-the-insight-desk" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="automatización-del-reporting-the-insight-desk"><span class="header-section-number">4.3</span> Automatización del Reporting (The Insight Desk)</h2>
+<p>La transparencia se logra mediante la conexión de las fuentes de datos a <strong>Google Looker Studio</strong>: - <strong>Consolidación Automática</strong>: Los datos de Google Ads, Meta Ads y Google Business Profile se unifican en un solo panel. - <strong>Reporting de Negocio</strong>: El panel no muestra “likes”, muestra <strong>CPA (Costo por Adquisición)</strong> y <strong>ROAS (Retorno de Inversión)</strong> en tiempo real.</p>
 </section>
-<section id="b6" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="b6"><span class="header-section-number">3.6</span> Flujo de Ingresos</h2>
-<p>La arquitectura financiera de AMDL se diversifica para garantizar sostenibilidad y escalabilidad mediante tres pilares de monetización. El núcleo operativo reside en los <strong>Retainers de Gestión</strong>, con tarifas escalonadas entre <strong>USD 300 y 850 mensuales</strong>, calibradas según la complejidad técnica y el volumen de pauta administrada. Este modelo se complementa con un <strong>Success Fee por Performance</strong>, capturando entre el <strong>10% y 15%</strong> del crecimiento incremental en ventas atribuibles, alineando así los incentivos de la agencia con la rentabilidad del cliente. Finalmente, el <strong>Setup de Infraestructura Analítica</strong> actúa como una barrera de entrada técnica de pago único (<strong>USD 150</strong>), cubriendo la configuración crítica de protocolos de tracking y la auditoría forense inicial.</p>
-<div id="tbl-pricing" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-pricing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;4: Matriz de Paquetes y Pricing AMDL
-</figcaption>
-<div aria-describedby="tbl-pricing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<section id="estrategia-de-optimización-semanal" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="estrategia-de-optimización-semanal"><span class="header-section-number">4.4</span> Estrategia de Optimización Semanal</h2>
+<ul>
+<li><strong>A/B Testing</strong>: Pruebas continuas de creatividades (video vs estático) y copies.</li>
+<li><strong>Optimización de Presupuesto</strong>: Redistribución del capital hacia las campañas con mejor ROAS detectado por el modelo econométrico básico.</li>
+</ul>
+</section>
+</section>
+<section id="estrategia-de-producto-mínimo-viable-mvp" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Estrategia de Producto Mínimo Viable (MVP)</h1>
+<p>El MVP de <strong>AMDL</strong> se fundamenta en la metodología de validación rápida para startups, priorizando el aprendizaje sobre la escala inicial <span class="citation" data-cites="maulida2022lean razabillah2023lean">(<a href="#ref-maulida2022lean" role="doc-biblioref"><span class="nocase">Maulida et&nbsp;al.</span>, 2022</a>; <a href="#ref-razabillah2023lean" role="doc-biblioref"><span class="nocase">Razabillah et&nbsp;al.</span>, 2023</a>)</span>. El objetivo es validar el modelo de negocio con un grupo reducido de 3 a 5 clientes piloto mediante una oferta de “baja fricción y alto impacto”.</p>
+<section id="el-paquete-performance-pilot" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="el-paquete-performance-pilot"><span class="header-section-number">5.1</span> El Paquete “Performance Pilot”</h2>
+<p>El servicio MVP incluye los componentes críticos para demostrar retorno en un ciclo comprimido de ejecución:</p>
+<ol type="1">
+<li><strong>Setup de Auditoría Analítica</strong>: Configuración de GTM y Dashboards básicos.</li>
+<li><strong>Optimización de Local SEO</strong>: Google Business Profile para captar tráfico inmediato.</li>
+<li><strong>Campaña de Meta Ads Direct-to-Sales</strong>: Enfoque 100% en ventas/leads, no en branding.</li>
+<li><strong>Construcción de Base de Datos (Activo Propio)</strong>: Dado que las PYMES suelen carecer de registros, AMDL crea y entrega una base de datos estructurada de todos los leads capturados (Nombre, Celular, Interés) como un activo de propiedad del cliente.</li>
+</ol>
+</section>
+<section id="modelo-de-monetización-del-mvp-híbrido" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="modelo-de-monetización-del-mvp-híbrido"><span class="header-section-number">5.2</span> Modelo de Monetización del MVP (Híbrido)</h2>
+<p>Para validar la disposición a pagar en Loja, el MVP utiliza un esquema que reduce el riesgo financiero para el empresario <span class="citation" data-cites="alvarez2020consultoria">(<a href="#ref-alvarez2020consultoria" role="doc-biblioref">Álvarez Contreras &amp; Jiménez Lyons, 2020</a>)</span>: - <strong>Fee Base Operativo</strong>: USD 250 - 400 (Cubre costos de setup y horas de gestión). - <strong>Success Fee</strong>: 10% de la facturación atribuible que supere el baseline histórico del negocio.</p>
+</section>
+<section id="indicadores-de-éxito-del-piloto" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="indicadores-de-éxito-del-piloto"><span class="header-section-number">5.3</span> Indicadores de Éxito del Piloto</h2>
+<p>Para transicionar del MVP a una agencia formal, la operación debe alcanzar los siguientes hitos de rendimiento:</p>
+<ul>
+<li><strong>Retención de Cartera</strong>: Al menos el 60% de los clientes piloto renuevan el servicio para un segundo periodo mensual.</li>
+<li><strong>Evidencia de Retorno</strong>: Dos de cada tres clientes alcanzan un ROAS superior a 3.0x en el primer ciclo de 30 días.</li>
+<li><strong>Eficiencia Operativa</strong>: El tiempo de gestión técnica se estandariza por debajo de las 10 horas mensuales por cuenta mediante la automatización de tableros.</li>
+</ul>
+</section>
+</section>
+<section id="estrategia-de-validación-fantasma-shadow-validation" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Estrategia de Validación Fantasma (Shadow Validation)</h1>
+<p>Para mitigar la barrera de desconfianza inicial y la carencia de datos estructurados en las empresas locales, <strong>AMDL</strong> implementa un protocolo de validación externa que no requiere acceso inmediato a los activos del cliente.</p>
+<section id="ghost-ads-inferencia-de-costos" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="ghost-ads-inferencia-de-costos"><span class="header-section-number">6.1</span> 1. Ghost Ads: Inferencia de Costos</h2>
+<p>Esta técnica valida la demanda y los costos publicitarios (CPC/CTR) de un sector sin requerir el control de los activos digitales del prospecto. - <strong>Metodología</strong>: Creación de una marca neutral, como <em>Loja Gourmet</em>, que funcione como paraguas de categoría. - <strong>Ejecución</strong>: Despliegue de micro-campañas de entre 10 y 20 dólares para productos similares a los del cliente potencial. - <strong>Resultado</strong>: Obtención de evidencia empírica sobre costos de adquisición que se presenta como garantía de conocimiento técnico del mercado.</p>
+</section>
+<section id="auditoría-de-atención-digital-mystery-shopping" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="auditoría-de-atención-digital-mystery-shopping"><span class="header-section-number">6.2</span> 2. Auditoría de Atención: Digital Mystery Shopping</h2>
+<p>Validación de deficiencias operativas mediante el contacto simulado con el establecimiento. - <strong>Métricas de Evaluación</strong>: - <strong>TTR (Time to Response)</strong>: Tiempo transcurrido hasta la primera interacción humana efectiva. - <strong>Efectividad del Cierre</strong>: Evaluación de guiones de venta, manejo de objeciones y claridad en la llamada a la acción. - <strong>Fuga de Leads</strong>: Detección de mensajes o comentarios sin respuesta en los últimos 30 días.</p>
+</section>
+<section id="scraping-de-sentimiento-y-demanda-latente" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="scraping-de-sentimiento-y-demanda-latente"><span class="header-section-number">6.3</span> 3. Scraping de Sentimiento y Demanda Latente</h2>
+<p>Uso de herramientas de extracción de datos para mapear la insatisfacción o necesidades no resueltas en la competencia y en el prospecto <span class="citation" data-cites="brightlocal2024">(<a href="#ref-brightlocal2024" role="doc-biblioref">BrightLocal, 2024</a>)</span>. - <strong>Fuente</strong>: Google Maps Reviews y comentarios en Meta Ads de competidores. - <strong>Uso</strong>: Diseño de creatividades que ataquen directamente los puntos de dolor (pain points) identificados en el mercado.</p>
+</section>
+<section id="cronograma-de-validación-relámpago-14-días" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="cronograma-de-validación-relámpago-14-días"><span class="header-section-number">6.4</span> 1. Cronograma de Validación Relámpago (14 Días)</h2>
+<p>Para maximizar la velocidad de aprendizaje y minimizar el gasto, el ciclo de validación se comprime a dos semanas:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 45%">
+<col style="width: 28%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nivel de Servicio</th>
-<th>Fee Gestión</th>
-<th>Pauta Sugerida</th>
-<th>Entregables</th>
+<th>Día</th>
+<th>Fase</th>
+<th>Actividad Crítica</th>
+<th>Entregable</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Básico (Semilla)</strong></td>
-<td>$300 - $450</td>
-<td>$200 - $400</td>
-<td>Ads + Reporte Mensual</td>
+<td><strong>1-2</strong></td>
+<td><strong>Inteligencia (Discovery)</strong></td>
+<td>Ejecución de scrapers y auditoría de misterio (Digital Mystery Shopping).</td>
+<td>Reporte de Brechas Operativas.</td>
 </tr>
 <tr class="even">
-<td><strong>Intermedio (Escala)</strong></td>
-<td>$500 - $850</td>
-<td>$500 - $1,200</td>
-<td>Ads + SEO + Dashboards</td>
+<td><strong>3-5</strong></td>
+<td><strong>Ghost Testing</strong></td>
+<td>Lanzamiento de anuncios fantasma con presupuesto mínimo ($5/día).</td>
+<td>Datos de CTR y CPC real de la categoría.</td>
 </tr>
 <tr class="odd">
-<td><strong>Premium (Elite)</strong></td>
-<td>$1,000+</td>
-<td>$1,500+</td>
-<td>360° + Analítica Predictiva</td>
+<td><strong>7</strong></td>
+<td><strong>Pitch de Resultados</strong></td>
+<td>Presentación de la auditoría y los costos reales al prospecto objetivo.</td>
+<td>Propuesta de Piloto en Vivo.</td>
+</tr>
+<tr class="even">
+<td><strong>8-14</strong></td>
+<td><strong>Piloto Express</strong></td>
+<td>Ejecución de pauta directa en la cuenta del cliente para capturar los primeros 5-10 leads.</td>
+<td>Prueba de ROAS (Proof of Concept).</td>
 </tr>
 </tbody>
 </table>
-</div>
-</figure>
-</div>
 </section>
-<section id="b7" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="b7"><span class="header-section-number">3.7</span> Estructura de Costos</h2>
-<p>La optimización de costos se fundamenta en un modelo de eficiencia operativa que prioriza la flexibilidad y el talento local. El stack tecnológico aprovecha herramientas líderes de la industria como <strong>Meta Business Suite, Google Keyword Planner y Canva Pro</strong>, minimizando el gasto en software mediante soluciones integradas. El rubro de <strong>Ad Spend Propio</strong> se mantiene en un rango controlado de <strong>USD 50-100 mensuales</strong> para la captación de prospectos de alta calidad. Crucialmente, la agencia dinamiza la economía local mediante una <strong>Red de Freelancers Lojanos</strong>, permitiendo una ejecución ágil de servicios de fotografía y diseño gráfico sin los costos fijos de una nómina extensa, garantizando a la vez una infraestructura de conectividad y hosting robusta para la gestión de landing pages de conversión.</p>
+<section id="requerimientos-de-recursos-lean-budget" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="requerimientos-de-recursos-lean-budget"><span class="header-section-number">6.5</span> 2. Requerimientos de Recursos (Lean Budget)</h2>
+<p>La premisa es la <strong>austeridad técnica</strong>: - <strong>Inversión en Pauta (Shadow Phase)</strong>: USD $30 - $50 (suficiente para obtener significancia estadística en CPC). - <strong>Herramientas</strong>: Stack 100% gratuito (GTM, Looker Studio, Python local). - <strong>Tiempo</strong>: 5-8 horas de ejecución técnica total en la primera semana.</p>
 </section>
-<section id="b8" class="level2" data-number="3.8">
-<h2 data-number="3.8" class="anchored" data-anchor-id="b8"><span class="header-section-number">3.8</span> Métricas Clave</h2>
-<p>La viabilidad del modelo se sustenta en la optimización del <strong>Retorno sobre la Inversión Publicitaria (ROAS)</strong>, estableciendo una meta mínima de 4.0x para garantizar la rentabilidad del cliente. El control operativo se complementa con la vigilancia del <strong>Costo de Adquisición de Cliente (CAC)</strong>, el cual debe permanecer por debajo del margen de contribución inicial para evitar el consumo de capital. Finalmente, la tracción en el punto de venta físico se audita mediante la <strong>Tasa de Conversión Drive-to-Store</strong>, monitoreando específicamente el volumen de llamadas y solicitudes de navegación en perfiles locales.</p>
-</section>
-<section id="b9" class="level2" data-number="3.9">
-<h2 data-number="3.9" class="anchored" data-anchor-id="b9"><span class="header-section-number">3.9</span> Ventaja Competitiva</h2>
-<p>La diferenciación estratégica de AMDL se basa en la <strong>Metodología de Control Propietaria</strong>, un marco de trabajo que permite auditar el impacto económico de cada intervención digital con un rigor superior a la oferta creativa convencional. Esta capacidad técnica se traduce en una <strong>Eficiencia de Pauta Local</strong> superior, logrando optimizar presupuestos limitados mediante el dominio de la subasta en el mercado ecuatoriano <span class="citation" data-cites="mentinno2024">(<a href="#ref-mentinno2024" role="doc-biblioref">Mentinno, 2024</a>)</span>. La propuesta culmina con la entrega de <strong>Soberanía de Datos</strong>, proporcionando al cliente dashboards automatizados que eliminan la opacidad informativa y garantizan el control total sobre los activos de inteligencia del negocio.</p>
-<div id="tbl-benchmarks" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-benchmarks-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;5: Benchmarks de Performance Operativa 2026
-</figcaption>
-<div aria-describedby="tbl-benchmarks-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<section id="matriz-de-riesgos-y-mitigación-fmea" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="matriz-de-riesgos-y-mitigación-fmea"><span class="header-section-number">6.6</span> 3. Matriz de Riesgos y Mitigación (FMEA)</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 12%">
+<col style="width: 20%">
+<col style="width: 37%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Métrica</th>
-<th>Benchmark Ecuador</th>
-<th>Meta Saludable AMDL</th>
+<th>Riesgo Identificado</th>
+<th>Impacto</th>
+<th>Probabilidad</th>
+<th>Estrategia de Mitigación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ROAS Promedio</td>
-<td>3.2x - 4.5x</td>
-<td>&gt; 4.0x</td>
+<td><strong>Bajo ROAS Inicial</strong></td>
+<td>Alto</td>
+<td>Media</td>
+<td>Pruebas A/B intensivas de creatividades en las primeras 72 horas.</td>
 </tr>
 <tr class="even">
-<td>CTR (Meta Ads)</td>
-<td>0.9% - 1.8%</td>
-<td>&gt; 1.5%</td>
+<td><strong>Carencia de datos históricos</strong></td>
+<td>Medio</td>
+<td>Alta</td>
+<td>Implementación de AppSheet para captura manual en el establecimiento.</td>
 </tr>
 <tr class="odd">
-<td>CPM (Meta)</td>
-<td>USD 1.50 - 3.50</td>
-<td>&lt; USD 3.00</td>
+<td><strong>Resistencia al esquema variable</strong></td>
+<td>Medio</td>
+<td>Baja</td>
+<td>Validación previa mediante el Shadow Pilot para garantizar resultados.</td>
+</tr>
+<tr class="even">
+<td><strong>Inestabilidad Algorítmica</strong></td>
+<td>Bajo</td>
+<td>Media</td>
+<td>Diversificación estratégica entre Meta Ads y Local SEO en Google.</td>
 </tr>
 </tbody>
 </table>
-</div>
-</figure>
-</div>
+</section>
+<section id="criterios-de-éxito-gono-go" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="criterios-de-éxito-gono-go"><span class="header-section-number">6.7</span> 4. Criterios de Éxito (Go/No-Go)</h2>
+<p>El proyecto procederá a la fase de escalamiento institucional si y solo si se cumplen los siguientes hitos al final de la Semana 4: 1. <strong>ROAS Real &gt; 3.0x</strong> en al menos uno de los canales. 2. <strong>CPA &lt; $10.00</strong> para el sector gastronómico. 3. <strong>Aceptación del Cliente</strong>: Firma de carta de intención o contrato de servicio recurrente.</p>
 </section>
 </section>
-<section id="plan-de-investigación-de-mercado-validación-primaria" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Plan de Investigación de Mercado (Validación Primaria)</h1>
-<p>Para validar el modelo sistémico de <strong>AMDL</strong>, se ha definido una metodología de investigación cualitativa orientada a identificar las barreras estructurales entre la gestión empírica y la adopción de analítica de datos en el sector gastronómico de Loja.</p>
-<section id="objetivos-de-la-investigación" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="objetivos-de-la-investigación"><span class="header-section-number">4.1</span> Objetivos de la Investigación</h2>
+<section id="investigación-primaria-encuesta-de-validación-operativa" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Investigación Primaria: Encuesta de Validación Operativa</h1>
+<p>Como complemento a los benchmarks secundarios, se despliega un instrumento de recolección de datos primarios dirigido a los tomadores de decisiones (dueños de locales) en Loja. El objetivo es validar la <strong>disposición a pagar</strong> y los <strong>puntos de dolor</strong> específicos que el modelo de AMDL busca resolver.</p>
+<section id="diseño-del-instrumento-encuesta" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="diseño-del-instrumento-encuesta"><span class="header-section-number">7.1</span> Diseño del Instrumento (Encuesta)</h2>
+<p>La encuesta se estructura en cuatro bloques críticos:</p>
+<section id="bloque-a-diagnóstico-de-madurez-digital" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="bloque-a-diagnóstico-de-madurez-digital"><span class="header-section-number">7.1.1</span> Bloque A: Diagnóstico de Madurez Digital</h3>
 <ol type="1">
-<li><strong>Identificar Barreras de Adopción</strong>: Evaluar si la baja digitalización responde a brechas de alfabetización digital, resistencia generacional o desconfianza en la oferta de servicios actual.</li>
-<li><strong>Validar la Informalidad en la Gestión</strong>: Determinar si la gestión de contenidos sin indicadores de rendimiento (KPIs) es percibida como una ineficiencia crítica por los propietarios.</li>
-<li><strong>Evaluar Modelos de Monetización</strong>: Testear la aceptación del esquema de <em>Retainer + Success Fee</em> en el contexto económico local.</li>
+<li>¿Actualmente invierte en publicidad digital (Facebook, Instagram, Google)? (Sí/No)</li>
+<li>¿Cómo mide el éxito de su publicidad? (Likes/Comentarios, Ventas Reales, No lo mido).</li>
+<li>¿Cuánto tiempo tarda su equipo en responder un mensaje de un cliente potencial? (&lt;15 min, 1h, &gt;4h, Al día siguiente).</li>
 </ol>
 </section>
-<section id="diseño-de-la-muestra" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="diseño-de-la-muestra"><span class="header-section-number">4.2</span> Diseño de la Muestra</h2>
-<p>Se seleccionarán <strong>5 establecimientos</strong> del sector gastronómico: - Ubicación: Áreas de alta densidad comercial (Centro Histórico y San Sebastián). - Perfil: Negocios de administración familiar con más de 5 años de operación. - Estado Digital: Presencia en plataformas sociales con gestión interna no profesionalizada.</p>
-</section>
-<section id="validación-con-el-operador" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="validación-con-el-operador"><span class="header-section-number">4.3</span> Validación con el Operador</h2>
-<p>El instrumento se ha diseñado como una entrevista semiestructurada, traduciendo los conceptos técnicos de AMDL a un lenguaje cotidiano que permita extraer hallazgos honestos del administrador. En lugar de interrogar sobre métricas de atribución, la investigación busca entender el flujo real de caja y la percepción de control.</p>
-<p>Las interrogantes clave se centran en la <strong>gestión de resultados diarios</strong>, preguntando directamente cómo identifica el propietario de dónde vienen los clientes que llegan al local y si puede vincular ese flujo a una publicación específica. Sobre la <strong>eficiencia operativa</strong>, se indaga en la utilidad percibida de los contenidos actuales: “¿Siente que lo que publica en redes realmente se traduce en mesas llenas o es solo para mantener la página activa?”.</p>
-<p>Para evaluar la <strong>fricción tecnológica</strong>, la entrevista explora los motivos por los cuales no se utilizan sistemas de reserva o control automático, identificando si la barrera es económica, técnica o de tiempo. Finalmente, se testea el <strong>valor de la solución</strong> planteando un escenario de reducción de incertidumbre: “¿Cuánto tiempo o dinero le ahorraría saber con exactitud qué video le trajo más ventas este mes?”.</p>
-</section>
-<section id="cronograma-de-ejecución-fases-de-validación" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="cronograma-de-ejecución-fases-de-validación"><span class="header-section-number">4.4</span> Cronograma de Ejecución (Fases de Validación)</h2>
-<ol type="1">
-<li><strong>Fase I: Diagnóstico y Prospección (Semana 1)</strong>: Identificación de perfiles críticos, reclutamiento de la muestra y establecimiento de protocolos de contacto inicial.</li>
-<li><strong>Fase II: Inmersión y Trabajo de Campo (Semana 2)</strong>: Despliegue de entrevistas semiestructuradas de Customer Discovery en los 5 establecimientos seleccionados.</li>
-<li><strong>Fase III: Síntesis de Inteligencia y Pivotaje (Semana 3)</strong>: Procesamiento de hallazgos cualitativos, auditoría de barreras identificadas y refinamiento del modelo de negocio (Lean Canvas) bajo evidencia empírica.</li>
+<section id="bloque-b-identificación-de-pain-points" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="bloque-b-identificación-de-pain-points"><span class="header-section-number">7.1.2</span> Bloque B: Identificación de Pain Points</h3>
+<ol start="4" type="1">
+<li>¿Cuál es su mayor frustración con el marketing digital? (Es muy caro, no sé cómo funciona, no tengo tiempo, me han fallado agencias antes).</li>
+<li>¿Sabe exactamente cuánto le cuesta conseguir un cliente nuevo (CPA)? (Sí/No).</li>
 </ol>
 </section>
-<section id="justificación-teórica" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="justificación-teórica"><span class="header-section-number">4.5</span> Justificación Teórica</h2>
-<p>Este plan se basa en la metodología de <strong>Customer Discovery</strong> de Steve Blank, priorizando la validación del “encaje problema-solución” antes de cualquier inversión técnica, mitigando los riesgos identificados en la literatura sobre PYMES familiares <span class="citation" data-cites="ahmad2024 casillas2024">(<a href="#ref-ahmad2024" role="doc-biblioref">Ahmad et&nbsp;al., 2024</a>; <a href="#ref-casillas2024" role="doc-biblioref">Casillas et&nbsp;al., 2024</a>)</span>.</p>
-</section>
-</section>
-<section id="producto-mínimo-viable-mvp-arquitectura-del-sistema" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Producto Mínimo Viable (MVP): Arquitectura del Sistema</h1>
-<p>La propuesta de MVP de <strong>AMDL</strong> se fundamenta en la integración sistémica de soluciones tecnológicas existentes (Low-Code/No-Code), diseñadas para mitigar la brecha de visibilidad y atribución con la mínima fricción operativa para el usuario final.</p>
-<section id="definición-del-mvp-sistema-de-control-gastronómico" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="definición-del-mvp-sistema-de-control-gastronómico"><span class="header-section-number">5.1</span> Definición del MVP: “Sistema de Control Gastronómico”</h2>
-<p>La intervención busca validar el impacto económico en un ciclo de <strong>15 días</strong> a través de tres pilares estratégicos:</p>
-<section id="optimización-de-presencia-local" class="level3" data-number="5.1.1">
-<h3 data-number="5.1.1" class="anchored" data-anchor-id="optimización-de-presencia-local"><span class="header-section-number">5.1.1</span> 1. Optimización de Presencia Local</h3>
-<p>El primer pilar estratégico consiste en la configuración avanzada del <strong>Google Business Profile (GBP)</strong>. Esta intervención se justifica por la necesidad de capturar la demanda de alta intención que actualmente es absorbida por la competencia mediante perfiles optimizados. El indicador de éxito principal para esta etapa es el incremento porcentual en las solicitudes de direcciones y llamadas directas registradas en la plataforma <span class="citation" data-cites="shodhvichar2025">(<a href="#ref-shodhvichar2025" role="doc-biblioref">Shankar et&nbsp;al., 2025</a>)</span>.</p>
-</section>
-<section id="motor-de-conversión-directa-the-lead-engine" class="level3" data-number="5.1.2">
-<h3 data-number="5.1.2" class="anchored" data-anchor-id="motor-de-conversión-directa-the-lead-engine"><span class="header-section-number">5.1.2</span> 2. Motor de Conversión Directa (The Lead Engine)</h3>
-<p>Para la generación de flujo de caja inmediato, se despliegan campañas en Meta Ads optimizadas para el tráfico hacia mensajería instantánea. A diferencia del contenido convencional, este motor utiliza catálogos estructurados que permiten la trazabilidad de la demanda por producto, desplazando el enfoque de las métricas de vanidad hacia la generación de leads calificados y tasas de cierre verificables.</p>
-</section>
-<section id="panel-de-soberanía-digital-the-insight-desk" class="level3" data-number="5.1.3">
-<h3 data-number="5.1.3" class="anchored" data-anchor-id="panel-de-soberanía-digital-the-insight-desk"><span class="header-section-number">5.1.3</span> 3. Panel de Soberanía Digital (The Insight Desk)</h3>
-<p>La infraestructura se consolida en un dashboard interactivo en Google Looker Studio. Este panel integra las métricas de GBP y Meta Ads en una interfaz simplificada, eliminando la asimetría de información tradicional. El valor fundamental reside en proporcionar al dueño del negocio soberanía absoluta sobre su información, permitiendo una toma de decisiones basada en el retorno consolidado de la inversión publicitaria.</p>
-</section>
-</section>
-<section id="hoja-de-ruta-de-validación" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="hoja-de-ruta-de-validación"><span class="header-section-number">5.2</span> Hoja de Ruta de Validación</h2>
-<ol type="1">
-<li><strong>Fase I (Día 1-3)</strong>: Auditoría técnica de activos y configuración de protocolos de tracking.</li>
-<li><strong>Fase II (Día 4-10)</strong>: Despliegue de pauta experimental con asignación presupuestaria controlada.</li>
-<li><strong>Fase III (Día 15)</strong>: Análisis de resultados y reporte de ventas atribuibles.</li>
+<section id="bloque-c-validación-de-modelo-de-negocio-amdl" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="bloque-c-validación-de-modelo-de-negocio-amdl"><span class="header-section-number">7.1.3</span> Bloque C: Validación de Modelo de Negocio (AMDL)</h3>
+<ol start="6" type="1">
+<li>¿Estaría dispuesto a pagar a una agencia basándose en <strong>resultados de ventas</strong> en lugar de una cuota fija mensual? (Escala 1-5).</li>
+<li>¿Considera que un reporte en tiempo real de sus ventas atribuidas a la publicidad le daría seguridad para invertir más? (Sí/No).</li>
 </ol>
 </section>
-<section id="vulnerabilidades-sistémicas-y-riesgos-de-ejecución" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="vulnerabilidades-sistémicas-y-riesgos-de-ejecución"><span class="header-section-number">5.3</span> Vulnerabilidades Sistémicas y Riesgos de Ejecución</h2>
-<p>La viabilidad operativa de AMDL enfrenta desafíos críticos que trascienden la infraestructura técnica. La limitación fundamental reside en la <strong>asimetría operativa del cliente</strong>, donde un incremento exitoso en la demanda digital puede colapsar la capacidad de servicio offline, degradando la experiencia de marca y comprometiendo la retención. Asimismo, el sistema es vulnerable a la <strong>fragilidad algorítmica y económica</strong> de plataformas externas; una saturación de la subasta publicitaria por competidores con mayor capital o cambios restrictivos en las políticas de mensajería de Meta podrían invalidar el ROAS proyectado <span class="citation" data-cites="begnini2024 pushparaj2025">(<a href="#ref-begnini2024" role="doc-biblioref">Begnini et&nbsp;al., 2024</a>; <a href="#ref-pushparaj2025" role="doc-biblioref">Pushparaj &amp; Kushwaha, 2025</a>)</span>. Finalmente, la carencia de sistemas de fidelización locales en las PYMES genera un modelo de “atrición silenciosa”, donde el valor se diluye al depender exclusivamente de la captación externa sin una infraestructura de retención sólida, una barrera recurrente en negocios de administración familiar <span class="citation" data-cites="porfirio2024 moreno2024">(<a href="#ref-moreno2024" role="doc-biblioref">Moreno-Menéndez &amp; Casillas, 2024</a>; <a href="#ref-porfirio2024" role="doc-biblioref">Porfírio et&nbsp;al., 2024</a>)</span>.</p>
+</section>
+<section id="resultados-esperados-y-objetivos" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="resultados-esperados-y-objetivos"><span class="header-section-number">7.2</span> Resultados Esperados y Objetivos</h2>
+<p>Mediante esta recolección, AMDL busca confirmar las siguientes hipótesis: - <strong>H1 (Asimetría de Datos)</strong>: Más del 70% de los dueños de locales en Loja no conocen su CPA ni su ROAS real. - <strong>H2 (Fuga de Leads)</strong>: El TTR (Time to Response) promedio supera las 2 horas, validando la necesidad de automatización. - <strong>H3 (Aceptación del Modelo)</strong>: Existe una preferencia significativa por el modelo de pago por resultados frente al modelo tradicional de “fee” fijo.</p>
+</section>
+<section id="validez-y-poder-estadístico" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="validez-y-poder-estadístico"><span class="header-section-number">7.3</span> Validez y Poder Estadístico</h2>
+<p>Para que los resultados de esta encuesta tengan validez institucional y sirvan como prueba de concepto (PoC) para el negocio, se definen los siguientes parámetros:</p>
+<ul>
+<li><strong>Población Objetivo</strong>: Dueños de PYMES en los sectores de Gastronomía, Retail de Moda y Salud en el cantón Loja.</li>
+<li><strong>Tamaño de Muestra Mínimo (<span class="math inline">\(n\)</span>):</strong>
+<ul>
+<li>Para un <strong>estudio piloto</strong> (validación inicial de hipótesis), se requiere un mínimo de <strong><span class="math inline">\(n = 30\)</span> respuestas</strong> para permitir la aplicación del Teorema del Límite Central.</li>
+<li>Para un <strong>poder estadístico riguroso</strong> (Margen de error del 10% y Confianza del 95%), se requiere una muestra de <strong><span class="math inline">\(n = 81\)</span> respuestas</strong>, considerando una población estimada de 500 establecimientos objetivo en Loja.</li>
+<li><strong>Meta Recomendada</strong>: <strong>40-50 respuestas</strong> como punto de equilibrio entre viabilidad operativa y representatividad para un proyecto de innovación.</li>
+</ul></li>
+<li><strong>Técnica de Muestreo</strong>: Muestreo por conveniencia y bola de nieve, aprovechando gremios locales como la Cámara de Comercio de Loja.</li>
+</ul>
 </section>
 </section>
-<section id="referencias" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Referencias</h1>
+<section id="conclusiones-de-la-investigación" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Conclusiones de la Investigación</h1>
+<p>La investigación de mercado confirma una oportunidad estructural en Loja basada en la asimetría de madurez analítica. La viabilidad del proyecto no depende únicamente de la existencia de demanda, sino de la capacidad técnica de la AMDL para demostrar un retorno de inversión (ROAS) superior a los benchmarks nacionales mediante el stack tecnológico propuesto.</p>
+</section>
+<section id="referencias" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Referencias</h1>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-ahmad2024" class="csl-entry" role="listitem">
-Ahmad, Z., AlWadi, B. M., Kumar, H., Ng, B.-K., &amp; Nguyen, D. N. (2024). Digital transformation of family-owned small businesses: a nexus of internet entrepreneurial self-efficacy, artificial intelligence usage and strategic agility. <em>Kybernetes</em>. <a href="https://doi.org/10.1108/K-10-2023-2205">https://doi.org/10.1108/K-10-2023-2205</a>
-</div>
-<div id="ref-begnini2024" class="csl-entry" role="listitem">
-Begnini, S., Oro, I. M., Tonial, G., &amp; Dalbosco, I. B. (2024). The relationship between the use of technologies and digitalization strategies for digital transformation in family businesses. <em>Journal of Family Business Management</em>, <em>14</em>(4), 710-726. <a href="https://doi.org/10.1108/JFBM-06-2023-0087">https://doi.org/10.1108/JFBM-06-2023-0087</a>
+<div id="ref-alvarez2020consultoria" class="csl-entry" role="listitem">
+Álvarez Contreras, D. E., &amp; Jiménez Lyons, K. A. (2020). La consultoría y asesoría: aliada estratégica para el fortalecimiento empresarial de las MIPYMES. <em>Revista Tendencias</em>, <em>21</em>(1), 173-195. <a href="https://doi.org/10.22267/rtend.202101.136">https://doi.org/10.22267/rtend.202101.136</a>
 </div>
 <div id="ref-brightlocal2024" class="csl-entry" role="listitem">
 BrightLocal. (2024). <em>Local Consumer Review Survey 2024: Trends and Statistics</em>. <a href="https://www.brightlocal.com/research/local-consumer-review-survey/">https://www.brightlocal.com/research/local-consumer-review-survey/</a>
 </div>
-<div id="ref-casillas2024" class="csl-entry" role="listitem">
-Casillas, J. C., Alayo, M., Sanchez-Famoso, V., &amp; Campopiano, G. (2024). The Effects of Digital Transformation on Family SMEs Internationalization. <em>Academy of Management Proceedings</em>, <em>2024</em>(1). <a href="https://doi.org/10.5465/AMPROC.2024.16530abstract">https://doi.org/10.5465/AMPROC.2024.16530abstract</a>
-</div>
 <div id="ref-copromerco2024" class="csl-entry" role="listitem">
 COPROMERCO. (2024). <em>Impacto del Marketing Digital en las Empresas Ecuatorianas en 2024</em>. COPROMERCO. <a href="https://www.copromerco.com/publicaciones">https://www.copromerco.com/publicaciones</a>
+</div>
+<div id="ref-maulida2022lean" class="csl-entry" role="listitem">
+<span class="nocase">Maulida, E. et&nbsp;al.</span> (2022). The implementation of lean canvas in startup business. <em>Journal of Applied Management and Business</em>. <a href="https://www.semanticscholar.org/paper/Lean-Canvas-and-the-Business-Model-Canvas-Model-in-Razabillah-Junaedi/867770ead0a809e74e59df8d6f87f13bd12bae0d">https://www.semanticscholar.org/paper/Lean-Canvas-and-the-Business-Model-Canvas-Model-in-Razabillah-Junaedi/867770ead0a809e74e59df8d6f87f13bd12bae0d</a>
 </div>
 <div id="ref-mentinno2024" class="csl-entry" role="listitem">
 Mentinno. (2024). Informe Estado Digital Ecuador 2024: Redes Sociales y Conectividad. <em>Mentinno - Formación y Consultoría</em>. <a href="https://www.mentinno.com/informe-estado-digital-ecuador-2024/">https://www.mentinno.com/informe-estado-digital-ecuador-2024/</a>
@@ -654,23 +551,20 @@ Mentinno. (2024). Informe Estado Digital Ecuador 2024: Redes Sociales y Conectiv
 <div id="ref-mintel2024" class="csl-entry" role="listitem">
 MINTEL / INEC. (2024). <em>Estadísticas de Uso de Tecnologías de Información en Ecuador</em>. <a href="https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/">https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/</a>
 </div>
-<div id="ref-moreno2024" class="csl-entry" role="listitem">
-Moreno-Menéndez, A. M., &amp; Casillas, J. C. (2024). Traditional and digital entrepreneurial ecosystems: a framework of differences and similarities. <em>Journal of Global Entrepreneurship Research</em>, <em>14</em>(1), 35. <a href="https://doi.org/10.1007/s40497-024-00404-5">https://doi.org/10.1007/s40497-024-00404-5</a>
-</div>
 <div id="ref-municipioloja2025" class="csl-entry" role="listitem">
 Municipio de Loja. (2025). <em>Ordenanza No. 0068-2024 para la Transformación Digital del Cantón Loja</em>. <a href="https://www.loja.gob.ec/content/ordenanza-no-0068-2024-ordenanza-para-la-transformacion-digital-en-el-gobierno-autonomo">https://www.loja.gob.ec/content/ordenanza-no-0068-2024-ordenanza-para-la-transformacion-digital-en-el-gobierno-autonomo</a>
 </div>
-<div id="ref-porfirio2024" class="csl-entry" role="listitem">
-Porfírio, J. A. F., Santos, P., &amp; Rodrigues, R. M. (2024). Digital Transformation in Family Businesses: An Analysis of Drivers with fsQCA. <em>Sustainability</em>, <em>16</em>(23), 10326. <a href="https://doi.org/10.3390/su162310326">https://doi.org/10.3390/su162310326</a>
-</div>
-<div id="ref-pushparaj2025" class="csl-entry" role="listitem">
-Pushparaj, P., &amp; Kushwaha, B. P. (2025). Barriers to Digital Transformation of Family Businesses: Developing a Framework Using ISM Approach. <em>The Electronic Journal of Information Systems in Developing Countries</em>, <em>91</em>(6). <a href="https://doi.org/10.1002/isd2.70044">https://doi.org/10.1002/isd2.70044</a>
+<div id="ref-razabillah2023lean" class="csl-entry" role="listitem">
+<span class="nocase">Razabillah, A. F. et&nbsp;al.</span> (2023). Lean Canvas and the Business Model Canvas model in startup. <em>SABDA Journal</em>. <a href="https://doi.org/10.33050/sabda.v2i1.239">https://doi.org/10.33050/sabda.v2i1.239</a>
 </div>
 <div id="ref-shodhvichar2025" class="csl-entry" role="listitem">
 Shankar, P., Nair, R. R., &amp; Sharma, B. (2025). A Study on the Impact of Google Business Profile on Business Success. <em>ShodhVichar: Journal of Media and Mass Communication</em>, <em>1</em>(1), 73-85. <a href="https://doi.org/10.29121/ShodhVichar.v1.i1.2025.55">https://doi.org/10.29121/ShodhVichar.v1.i1.2025.55</a>
 </div>
 <div id="ref-uasb2024loja" class="csl-entry" role="listitem">
 UASB. (2024). <em>Censo de Establecimientos Económicos de Loja: Análisis Sectorial</em>. Universidad Andina Simón Bolívar. <a href="https://uasb.edu.ec/investigacion/observatorios/observatorio-de-la-pyme/">https://uasb.edu.ec/investigacion/observatorios/observatorio-de-la-pyme/</a>
+</div>
+<div id="ref-zamora2024estrategias" class="csl-entry" role="listitem">
+Zamora Montenegro, A. M. (2024). Estrategias de marketing digital para pequeñas y medianas empresas (PYMES). <em>LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades</em>, <em>5</em>(5), 3590-3602. <a href="https://doi.org/10.56712/latam.v5i5.288110">https://doi.org/10.56712/latam.v5i5.288110</a>
 </div>
 </div>
 </section>

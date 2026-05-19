@@ -30,21 +30,21 @@ format:
 
 # Lean Canvas: AMDL
 
-{{< include chapters/00-context.qmd >}}
+{{< include chapters/lean-canvas/00-context.qmd >}}
 
-{{< include chapters/01-canvas-viz.qmd >}}
+{{< include chapters/lean-canvas/01-canvas-viz.qmd >}}
 
-{{< include chapters/02-segments.qmd >}}
+{{< include chapters/lean-canvas/02-segments.qmd >}}
 
-{{< include chapters/03-value-channels.qmd >}}
+{{< include chapters/lean-canvas/03-value-channels.qmd >}}
 
-{{< include chapters/04-revenue-costs.qmd >}}
+{{< include chapters/lean-canvas/04-revenue-costs.qmd >}}
 
-{{< include chapters/05-metrics-advantage.qmd >}}
+{{< include chapters/lean-canvas/05-metrics-advantage.qmd >}}
 
-{{< include chapters/06-research-plan.qmd >}}
+{{< include chapters/lean-canvas/06-research-plan.qmd >}}
 
-{{< include chapters/07-mvp-architecture.qmd >}}
+{{< include chapters/lean-canvas/07-mvp-architecture.qmd >}}
 
 # Referencias
 

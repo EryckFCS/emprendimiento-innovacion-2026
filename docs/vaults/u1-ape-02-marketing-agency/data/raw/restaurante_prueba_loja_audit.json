@@ -1,0 +1,10 @@
+{
+    "client_id": "restaurante_prueba_loja",
+    "timestamp": "2026-05-14T11:32:53.134716",
+    "metrics": {
+        "unanswered_comments": 12,
+        "negative_reviews": 3,
+        "estimated_lead_loss": 186.0
+    },
+    "status": "VALIDATED"
+}

@@ -78,3 +78,16 @@ def test_governance_files():
     required_files = ["AGENTS.md", "pyproject.toml", "uv.lock"]
     for f in required_files:
         assert (REPO_ROOT / f).is_file(), f"Archivo de gobernanza ausente: {f}"
+
+
+def test_main_build_status():
+    """Valida el estado e identidad del nodo."""
+    from main import build_status
+    status = build_status()
+    assert "project_root" in status
+    assert "project_name" in status
+    assert "rag_collection" in status
+    assert "rag_available" in status
+    assert "LEI" in status["project_name"]
+    assert "Innovation" in status["project_name"] or "Innovación" in status["project_name"]
+

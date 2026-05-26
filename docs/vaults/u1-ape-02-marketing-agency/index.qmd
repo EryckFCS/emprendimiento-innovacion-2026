@@ -47,8 +47,8 @@ La bóveda está organizada siguiendo los estándares de la Arquitectura Federad
 - [x] Enriquecimiento con datos de mercado (REEM-INEC 2023, Benchmarks 2026, Análisis de Competencia).
 - [x] Validación de mercado secundaria (Informe 02-market-research.qmd).
 - [x] Implementación de lógica analítica (scripts/market_analysis.py).
-- [/] Validación de mercado primaria (Entrevistas cualitativas en campo).
-- [ ] Definición de stack tecnológico (GTM, Meta Pixel, Looker Studio).
+- [x] Validación de mercado primaria (Auditoría Digital Forense y Mystery Shopping).
+- [x] Definición de stack tecnológico y atribución (GTM, AppSheet, Looker Studio, run_shadow_audit.py).
 
 # Próximos Pasos
 

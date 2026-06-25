@@ -1,0 +1,131 @@
+---
+title: "04 - Estrategia de Comunicación Digital: Caso Planning Solutions"
+subtitle: "Estrategia Orgánica para el Lanzamiento del Curso 'Acelera tu Tesis con IA'"
+author: 
+  - name: "Condoy Seraquive Erick Fabricio"
+  - name: "Japón Yaguachi Kristie Susana"
+  - name: "Vasquez Japón Jefferson Alexander"
+date: "2026-06-04"
+lang: es-ES
+linestretch: 1.0
+university: "UNIVERSIDAD NACIONAL DE LOJA"
+faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
+school: "CARRERA DE ECONOMÍA"
+course: "ECONOMÍA DE LA INNOVACIÓN"
+professor: "Econ. Jose Vicente Ordoñez Yaguache"
+assignment: "Agencia de Marketing Digital Loja (AMDL)"
+submission_date: "2026-06-04"
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+  pdf:
+    pdf-engine: lualatex
+    template: templates/academic_task.tex
+    toc: false
+    number-sections: true
+  docx:
+    toc: true
+    number-sections: true
+---
+
+# Introducción y Objetivos de la Estrategia
+
+El lanzamiento del programa académico **"Acelera tu Tesis con IA"** de la consultora **Planning Solutions S.A.** requiere una estructura de captación de alta conversión y costo cero. El facilitador del curso cuenta con una base inicial de 50 alumnos registrados orgánicamente, lo que valida la existencia de demanda insatisfecha en la comunidad académica.
+
+Esta estrategia de comunicación digital define la captación y conversión orgánica mediante la integración de la metodología de retención y volumen de Devin Jatho (Content Bible) y la ingeniería de ganchos de Víctor Heras (Sales Funnels Orgánicos). El objetivo principal consiste en captar al menos 10 matriculados de pago adicionales en una campaña activa de 5 días.
+
+# El Framework VNB adaptado a Planning Solutions
+
+La tracción orgánica se gestiona bajo el acrónimo **VNB (Valor, Nicho, Broaden/Ampliar)**:
+
+* **Valor:** Acelerar la tesis con IA, R y Quarto.
+* **Nicho:** Estudiantes en proceso de tesis, docentes e investigadores.
+* **Broaden:** Ganchos de productividad y automatización para vencer el algoritmo.
+
+## Valor
+El contenido ofrece herramientas y metodologías aplicables inmediatamente a la redacción y análisis de datos académicos:
+
+* **Acción:** Compartir tutoriales de menos de 45 segundos sobre automatización de normas APA con Quarto, prompts específicos para marcos teóricos con IA, y scripts de análisis de datos rápidos en R.
+* **Principio:** Entregar soluciones prácticas y gratuitas genera confianza en la calidad del programa pagado.
+
+## Nicho
+El público objetivo se delimita en estudiantes de pregrado y posgrado en proceso de tesis, docentes universitarios, e investigadores del Sur del país que necesiten optimizar y automatizar la producción científica.
+
+## Ampliar el Nicho
+Para superar la restricción de alcance del algoritmo de Reels y TikTok, la atracción no se enfoca en terminología compleja de programación, sino en necesidades transversales:
+
+* **Gancho Restringido (Incorrecto):** *"Si necesitas compilar un documento Quarto con el motor LuaLaTeX en tu tesis de economía, mira esto"*. Limita el alcance a un grupo insignificante de usuarios.
+* **Gancho Ampliado (Correcto):** *"Cómo pasar de semanas de trabajo en tu tesis a horas de resultados usando Inteligencia Artificial"*. Apela al deseo universal de ahorrar tiempo y esfuerzo en la redacción de informes y tesis, atrayendo la atención del público ideal.
+
+# Ingeniería de Videos Virales: Ganchos y Retención
+
+El contenido se estructura bajo la ecuación de retención:
+$$\text{Estructura de Video} = \text{Scroll Stopper (0.6s)} + \text{Entrega de Valor (30s)} + \text{Llamada a la Acción (CTA)}$$
+
+## La Regla de los 0.6 Segundos
+Para detener el desplazamiento del usuario en redes sociales, los ganchos deben apelar a la psicología de la frustración o la ganancia de productividad inmediata.
+
+### Gancho Verbal
+1. **Enemigo Común:** *"Deja de perder fines de semana enteros formateando tu tesis a mano"*.
+2. **Brecha de Curiosidad:** *"El truco de Inteligencia Artificial que tu tutor de tesis no conoce para estructurar el marco teórico"*.
+3. **Contracorriente:** *"Por esta razón el 90% de estudiantes que usan ChatGPT para escribir su tesis terminan desaprobados"*.
+
+### Gancho Visual
+El gancho de texto en pantalla (títulos en tipografía grande con colores de alto contraste) es el principal factor de retención. Debe resumir la promesa del video en menos de 5 palabras.
+
+## Estructura de Guiones Académicos
+
+### Guion 1: Enfocado en Productividad y Automatización
+* **Texto en Pantalla (Visual Hook):** "TESIS MÁS RÁPIDA CON IA 🎓⚡"
+* **Audio (Verbal Hook - Segundos 0-3):** *"¿Sigues formateando referencias bibliográficas a mano y perdiendo semanas enteras de trabajo en tu tesis?"*
+* **Desarrollo (Segundos 3-30):** *"Para redactar más rápido no tienes que usar ChatGPT para que escriba por ti. La clave está en automatizar. Con Quarto y R puedes generar tablas estadísticas limpias, gráficos interactivos y referencias en APA de forma automática y sin errores de formato. Trabaja de manera inteligente, no más duro."*
+* **Llamada a la Acción/CTA (Segundos 30-40):** *"Este lunes iniciamos el curso práctico 'Acelera tu Tesis con IA'. Comenta la palabra TESIS y te enviamos el enlace del grupo exclusivo de WhatsApp para obtener nuestra guía gratuita de inicio."*
+
+### Guion 2: Enfocado en Análisis de Datos con R
+* **Texto en Pantalla (Visual Hook):** "DOMINA DATOS EN TU TESIS 📈💻"
+* **Audio (Verbal Hook - Segundos 0-3):** *"El mayor error al hacer el análisis de datos de tu tesis es usar Excel y rezar para que los cálculos no se dañen al final."*
+* **Desarrollo (Segundos 3-30):** *"Aprender R no es solo para programadores. Con solo 3 líneas de código puedes hacer análisis estadísticos complejos y visualizaciones con calidad de publicación científica en Quarto. Tu tesis pasará de verse amateur a nivel profesional en minutos."*
+* **Llamada a la Acción/CTA (Segundos 30-40):** *"¿Quieres aprender el paso a paso? Únete a nuestro grupo exclusivo de WhatsApp con el link de la biografía. Cupos limitados con precio preferencial."*
+
+# Optimización de Video SEO (Caption SEO)
+
+La descripción en redes sociales se organiza en tres bloques para optimizar el posicionamiento algorítmico:
+
+## 1. Gancho de Subtítulo (Caption Hook)
+Una línea de menos de 30 caracteres que resuma el beneficio principal con emojis.
+* *Ejemplo:* *"Termina tu tesis más rápido con IA 🤖🎓"*
+
+## 2. Resumen de Palabras Clave (SEO Summary)
+Un párrafo de 4 a 5 líneas con redacción fluida que incorpore los términos de búsqueda clave de la audiencia:
+* *Ejemplo:* *"Si deseas herramientas de Inteligencia Artificial para acelerar la redacción de tu tesis o reporte de investigación, este contenido es para ti. Aprende a dominar el análisis de datos con R y Quarto para automatizar referencias bibliográficas y la visualización de resultados académicos de nivel profesional en Ecuador."*
+
+## 3. Selección de Hashtags
+* *Nicho:* `#TesisConIA` `#AnalisisDeDatos`
+* *Audiencia:* `#EstudiantesDePosgrado` `#InvestigacionCientifica`
+* *Entorno:* `#Quarto` `#Loja`
+
+# El Embudo de Conversión
+
+El flujo de captación redirige el tráfico social hacia un canal de cierre de baja fricción en WhatsApp:
+
+1. **Atracción:** Videos cortos (Reels, TikToks, Shorts) optimizados con ganchos amplios de tesis e inteligencia artificial.
+2. **Interacción:** El usuario responde al llamado a la acción comentando la palabra clave "TESIS".
+3. **Automatización:** Envío automatizado del enlace de acceso directo al grupo cerrado de nutrición en WhatsApp.
+4. **Nutrición:** Entrega inmediata del incentivo (Guía Gratuita) junto al temario detallado y el cronograma del curso.
+5. **Cierre:** Campaña de escasez y urgencia 48 horas antes del inicio de la primera clase síncrona.
+
+## Protocolo de Conversión en WhatsApp
+1. **Entrega de Incentivo:** Al ingresar al grupo, el usuario recibe automáticamente la "Guía Gratuita para Avanzar tu Tesis con IA" y el temario del curso en PDF.
+2. **Apalancamiento de Prueba Social:** Informar sobre el volumen de alumnos inscritos (50 alumnos iniciales) para activar el efecto de arrastre o bandwagon.
+3. **Estructura de Tarifas y Cierre:**
+   * **Público General:** USD $50
+   * **Docentes Universitarios:** USD $40
+   * **Estudiantes Universitarios:** USD $30
+   * **Duración:** 40 horas (20 horas síncronas vía Zoom + 20 horas asíncronas).
+   * **Estrategia de Cierre:** Comunicar urgencia mediante el cierre de inscripciones y la limitación de cupos preferenciales 48 horas antes de la primera sesión síncrona.
+
+# Conclusión 
+
+Esta estrategia orgánica de comunicación digital para **AMDL** valida la viabilidad del piloto **Planning Solutions S.A.** mediante el posicionamiento de una propuesta de alto valor pragmático para el sector académico. Al enfocar los ganchos de contenido en soluciones directas y dirigir el tráfico hacia un canal interactivo, la conversión se optimiza sin requerir presupuesto de pauta publicitaria.

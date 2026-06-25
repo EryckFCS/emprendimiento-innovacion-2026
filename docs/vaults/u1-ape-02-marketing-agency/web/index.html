@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMDL | Agencia de Marketing Digital & Performance Loja</title>
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-accent">AMDL</span> <span class="logo-tag">Performance Partner</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#calculadora">Calculadora ROI</a>
+                <a href="#contacto" class="btn-nav">Auditoría Gratis</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <span class="badge">Performance & Growth Partner</span>
+            <h1>Dejamos de adivinar. <br><span class="text-gradient">Multiplicamos tus ventas</span> con datos.</h1>
+            <p>Ayudamos a restaurantes, locales de retail y empresas en Loja a diseñar embudos de alta conversión, optimizar presupuestos publicitarios y medir el retorno real de cada centavo invertido.</p>
+            <div class="hero-actions">
+                <a href="#contacto" class="btn-primary">Solicitar Auditoría Forense Gratis</a>
+                <a href="#calculadora" class="btn-secondary">Calcular mi ROI Estimado</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats / Social Proof Strip -->
+    <section class="stats-strip">
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-num">+25%</span>
+                <span class="stat-label">Eficiencia en Ad Spend</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Trazabilidad de Ventas</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">3x</span>
+                <span class="stat-label">Retorno Promedio (ROAS)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios de Performance</h2>
+                <p>Estructuras modulares diseñadas para eliminar ineficiencias y acelerar el crecimiento comercial.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Auditoría de Embudos</h3>
+                    <p>Evaluación técnica profunda de tus activos digitales actuales para identificar fugas críticas de tráfico y optimizar tu tasa de conversión (CRO).</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Performance Ads</h3>
+                    <p>Campañas de Meta Ads y Google Ads hiper-geolocalizadas en Loja orientadas a conversión real (leads y ventas) con atribución de origen clara.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>SEO Local & Google Maps</h3>
+                    <p>Posicionamiento estratégico en el Local Pack de Google para capturar la demanda local de alta intención que hoy se lleva tu competencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculadora Interactiva de ROI (WOW factor) -->
+    <section id="calculadora" class="calculator-section">
+        <div class="calculator-glow"></div>
+        <div class="container">
+            <div class="calculator-grid">
+                <div class="calc-info">
+                    <span class="badge-purple">Simulador de Negocio</span>
+                    <h2>Calcula tu Retorno de Inversión Publicitaria</h2>
+                    <p>Ajusta el presupuesto publicitario mensual proyectado y el ticket promedio de tu negocio para estimar los ingresos incrementales utilizando los benchmarks estándar de conversión de AMDL.</p>
+                    <div class="benchmark-note">
+                        <strong>Nota Técnica:</strong> La simulación utiliza una tasa de conversión conservadora del 2.5% y un Costo por Clic (CPC) estimado de USD 0.15 para el mercado de Loja.
+                    </div>
+                </div>
+                <div class="calc-card">
+                    <div class="control-group">
+                        <label for="budget">Presupuesto Publicitario Mensual (USD):</label>
+                        <div class="slider-val-container">
+                            <input type="range" id="budget" min="100" max="2000" step="50" value="300">
+                            <span id="budget-val" class="slider-display">$300</span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label for="ticket">Ticket Promedio del Cliente (USD):</label>
+                        <div class="slider-val-container">
+                            <input type="range" id="ticket" min="5" max="150" step="5" value="25">
+                            <span id="ticket-val" class="slider-display">$25</span>
+                        </div>
+                    </div>
+                    <hr class="calc-divider">
+                    <div class="results-container">
+                        <div class="result-item">
+                            <span class="result-label">Ventas Adicionales</span>
+                            <span id="res-ventas" class="result-number">50</span>
+                        </div>
+                        <div class="result-item highlight">
+                            <span class="result-label">Ingreso Estimado</span>
+                            <span id="res-ingresos" class="result-number font-gradient">$1,250</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">ROAS Proyectado</span>
+                            <span id="res-roas" class="result-number font-green">4.17x</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Test de Humo / Formulario de Validación de Lead -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-header">
+                    <h2>Solicita tu Auditoría de Conversión Sin Costo</h2>
+                    <p>Analizaremos tus activos digitales actuales y te daremos 3 recomendaciones accionables para duplicar tus prospectos. Solo 5 cupos libres esta semana.</p>
+                </div>
+                <form id="smoke-test-form" class="smoke-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Tu Nombre y Apellido *</label>
+                            <input type="text" id="name" required placeholder="Ej. Carlos Valdivieso">
+                        </div>
+                        <div class="form-group">
+                            <label for="business">Nombre de tu Empresa / Negocio *</label>
+                            <input type="text" id="business" required placeholder="Ej. Restaurante Sabores Lojanos">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp de Contacto *</label>
+                            <input type="tel" id="whatsapp" required placeholder="Ej. +593 98 765 4321">
+                        </div>
+                        <div class="form-group">
+                            <label for="niche">Categoría del Negocio *</label>
+                            <select id="niche" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="gastronomia">Gastronomía & Restaurantes</option>
+                                <option value="retail">Retail, Ropa & Calzado</option>
+                                <option value="servicios">Servicios Profesionales</option>
+                                <option value="otros">Otros Sectores</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">¿Cuál es tu mayor problema actual en canales digitales?</label>
+                        <textarea id="message" rows="3" placeholder="Ej. Gasto en publicidad en Facebook pero no sé si me trae clientes reales..."></textarea>
+                    </div>
+                    <button type="submit" id="btn-submit" class="btn-submit-premium">Reservar Auditoría Forense Gratuita</button>
+                </form>
+                <!-- Mensaje de éxito interactivo -->
+                <div id="success-message" class="success-box hidden">
+                    <div class="success-icon">✓</div>
+                    <h3>¡Auditoría Solicitada Exitosamente!</h3>
+                    <p>Hemos registrado tu solicitud para <strong><span id="success-business"></span></strong>. Nos pondremos en contacto contigo por WhatsApp en menos de 24 horas laborables para coordinar los accesos de análisis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 AMDL - Agencia de Marketing Digital y Performance Loja. Todos los derechos reservados.</p>
+            <p class="footer-sub">Validación Experimental - Proyecto de Innovación y Economía Digital - UNL</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

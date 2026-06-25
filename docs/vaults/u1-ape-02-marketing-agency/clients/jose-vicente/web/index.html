@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econ. José Vicente | Curso Avanzado: Financiamiento de Proyectos</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-accent">JV</span> <span class="logo-tag">Consultoría & Academia</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#programa">Programa</a>
+                <a href="#calculadora">Simulador Viabilidad</a>
+                <a href="#registro" class="btn-nav">Acceso Gratis</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <span class="badge">Curso de Alta Especialización</span>
+            <h1>Asegura Financiamiento para <br><span class="text-gradient">Proyectos de Desarrollo</span> en Ecuador.</h1>
+            <p>Aprende el paso a paso metodológico y financiero para estructurar proyectos financiables por el Banco de Desarrollo (BDE) y organismos internacionales, sin morir en la burocracia estatal.</p>
+            <div class="hero-actions">
+                <a href="#registro" class="btn-primary">Reservar Mi Cupo al Curso - $50</a>
+                <a href="#calculadora" class="btn-secondary">Simular Viabilidad de Mi Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Strips -->
+    <section class="stats-strip">
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-num">40+</span>
+                <span class="stat-label">Profesionales Activos</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Enfoque Práctico (WhatsApp)</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">10 min</span>
+                <span class="stat-label">Estructura Ágil Diaria</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programa / Lo que aprenderás -->
+    <section id="programa" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Qué Aprenderás en el Curso?</h2>
+                <p>Estructuras y marcos reales utilizados para levantar fondos y viabilizar obras públicas y privadas.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏗️</div>
+                    <h3>Estructuración de Viabilidad</h3>
+                    <p>Diseño de estudios de impacto, análisis socioeconómico y cumplimiento técnico de los lineamientos de los organismos de control.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💵</div>
+                    <h3>Finanzas y Subsidios</h3>
+                    <p>Cálculo de la tasa de descuento social y estructuración de planes financieros combinando fondos propios, créditos y subsidios no reembolsables.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Gestión de Aprobaciones</h3>
+                    <p>Ruta forense paso a paso para agilizar trámites y aprobaciones ante el BDE y Ministerios sectoriales ecuatorianos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculadora / Simulador de Viabilidad del Proyecto (WOW factor para el docente) -->
+    <section id="calculadora" class="calculator-section">
+        <div class="calculator-glow"></div>
+        <div class="container">
+            <div class="calculator-grid">
+                <div class="calc-info">
+                    <span class="badge-purple">Simulador de Financiamiento BDE</span>
+                    <h2>Estima el Subsidio de tu Proyecto</h2>
+                    <p>Ajusta el presupuesto total estimado de la obra o proyecto de desarrollo y la tasa promedio de subsidio no reembolsable del cantón para proyectar los fondos que puedes asegurar.</p>
+                    <div class="benchmark-note">
+                        <strong>Nota Técnica:</strong> La simulación asume un margen de subsidio no reembolsable del Banco de Desarrollo del Ecuador de entre el 20% y el 80% basado en el índice de necesidades básicas insatisfechas (NBI) del cantón.
+                    </div>
+                </div>
+                <div class="calc-card">
+                    <div class="control-group">
+                        <label for="project-amount">Monto del Proyecto (USD):</label>
+                        <div class="slider-val-container">
+                            <input type="range" id="project-amount" min="10000" max="500000" step="10000" value="100000">
+                            <span id="amount-val" class="slider-display">$100,000</span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label for="subsidy-rate">Subsidio No Reembolsable Estimado (%):</label>
+                        <div class="slider-val-container">
+                            <input type="range" id="subsidy-rate" min="20" max="80" step="5" value="40">
+                            <span id="rate-val" class="slider-display">40%</span>
+                        </div>
+                    </div>
+                    <hr class="calc-divider">
+                    <div class="results-container">
+                        <div class="result-item">
+                            <span class="result-label">Crédito Requerido</span>
+                            <span id="res-credito" class="result-number">$60,000</span>
+                        </div>
+                        <div class="result-item highlight">
+                            <span class="result-label">Subsidio Asegurable</span>
+                            <span id="res-subsidio" class="result-number font-gradient">$40,000</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">Viabilidad Estimada</span>
+                            <span id="res-viabilidad" class="result-number font-green">ALTA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registro / Test de Humo -->
+    <section id="registro" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-header">
+                    <h2>Únete a la Próxima Cohorte del Curso</h2>
+                    <p>Asegura tu cupo en el curso avanzado por solo <strong>$50 USD</strong>. Incluye acceso directo al grupo de WhatsApp y plantillas financieras listas.</p>
+                </div>
+                <form id="course-form" class="smoke-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nombre y Apellido *</label>
+                            <input type="text" id="name" required placeholder="Ej. Carlos Valdivieso">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" required placeholder="Ej. carlos@municipio.gob.ec">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp de Contacto *</label>
+                            <input type="tel" id="whatsapp" required placeholder="Ej. +593 98 765 4321">
+                        </div>
+                        <div class="form-group">
+                            <label for="sector">Tu Sector de Trabajo *</label>
+                            <select id="sector" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="municipal">Gobierno Municipal / Parroquial</option>
+                                <option value="consultor">Consultor Independiente</option>
+                                <option value="privado">Constructor / Desarrollador Privado</option>
+                                <option value="estudiante">Estudiante / Investigador</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" id="btn-submit" class="btn-submit-premium">Inscribirme al Curso - $50 (Pagar / Reservar)</button>
+                </form>
+                <!-- Mensaje de éxito -->
+                <div id="success-message" class="success-box hidden">
+                    <div class="success-icon">✓</div>
+                    <h3>¡Registro Exitoso al Curso!</h3>
+                    <p>Hemos registrado tu pre-inscripción para el curso avanzado del <strong>Econ. José Vicente</strong>. Te hemos enviado un link directo por WhatsApp para acceder al grupo exclusivo de alumnos.</p>
+                    <a href="https://wa.me/593984152630" target="_blank" class="btn-primary" style="display:inline-block; margin-top:20px;">Entrar al Grupo de WhatsApp Directo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Econ. José Vicente Ordóñez Yaguache - Consultoría & Academia. Todos los derechos reservados.</p>
+            <p class="footer-sub">Infraestructura y Validación Digital por AMDL (Agencia de Marketing Digital y Performance)</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

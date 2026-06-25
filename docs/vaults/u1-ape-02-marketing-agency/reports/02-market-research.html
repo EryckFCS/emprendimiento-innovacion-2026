@@ -26,27 +26,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="02-market-research_files/libs/clipboard/clipboard.min.js"></script>
@@ -59,37 +39,8 @@ div.csl-indent {
 <link href="02-market-research_files/libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="02-market-research_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="02-market-research_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="02-market-research_files/libs/bootstrap/bootstrap-82eb534dec9bfe2a4eab6d39a11731cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="02-market-research_files/libs/bootstrap/bootstrap-7329417f89d8fb1c211c67ff2edbb061.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -101,13 +52,12 @@ window.Quarto = {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#justificación-metodológica-superioridad-de-la-validación-fantasma-sobre-la-encuesta-tradicional" id="toc-justificación-metodológica-superioridad-de-la-validación-fantasma-sobre-la-encuesta-tradicional" class="nav-link active" data-scroll-target="#justificación-metodológica-superioridad-de-la-validación-fantasma-sobre-la-encuesta-tradicional"><span class="header-section-number">1</span> Justificación Metodológica: Superioridad de la Validación Fantasma sobre la Encuesta Tradicional</a></li>
-  <li><a href="#metodología-y-diseño-de-la-auditoría-digital-forense" id="toc-metodología-y-diseño-de-la-auditoría-digital-forense" class="nav-link" data-scroll-target="#metodología-y-diseño-de-la-auditoría-digital-forense"><span class="header-section-number">2</span> Metodología y Diseño de la Auditoría Digital Forense</a></li>
-  <li><a href="#resultados-y-análisis-cuantitativo-de-la-auditoría-en-loja" id="toc-resultados-y-análisis-cuantitativo-de-la-auditoría-en-loja" class="nav-link" data-scroll-target="#resultados-y-análisis-cuantitativo-de-la-auditoría-en-loja"><span class="header-section-number">3</span> Resultados y Análisis Cuantitativo de la Auditoría en Loja</a>
-  <ul class="collapse">
-  <li><a href="#visualizaciones-de-impacto-operativo" id="toc-visualizaciones-de-impacto-operativo" class="nav-link" data-scroll-target="#visualizaciones-de-impacto-operativo"><span class="header-section-number">3.0.1</span> Visualizaciones de Impacto Operativo</a></li>
-  </ul></li>
-  <li><a href="#hallazgos-clave-e-implicaciones-de-innovación" id="toc-hallazgos-clave-e-implicaciones-de-innovación" class="nav-link" data-scroll-target="#hallazgos-clave-e-implicaciones-de-innovación"><span class="header-section-number">4</span> Hallazgos Clave e Implicaciones de Innovación</a></li>
+  <li><a href="#justificación-metodológica" id="toc-justificación-metodológica" class="nav-link active" data-scroll-target="#justificación-metodológica"><span class="header-section-number">1</span> Justificación Metodológica</a></li>
+  <li><a href="#diagnóstico-de-canales-digitales-de-planning-solutions" id="toc-diagnóstico-de-canales-digitales-de-planning-solutions" class="nav-link" data-scroll-target="#diagnóstico-de-canales-digitales-de-planning-solutions"><span class="header-section-number">2</span> Diagnóstico de Canales Digitales de Planning Solutions</a></li>
+  <li><a href="#propuesta-de-validación-práctica-de-la-agencia-amdl" id="toc-propuesta-de-validación-práctica-de-la-agencia-amdl" class="nav-link" data-scroll-target="#propuesta-de-validación-práctica-de-la-agencia-amdl"><span class="header-section-number">3</span> Propuesta de Validación Práctica de la Agencia AMDL</a></li>
+  <li><a href="#plan-de-acción-y-cronograma-de-ejecución" id="toc-plan-de-acción-y-cronograma-de-ejecución" class="nav-link" data-scroll-target="#plan-de-acción-y-cronograma-de-ejecución"><span class="header-section-number">4</span> Plan de Acción y Cronograma de Ejecución</a></li>
+  <li><a href="#conclusión-de-la-validación-de-servicios" id="toc-conclusión-de-la-validación-de-servicios" class="nav-link" data-scroll-target="#conclusión-de-la-validación-de-servicios"><span class="header-section-number">5</span> Conclusión de la Validación de Servicios</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="02-market-research.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -126,7 +76,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">02 - Investigación de Mercado: AMDL</h1>
-<p class="subtitle lead">Validación de Mercado Secundaria y Estrategia de Ejecución</p>
+<p class="subtitle lead">Validación de Mercado Secundaria y Estrategia de Ejecución: Caso Planning Solutions</p>
 </div>
 
 
@@ -157,77 +107,98 @@ window.Quarto = {
 </header>
 
 
-<section id="justificación-metodológica-superioridad-de-la-validación-fantasma-sobre-la-encuesta-tradicional" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Justificación Metodológica: Superioridad de la Validación Fantasma sobre la Encuesta Tradicional</h1>
-<p>La validación de mercado primaria mediante encuestas tradicionales adolece de limitaciones estructurales que invalidan su rigor analítico en el contexto de pequeñas empresas locales. En primer lugar, existe un marcado sesgo de deseabilidad social y de carácter declarativo, donde los propietarios tienden a sobreestimar su madurez analítica o a declarar intenciones de pago hipotéticas que luego no se sostienen ante ofertas comerciales reales, distorsionando así la demanda efectiva <span class="citation" data-cites="maulida2022lean">(<a href="#ref-maulida2022lean" role="doc-biblioref"><span class="nocase">Maulida et&nbsp;al.</span>, 2022</a>)</span>. A esto se suma una asimetría cognitiva en el plano tecnológico: un tomador de decisiones sin formación técnica en optimización web o modelos de atribución no posee la capacidad de diagnosticar de manera objetiva sus necesidades reales de digitalización. Finalmente, el elevado costo operativo y la baja tasa de respuesta en el sector —que promedia menos del 10%— induce un sesgo de no respuesta y autoselección sistemático, capturando únicamente las perspectivas de los locales más digitalizados o con tiempo libre para responder <span class="citation" data-cites="brightlocal2024">(<a href="#ref-brightlocal2024" role="doc-biblioref">BrightLocal, 2024</a>)</span>.</p>
-<p>La Auditoría Digital Forense y Mystery Shopping (Shadow Validation) neutraliza estas patologías mediante la recolección de datos observacionales y no invasivos de comportamiento en canales públicos de interacción real. Medimos la fricción del mercado de manera directa, recopilando evidencia empírica irrefutable sobre la pérdida diaria de facturación derivada de ineficiencias operacionales, sin requerir acceso inmediato a las credenciales o al tiempo de los propietarios.</p>
+<section id="justificación-metodológica" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Justificación Metodológica</h1>
+<p>La investigación de mercado para este proyecto evita el uso de encuestas tradicionales. En su lugar, se centra en un diagnóstico directo de los canales digitales de la empresa piloto. Esto permite conocer el estado real de la presencia en internet y de los puntos de contacto con los interesados, asegurando datos objetivos sobre la atención y el flujo de los usuarios antes de iniciar cualquier campaña.</p>
 </section>
-<section id="metodología-y-diseño-de-la-auditoría-digital-forense" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Metodología y Diseño de la Auditoría Digital Forense</h1>
-<p>El diseño experimental evalúa la eficiencia de la operación digital en una muestra de 5 marcas gastronómicas representativas de la ciudad de Loja: Carbonero, 200 Millas, La Estancia, Café Indera y Pizzería La Mía. La evaluación se estructura sobre cuatro indicadores métricos no paramétricos. El primero es la optimización de SEO Local (<span class="math inline">\(SEO_i\)</span>), que mide el grado de completitud del perfil de Google Business Profile, incluyendo la verificación del local, exactitud de geolocalización, horarios reales y presencia de enlaces directos a menús o reservas. El segundo es el Reviews Leak (<span class="math inline">\(RL_i\)</span>), que calcula la proporción de opiniones registradas en Google Maps durante los últimos 30 días que no recibieron ninguna interacción de respuesta por parte del propietario. El tercero corresponde al Instagram Lead Leak (<span class="math inline">\(ILL_i\)</span>), definido como el porcentaje de comentarios transaccionales de alta intención en publicaciones recientes sin respuesta humana o automatizada, reflejando el grado de asimetría analítica reportado en economías de innovación local <span class="citation" data-cites="mintel2024 mentinno2024">(<a href="#ref-mentinno2024" role="doc-biblioref">Mentinno, 2024</a>; <a href="#ref-mintel2024" role="doc-biblioref">MINTEL / INEC, 2024</a>)</span>. El cuarto indicador registra la latencia de respuesta o Mystery Shopping Time to Response (<span class="math inline">\(TTR_i\)</span>), que mide el tiempo en minutos transcurrido desde el envío de una cotización simulada hasta recibir respuesta humana en horas laborables, todo bajo el marco favorable de fomento tecnológico establecido en la ordenanza de transformación digital local <span class="citation" data-cites="municipioloja2025">(<a href="#ref-municipioloja2025" role="doc-biblioref">Municipio de Loja, 2025</a>)</span>. Este último indicador se normaliza asignando un valor máximo de ineficiencia del 100% a demoras superiores a 240 minutos (4 horas):</p>
-<p><span id="eq-ttr"><span class="math display">\[\text{Ineficiencia TTR}_i = \min\left(100, \frac{TTR_i}{240} \times 100\right) \tag{1}\]</span></span></p>
-<p>El Índice de Ineficiencia Digital (DII) de cada establecimiento sintetiza las debilidades operativas mediante el promedio simple de sus deficiencias en las cuatro dimensiones evaluadas:</p>
-<p><span id="eq-dii"><span class="math display">\[DII_i = \frac{(100 - SEO_i) + RL_i + ILL_i + \text{Ineficiencia TTR}_i}{4} \tag{2}\]</span></span></p>
-<p>Para demostrar el costo financiero de esta ineficiencia digital, calculamos la facturación mensual que el negocio pierde directamente al ignorar clientes potenciales en canales sociales mediante la ecuación de pérdida mensual de ingresos:</p>
-<p><span id="eq-fuga"><span class="math display">\[\text{Fuga Financiera Mensual (USD)}_i = U_i \times CR \times (T_p \times G_p) \tag{3}\]</span></span></p>
-<p>En la fórmula anterior, el término <span class="math inline">\(U_i\)</span> representa el volumen absoluto mensual de leads de alta intención que quedaron sin responder en los canales sociales. La tasa de conversión (<span class="math inline">\(CR\)</span>) se parametriza en un 30% como estándar conservador para contactos directos calificados. El ticket promedio de consumo per cápita (<span class="math inline">\(T_p\)</span>) se establece en USD $15.50 basado en los benchmarks de performance y pauta publicitaria reportados en la región <span class="citation" data-cites="copromerco2024 zamora2024estrategias">(<a href="#ref-copromerco2024" role="doc-biblioref">COPROMERCO, 2024</a>; <a href="#ref-zamora2024estrategias" role="doc-biblioref">Zamora Montenegro, 2024</a>)</span>, mientras que el tamaño promedio de grupo por mesa (<span class="math inline">\(G_p\)</span>) se calibra en 3.0 personas. De este modo, el producto <span class="math inline">\(T_p \times G_p\)</span> determina el valor del consumo promedio por mesa o pedido perdido, equivalente a USD $46.50, bajo el modelo clásico de monetización y consultoría adaptada para pequeños comercios <span class="citation" data-cites="alvarez2020consultoria">(<a href="#ref-alvarez2020consultoria" role="doc-biblioref">Álvarez Contreras &amp; Jiménez Lyons, 2020</a>)</span>.</p>
+<section id="diagnóstico-de-canales-digitales-de-planning-solutions" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Diagnóstico de Canales Digitales de Planning Solutions</h1>
+<p>El diagnóstico inicial de la consultora Planning Solutions revela las siguientes condiciones de partida:</p>
+<ul>
+<li><strong>Punto de Partida:</strong> La consultora cuenta con una base de 50 personas inscritas de manera orgánica gracias al reconocimiento del docente. Esto demuestra una demanda activa y alta confianza en la capacitación antes de realizar cualquier cambio en los canales.</li>
+<li><strong>Sitio Web oficial:</strong> El sitio web http://planningsolutionec.com/ presenta la oferta del curso de proyectos de inversión, pero carece de sistemas para captar interesados o medir de dónde vienen las visitas.</li>
+<li><strong>Página de Facebook:</strong> La cuenta oficial https://www.facebook.com/profile.php?id=61590320282371 cuenta con apenas 3 seguidores y se encuentra en estado inactivo, sin publicaciones recientes ni estrategias de atracción de interesados.</li>
+<li><strong>Instagram y TikTok:</strong> Estos canales no registran actividad, seguidores ni enlaces que conecten a los usuarios con la inscripción del curso.</li>
+</ul>
 </section>
-<section id="resultados-y-análisis-cuantitativo-de-la-auditoría-en-loja" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Resultados y Análisis Cuantitativo de la Auditoría en Loja</h1>
-<p>El análisis de la información recolectada revela ineficiencias críticas y asimetrías severas entre la capacidad del restaurante para atraer interés y su capacidad para canalizar el retorno financiero, en una densidad de mercado estimada en 2,190 establecimientos gastronómicos activos en el cantón <span class="citation" data-cites="uasb2024loja">(<a href="#ref-uasb2024loja" role="doc-biblioref">UASB, 2024</a>)</span>.</p>
-<p><em>Nota: El DII se calcula como el promedio de las cuatro dimensiones de ineficiencia. La fuga financiera mensual se estima asumiendo una tasa de conversión (CR) del 30% sobre el volumen absoluto mensual de leads desatendidos, un ticket promedio de USD $15.50 por persona y una mesa promedio de 3 personas (USD $46.50 por mesa perdida).</em></p>
-<section id="visualizaciones-de-impacto-operativo" class="level3" data-number="3.0.1">
-<h3 data-number="3.0.1" class="anchored" data-anchor-id="visualizaciones-de-impacto-operativo"><span class="header-section-number">3.0.1</span> Visualizaciones de Impacto Operativo</h3>
-<p>Las figuras 1 y 2 muestran la distribución del Índice de Ineficiencia Digital y el volumen monetario mensual que cada restaurante pierde activamente:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/shadow_audit_dii.png" class="img-fluid figure-img" style="width:75.0%"></p>
-<figcaption>Figura 1: Índice de Ineficiencia Digital (DII) por Local</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/shadow_audit_financial.png" class="img-fluid figure-img" style="width:75.0%"></p>
-<figcaption>Figura 2: Fuga de Facturación Mensual Estimada en USD</figcaption>
-</figure>
-</div>
+<section id="propuesta-de-validación-práctica-de-la-agencia-amdl" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Propuesta de Validación Práctica de la Agencia AMDL</h1>
+<p>Para demostrar la efectividad de la agencia y validar el mercado, se implementará una estrategia de atracción orgánica estructurada en los siguientes puntos:</p>
+<ol type="1">
+<li><strong>Atracción de Interesados:</strong> Utilizar las cuentas previamente creadas por la agencia para seguir activamente a perfiles y cuentas de estudiantes de la comunidad universitaria local.</li>
+<li><strong>Estrategia de Contenido Orgánico:</strong> Publicar carousels informativos y videos cortos en redes sociales antes del inicio del curso, aprovechando el material de valor y las piezas gráficas que ya están listas.</li>
+<li><strong>Embudo de Conversión:</strong> Dirigir a los usuarios que interactúan con las publicaciones hacia un grupo de WhatsApp para brindar atención personalizada y realizar el cierre de la inscripción.</li>
+<li><strong>Métrica de Éxito y Validación:</strong> Lograr el registro de al menos 5 nuevos clientes de pago durante el periodo de validación utilizando únicamente el alcance orgánico y la mejora en la atención de los canales.</li>
+</ol>
 </section>
+<section id="plan-de-acción-y-cronograma-de-ejecución" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Plan de Acción y Cronograma de Ejecución</h1>
+<p>Dado que el curso práctico se dictará del 08 al 19 de junio de 2026, se establece el siguiente cronograma de trabajo para los días previos al inicio del evento:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fecha</th>
+<th>Día</th>
+<th>Fase</th>
+<th>Actividad Clave</th>
+<th>Objetivo de Conversión</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>04 de junio</strong></td>
+<td>Jueves</td>
+<td>Ajuste de Perfiles</td>
+<td>Configurar enlaces directos al grupo de WhatsApp en el perfil de Facebook e Instagram.</td>
+<td>Facilitar el acceso inmediato al canal de cierre de ventas.</td>
+</tr>
+<tr class="even">
+<td><strong>05 de junio</strong></td>
+<td>Viernes</td>
+<td>Lanzamiento Orgánico</td>
+<td>Publicar los primeros carousels y videos con las tarifas diferenciadas de 50 dólares para público general, 40 dólares para docentes y 30 dólares para estudiantes universitarios.</td>
+<td>Generar los primeros clics e ingresos de interesados al grupo de WhatsApp.</td>
+</tr>
+<tr class="odd">
+<td><strong>06 de junio</strong></td>
+<td>Sábado</td>
+<td>Difusión Académica</td>
+<td>Seguir a cuentas de estudiantes universitarios locales desde los perfiles de la agencia para visibilizar la oferta formativa y el temario del curso.</td>
+<td>Capturar la atención del público objetivo de estudiantes y profesionales jóvenes.</td>
+</tr>
+<tr class="even">
+<td><strong>07 de junio</strong></td>
+<td>Domingo</td>
+<td>Urgencia y Escasez</td>
+<td>Publicar estados e historias sobre los últimos cupos y el próximo inicio de la capacitación.</td>
+<td>Incentivar el registro rápido de los indecisos en el grupo de mensajería.</td>
+</tr>
+<tr class="odd">
+<td><strong>08 de junio</strong></td>
+<td>Lunes</td>
+<td>Cierre e Inicio</td>
+<td>Asistir a los interesados en el grupo de WhatsApp para realizar los pagos y registrar a los nuevos matriculados antes del inicio del curso a las 20h00.</td>
+<td>Lograr el registro de al menos 5 nuevos alumnos de pago y evaluar la efectividad.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="hallazgos-clave-e-implicaciones-de-innovación" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Hallazgos Clave e Implicaciones de Innovación</h1>
-<p>El primer hallazgo crítico radica en la latencia de respuesta, donde el tiempo promedio para una atención humana efectiva alcanza los 120.0 minutos (2 horas). En el sector gastronómico de consumo inmediato, esta demora supera holgadamente la ventana de decisión de compra del cliente, provocando una pérdida definitiva del pedido a favor de competidores con menor fricción de respuesta en sus canales. En términos agregados, la ineficiencia digital combinada de los 5 establecimientos analizados acumula una fuga conjunta de USD $3,236.40 mensuales en facturación no concretada. Esta pérdida real demuestra la viabilidad comercial de la propuesta de AMDL, evidenciando que el mercado local ya posee demanda activa en canales digitales y que el crecimiento comercial depende del cierre técnico de fugas operacionales, no de la creación de audiencias desde cero. Finalmente, el análisis individual identifica a Pizzería La Mía como el prospecto de más alta prioridad en Loja, al registrar la mayor fuga financiera con USD $1,185.75 perdidos al mes y un Índice de Ineficiencia Digital (DII) del 77.50%. Este establecimiento representa el candidato idóneo para el despliegue piloto del paquete “Performance Pilot”, facilitando el proceso de venta técnica mediante la presentación directa del costo financiero real de su ineficiencia actual.</p>
+<section id="conclusión-de-la-validación-de-servicios" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Conclusión de la Validación de Servicios</h1>
+<p>Es fundamental aclarar que este ejercicio de validación busca comprobar la viabilidad comercial y operativa de nuestra agencia de marketing, y no el modelo de negocio de la consultora de capacitación. En el sector de servicios B2B, una agencia de marketing se valida demostrando que su metodología de embudos y optimización de canales puede captar clientes y generar ingresos reales para un tercero. A diferencia del sector gastronómico o comercial, donde validaríamos el negocio vendiendo directamente comida o productos físicos para medir la aceptación de nuestra propia marca, en una agencia de servicios la validación requiere obligatoriamente implementar y medir la tracción sobre la oferta de un cliente piloto para generar el primer caso de éxito que demuestre nuestro valor de entrega en el mercado.</p>
+</section>
+<section id="referencias" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+</section>
 
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-alvarez2020consultoria" class="csl-entry" role="listitem">
-Álvarez Contreras, D. E., &amp; Jiménez Lyons, K. A. (2020). La consultoría y asesoría: aliada estratégica para el fortalecimiento empresarial de las MIPYMES. <em>Revista Tendencias</em>, <em>21</em>(1), 173-195. <a href="https://doi.org/10.22267/rtend.202101.136">https://doi.org/10.22267/rtend.202101.136</a>
-</div>
-<div id="ref-brightlocal2024" class="csl-entry" role="listitem">
-BrightLocal. (2024). <em>Local Consumer Review Survey 2024: Trends and Statistics</em>. <a href="https://www.brightlocal.com/research/local-consumer-review-survey/">https://www.brightlocal.com/research/local-consumer-review-survey/</a>
-</div>
-<div id="ref-copromerco2024" class="csl-entry" role="listitem">
-COPROMERCO. (2024). <em>Impacto del Marketing Digital en las Empresas Ecuatorianas en 2024</em>. COPROMERCO. <a href="https://www.copromerco.com/publicaciones">https://www.copromerco.com/publicaciones</a>
-</div>
-<div id="ref-maulida2022lean" class="csl-entry" role="listitem">
-<span class="nocase">Maulida, E. et&nbsp;al.</span> (2022). The implementation of lean canvas in startup business. <em>Journal of Applied Management and Business</em>. <a href="https://www.semanticscholar.org/paper/Lean-Canvas-and-the-Business-Model-Canvas-Model-in-Razabillah-Junaedi/867770ead0a809e74e59df8d6f87f13bd12bae0d">https://www.semanticscholar.org/paper/Lean-Canvas-and-the-Business-Model-Canvas-Model-in-Razabillah-Junaedi/867770ead0a809e74e59df8d6f87f13bd12bae0d</a>
-</div>
-<div id="ref-mentinno2024" class="csl-entry" role="listitem">
-Mentinno. (2024). Informe Estado Digital Ecuador 2024: Redes Sociales y Conectividad. <em>Mentinno - Formación y Consultoría</em>. <a href="https://www.mentinno.com/informe-estado-digital-ecuador-2024/">https://www.mentinno.com/informe-estado-digital-ecuador-2024/</a>
-</div>
-<div id="ref-mintel2024" class="csl-entry" role="listitem">
-MINTEL / INEC. (2024). <em>Estadísticas de Uso de Tecnologías de Información en Ecuador</em>. <a href="https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/">https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/</a>
-</div>
-<div id="ref-municipioloja2025" class="csl-entry" role="listitem">
-Municipio de Loja. (2025). <em>Ordenanza No. 0068-2024 para la Transformación Digital del Cantón Loja</em>. <a href="https://www.loja.gob.ec/content/ordenanza-no-0068-2024-ordenanza-para-la-transformacion-digital-en-el-gobierno-autonomo">https://www.loja.gob.ec/content/ordenanza-no-0068-2024-ordenanza-para-la-transformacion-digital-en-el-gobierno-autonomo</a>
-</div>
-<div id="ref-uasb2024loja" class="csl-entry" role="listitem">
-UASB. (2024). <em>Censo de Establecimientos Económicos de Loja: Análisis Sectorial</em>. Universidad Andina Simón Bolívar. <a href="https://uasb.edu.ec/investigacion/observatorios/observatorio-de-la-pyme/">https://uasb.edu.ec/investigacion/observatorios/observatorio-de-la-pyme/</a>
-</div>
-<div id="ref-zamora2024estrategias" class="csl-entry" role="listitem">
-Zamora Montenegro, A. M. (2024). Estrategias de marketing digital para pequeñas y medianas empresas (PYMES). <em>LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades</em>, <em>5</em>(5), 3590-3602. <a href="https://doi.org/10.56712/latam.v5i5.288110">https://doi.org/10.56712/latam.v5i5.288110</a>
-</div>
-</div></section></div></main>
+</main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

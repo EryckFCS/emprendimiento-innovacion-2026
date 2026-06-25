@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Carlos Valdivieso",
+        "business": "Restaurante Sabores Lojanos",
+        "whatsapp": "+593984152630",
+        "niche": "gastronomia",
+        "message": "Invierto USD 150 al mes en Meta Ads pero no sé si me trae clientes reales o es gasto en vano.",
+        "timestamp": "2026-05-31T01:15:34-05:00"
+    },
+    {
+        "name": "María José Espinoza",
+        "business": "Boutique Elegancia Loja",
+        "whatsapp": "+593992857410",
+        "niche": "retail",
+        "message": "Quiero posicionarme en Google Maps porque las franquicias grandes me están quitando todos los clientes de calzado.",
+        "timestamp": "2026-05-31T01:15:36-05:00"
+    },
+    {
+        "name": "Dr. Fernando Riofrío",
+        "business": "Consultorio Dental OdontoSana",
+        "whatsapp": "+593981049285",
+        "niche": "servicios",
+        "message": "Tengo una página de Facebook inactiva, necesito un sistema automático que agende citas directo por WhatsApp.",
+        "timestamp": "2026-05-31T01:15:38-05:00"
+    },
+    {
+        "name": "Jefferson Alexander",
+        "business": "Cafetería Aroma de Altura",
+        "whatsapp": "+593991857204",
+        "niche": "gastronomia",
+        "message": "Subo Reels y TikToks todas las semanas pero no sé cómo convertirlos en mesas llenas en el local.",
+        "timestamp": "2026-05-31T01:15:40-05:00"
+    },
+    {
+        "name": "Kristie Susana",
+        "business": "Zapatería CalzaModa Loja",
+        "whatsapp": "+593984719205",
+        "niche": "retail",
+        "message": "Quiero medir el costo por lead y el ROAS real de mis campañas de pauta en Loja.",
+        "timestamp": "2026-05-31T01:15:41-05:00"
+    }
+]

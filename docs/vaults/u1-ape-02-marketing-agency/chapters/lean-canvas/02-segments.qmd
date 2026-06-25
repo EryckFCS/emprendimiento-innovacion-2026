@@ -101,6 +101,6 @@ El perfil del adoptante temprano (*early adopter*) se identifica en los **suceso
 
 *   **Perfil**: Propietario de establecimiento de alimentos y bebidas en el área consolidada de Loja (45-55 años). 
 *   **Punto de Dolor**: Percepción de la inversión publicitaria como un costo hundido sin trazabilidad de ingresos.
-*   **Motivación**: Sostenibilidad competitiva ante la expansión de franquicias nacionales en el mercado local.
+*   **Motivación**: Resiliencia competitiva ante la expansión de franquicias nacionales en el mercado local.
 *   **Barrera**: Escepticismo hacia servicios creativos carentes de métricas de rentabilidad directa.
 *   **Solución AMDL**: Implementación de tableros de control (Dashboards) que vinculen el gasto publicitario con el volumen de ventas proyectado.

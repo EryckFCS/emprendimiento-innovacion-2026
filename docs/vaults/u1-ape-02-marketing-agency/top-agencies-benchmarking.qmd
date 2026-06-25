@@ -1,0 +1,120 @@
+---
+title: "Benchmarking de Competidores: Top Agencias de Marketing"
+subtitle: "Ecosistema Global, Regional (LATAM) y Nacional (Ecuador)"
+author: 
+  - name: "Condoy Seraquive Erick Fabricio"
+  - name: "Japón Yaguachi Kristie Susana"
+  - name: "Vasquez Japón Jefferson Alexander"
+date: "2026-05-31"
+lang: es-ES
+university: "UNIVERSIDAD NACIONAL DE LOJA"
+faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
+school: "CARRERA DE ECONOMÍA"
+course: "ECONOMÍA DE LA INNOVACIÓN"
+professor: "Econ. Jose Vicente Ordoñez Yaguache"
+assignment: "Agencia de Marketing Digital Loja (AMDL)"
+submission_date: "2026-05-31"
+format:
+  pdf:
+    pdf-engine: lualatex
+    template: templates/academic_task.tex
+  html:
+    toc: true
+---
+
+# Propósito del Benchmarking Competitivo
+
+Para validar el posicionamiento estratégico de **AMDL**, se realiza un análisis comparativo formal de los líderes del mercado de agencias de marketing en tres niveles estructurales: Global, Regional (Latinoamérica) y Nacional (Ecuador). El objetivo es identificar sus ventajas competitivas, sus modelos de monetización y las brechas operativas que AMDL puede explotar en el mercado del sur del país.
+
+---
+
+# 1. Top 5 Agencias de Marketing a Nivel Global
+
+Estas corporaciones lideran el mercado mundial a través de adquisiciones, infraestructuras tecnológicas globales y servicios integrales para multinacionales.
+
+1.  **WPP PLC (Reino Unido / Global)**
+    *   *Descripción:* El conglomerado de agencias más grande del mundo (incluye Ogilvy, VML y GroupM).
+    *   *Ventaja Clave:* Red internacional masiva y acceso preferente a datos agregados de consumo global.
+2.  **Omnicom Group (EE.UU.)**
+    *   *Descripción:* Holding global líder en comunicación de marca y pauta publicitaria (incluye BBDO y DDB).
+    *   *Ventaja Clave:* Foco extremo en creatividad publicitaria galardonada.
+3.  **Publicis Groupe (Francia)**
+    *   *Descripción:* Gigante francés pionero en la fusión de tecnología y marketing (incluye Leo Burnett y Publicis Sapient).
+    *   *Ventaja Clave:* Ecosistema unificado de datos mediante su plataforma *Epsilon*.
+4.  **NP Digital (EE.UU.)**
+    *   *Descripción:* Agencia especializada en marketing de performance y optimización orgánica (SEO) fundada por Neil Patel.
+    *   *Ventaja Clave:* Liderazgo absoluto en SEO local y marketing de contenidos basado en datos cuantitativos.
+5.  **Jellyfish (Reino Unido / Global)**
+    *   *Descripción:* Empresa global socia premium de marketing de Google, enfocada en la transformación y analítica digital.
+    *   *Ventaja Clave:* Integración de primer nivel con Google Cloud y Google Ads de nivel corporativo.
+
+---
+
+# 2. Top 5 Agencias de Marketing en Latinoamérica (LATAM)
+
+Líderes regionales especializados en adaptar tecnología global a los contextos culturales de América Latina.
+
+1.  **Media.Monks (Región LATAM)**
+    *   *Descripción:* Agencia digital de última generación con oficinas clave en México, Brasil, Argentina y Colombia.
+    *   *Ventaja Clave:* Producción de contenido interactivo hiper-avanzado y uso intensivo de Inteligencia Artificial.
+2.  **Punto Rojo (Argentina / Regional)**
+    *   *Descripción:* La agencia boutique de SEO más laureada y reconocida de Latinoamérica, con operaciones en toda la región (incluido Ecuador).
+    *   *Ventaja Clave:* Especialización y autoridad técnica indiscutible en SEO orgánico.
+3.  **Sherlock Communications (Brasil / Regional)**
+    *   *Descripción:* Agencia líder en relaciones públicas y marketing digital enfocada en conectar marcas globales con el mercado latinoamericano.
+    *   *Ventaja Clave:* Estrategia de crecimiento orgánico y relaciones públicas altamente localizada.
+4.  **FLUVIP (Colombia / Regional)**
+    *   *Descripción:* Compañía pionera y líder en la automatización del marketing de influencers a nivel regional.
+    *   *Ventaja Clave:* Plataforma propietaria de analítica para medir el retorno de pauta con creadores de contenido.
+5.  **Boundify (México / Regional)**
+    *   *Descripción:* Agencia de performance marketing de rápido crecimiento enfocada en la integración de HubSpot CRM y embudos B2B.
+    *   *Ventaja Clave:* Enfoque estricto en la alineación de equipos de marketing y ventas mediante analítica.
+
+---
+
+# 3. Top 5 Agencias de Marketing en Ecuador
+
+Empresas líderes en el mercado ecuatoriano, especializadas en el ecosistema de consumo y digitalización local.
+
+1.  **Norlop JWT (Guayaquil / Quito)**
+    *   *Descripción:* La agencia histórica y de mayor tradición publicitaria en Ecuador, asociada a la red internacional WPP.
+    *   *Ventaja Clave:* Gran posicionamiento de marca tradicional y manejo de las cuentas corporativas más grandes del país.
+2.  **Grupo EcuaLink (Guayaquil / Nacional)**
+    *   *Descripción:* Agencia especializada en SEO, optimización web y pauta digital de alta eficiencia técnica.
+    *   *Ventaja Clave:* Pioneros del SEO local en el mercado nacional con alta tracción técnica.
+3.  **Paradais DDB (Guayaquil)**
+    *   *Descripción:* Agencia creativa independiente multi-premiada internacionalmente por su alta innovación en campañas.
+    *   *Ventaja Clave:* Estrategia de marca de alto impacto creativo y viralidad orgánica.
+4.  **Synergia MKT Digital (Quito / Nacional)**
+    *   *Descripción:* Referente nacional en performance, redes sociales y generación de prospectos calificados (leads) para empresas medianas.
+    *   *Ventaja Clave:* Estructuración de embudos de pauta eficientes y orientados a resultados medibles.
+5.  **Hello Media (Quito)**
+    *   *Descripción:* Agencia digital de rápido crecimiento enfocada en el uso de IA y automatización para el growth marketing de marcas nacionales.
+    *   *Ventaja Clave:* Incorporación temprana de herramientas de automatización y analítica técnica en sus retenedores.
+
+---
+
+# Matriz Maestra de Inteligencia Competitiva
+
+A continuación, se detalla la matriz comparativa de las agencias de referencia en el ecosistema actual, sirviendo de base analítica para definir las ventajas operativas y comerciales de AMDL.
+
+| Agencia & Sitio Web | Nivel | Propuesta de Valor Única (UVP) | Mercado Objetivo | Estrategia de Crecimiento | Canales & Publicidad Clave |
+|---|---|---|---|---|---|
+| [WPP PLC](https://www.wpp.com) | Global | Transformación creativa global integrada basada en redes multinacionales masivas. | Corporaciones del Fortune 500 y marcas globales. | Adquisiciones y economías de escala de grandes agencias. | Branding masivo, relaciones públicas y pauta corporativa a gran escala. |
+| [Omnicom Group](https://www.omnicomgroup.com) | Global | Creatividad publicitaria disruptiva y de impacto emocional galardonada. | Marcas de consumo masivo internacionales. | Redes creativas altamente competitivas y descentralizadas (DDB/BBDO). | Pauta televisiva, digital masiva y campañas integradas 360°. |
+| [Publicis Groupe](https://www.publicisgroupe.com) | Global | Integración de creatividad profunda con ciencia y análisis de datos a escala. | Corporaciones globales de retail, consumo y salud. | Plataforma unificada de datos propietarios (Epsilon) y tecnología propia. | Compra programática avanzada de pauta y analítica predictiva. |
+| [NP Digital](https://npdigital.com) | Global | Optimización orgánica y performance de marketing basada en datos cuantitativos limpios. | PYMEs medianas y corporativos en expansión rápida. | Creación intensiva de herramientas SEO propietarias (Ubersuggest) y contenido técnico. | SEO avanzado, Inbound Marketing y Google Ads de alta precisión. |
+| [Jellyfish](https://www.jellyfish.com) | Global | Transformación digital pura y analítica optimizada a nivel de Google Cloud. | Empresas medianas premium y corporativos tecnológicos. | Alianza estratégica directa y co-marketing como partner global de Google. | Pauta técnica en buscadores (SEM), analítica web y Google Cloud. |
+| [Media.Monks](https://media.monks.com) | LATAM | Producción de contenido dinámico interactivo, metaverso y uso masivo de IA. | Marcas tecnológicas, de consumo y marcas personales de alto impacto. | Producción de contenido hiper-ágil digital en una única estructura integrada. | Redes sociales de video interactivo, experiencias virtuales y performance dinámico. |
+| [Punto Rojo](https://puntorojo.agency) | LATAM | Posicionamiento de búsqueda inorgánico técnico de la más alta autoridad digital. | Empresas medianas-grandes en crecimiento y e-commerce. | Educación en SEO intensiva a través de comunidades, academias y eventos de nicho. | SEO orgánico puro, marketing de contenidos B2B y eventos digitales. |
+| [Sherlock Communications](https://www.sherlockcomms.com) | LATAM | Relaciones públicas efectivas con insights locales en mercados emergentes. | Empresas transnacionales que ingresan a América Latina. | Campañas de prensa local combinadas con crecimiento digital orgánico. | Relaciones públicas digitales, Link Building y SEO localizado. |
+| [FLUVIP](https://www.fluvip.com) | LATAM | Marketing de influencers automatizado, medible y orientado a ROI real. | Marcas de consumo masivo, retail y moda regionales. | Plataforma tecnológica (AdTech) propietaria para intermediar campañas de creadores. | Marketing de influencers (TikTok/IG), pauta amplificada de creadores. |
+| [Boundify](https://www.boundify.io) | LATAM | Growth marketing industrial B2B mediante la integración de CRM y performance. | Empresas de servicios y corporativos medianos B2B. | Implementación especializada de HubSpot y automatización de marketing. | Google Ads, LinkedIn Ads, Inbound Marketing y CRM. |
+| [Norlop JWT](https://www.norlopjwt.com.ec) | Ecuador | Construcción de marca corporativa ecuatoriana con trayectoria e historia. | Corporaciones nacionales y grandes marcas tradicionales del país. | Retenedores integrales de marca, relaciones públicas y pauta tradicional. | Televisión, radio, prensa física, y pauta digital a gran escala. |
+| [Grupo EcuaLink](https://www.ecualink.com.ec) | Ecuador | Posicionamiento web local técnico sin costos publicitarios permanentes. | PYMEs y empresas medianas con foco en el mercado ecuatoriano. | Demostración de resultados a largo plazo de SEO e indexación web local. | SEO local, optimización de velocidad de carga y desarrollo web técnico. |
+| [Paradais DDB](https://www.paradais.ec) | Ecuador | Ideas creativas inusuales y disruptivas que generan tracción orgánica. | Empresas de consumo de consumo rápido y marcas retadoras locales. | Campañas creativas independientes ganadoras de premios de marketing. | Redes sociales (IG/TikTok), marketing viral y pauta digital. |
+| [Synergia MKT Digital](https://www.synergia.ec) | Ecuador | Captación predecible de clientes potenciales (leads) de forma recurrente. | Empresas medianas locales, bienes raíces, retail y automotriz. | Retenedores modulares mensuales de generación de prospectos con reportes. | Meta Ads (Facebook/Instagram), Google Search y landing pages. |
+| [Hello Media](https://www.hellomediaec.com) | Ecuador | Optimización de pauta y embudos impulsada por automatización e IA. | PYMEs de rápido crecimiento y marcas emergentes nacionales. | Crecimiento ágil basado en optimización diaria y uso de herramientas inteligentes. | Google Ads de performance, ManyChat y Meta Ads. |
+
+: Matriz Maestra de Inteligencia Competitiva de Agencias {#tbl-matrix-master}
+

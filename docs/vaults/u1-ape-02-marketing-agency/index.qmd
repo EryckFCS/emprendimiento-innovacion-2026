@@ -34,6 +34,8 @@ La bóveda está organizada siguiendo los estándares de la Arquitectura Federad
 - `01-lean-canvas.qmd`: Borrador inicial del modelo de negocio (Lean Canvas).
 - `02-market-research.qmd`: Validación de mercado secundaria y estrategia de ejecución.
 - `03-propuesta-validacion.qmd`: Estrategia de validación de la agencia con el piloto Planning Solutions.
+- `04-estrategia-comunicacion.qmd`: Estrategia de comunicación digital orgánica (Caso Planning Solutions).
+- `05-marketing-crm-ventas.qmd`: Estrategia de marketing para emprendedores, CRM y túneles de venta.
 - `survey-instrument.qmd`: Herramienta de recolección de datos primarios (encuesta).
 - `assets/`: Recursos visuales, figuras y tablas generadas.
 
@@ -51,6 +53,8 @@ La bóveda está organizada siguiendo los estándares de la Arquitectura Federad
 - [x] Implementación de lógica analítica (scripts/market_analysis.py).
 - [x] Validación de mercado primaria (Auditoría Digital Forense y Mystery Shopping).
 - [x] Definición de stack tecnológico y atribución (GTM, AppSheet, Looker Studio, run_shadow_audit.py).
+- [x] Diseño e implementación de la Estrategia de Comunicación Digital (04-estrategia-comunicacion.qmd).
+- [x] Elaboración del marco estratégico de CRM y Túneles de Venta (05-marketing-crm-ventas.qmd).
 
 # Próximos Pasos
 

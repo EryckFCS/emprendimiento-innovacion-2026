@@ -1,0 +1,143 @@
+---
+title: "05 - Marketing para Emprendedores, CRM y Túneles de Venta"
+subtitle: "Estrategias de Conversión y Gestión de Clientes: Caso de Venta de Cursos"
+author: 
+  - name: "Condoy Seraquive Erick Fabricio"
+date: "2026-07-13"
+lang: es-ES
+linestretch: 1.1
+university: "UNIVERSIDAD NACIONAL DE LOJA"
+faculty: "FACULTAD JURÍDICA, SOCIAL Y ADMINISTRATIVA"
+school: "CARRERA DE ECONOMÍA"
+course: "ECONOMÍA DE LA INNOVACIÓN"
+professor: "Econ. Jose Vicente Ordoñez Yaguache"
+assignment: "Agencia de Marketing Digital Loja (AMDL)"
+submission_date: "2026-07-13"
+format:
+  pdf:
+    pdf-engine: lualatex
+    template: templates/academic_task.tex
+    toc: false
+    number-sections: true
+    keep-tex: false
+---
+
+# Introducción
+
+El éxito comercial de la oferta de infoproductos y cursos especializados depende de la estructuración de un sistema sistematizado de atracción, nutrición y cierre de ventas. Para el programa académico enfocado en el ahorro de tiempo en investigación científica, la conversión no requiere presupuestos elevados de pauta publicitaria, sino la optimización de canales orgánicos y una interacción directa en la última milla del túnel de ventas.
+
+Planning & Solutions es un emprendimiento orientado a ofrecer capacitación, asesoría académica y acompañamiento en procesos de investigación. Su propuesta busca apoyar principalmente a estudiantes universitarios, egresados, tesistas, docentes e investigadores que requieren fortalecer sus conocimientos en herramientas digitales, inteligencia artificial, análisis de datos, R y Quarto.
+
+Este informe documenta la estrategia de captación y el flujo de conversión del curso, detallando la creación de la cuenta comercial en TikTok, la identificación de clientes potenciales, la estructuración del embudo de ventas y el uso de una hoja de cálculo como sistema básico de gestión de relaciones con clientes (CRM).
+
+# El Túnel de Ventas para el Lanzamiento de Cursos
+
+El embudo se estructura en cuatro etapas secuenciales diseñadas para transformar tráfico frío en estudiantes matriculados:
+
+```
+[Tráfico Orgánico: TikTok, Reels, Shorts]
+                   |
+                   v
+[TOFU: Atracción y entrega de Lead Magnet]
+                   |
+                   v
+[MOFU: Nutrición en el grupo de WhatsApp]
+                   |
+                   v
+[BOFU: Prospección, Llamadas y Cierre]
+```
+
+## Creación de la Cuenta Comercial en TikTok
+La primera actividad consistió en crear la cuenta comercial de TikTok denominada `@mindcode28`, con la finalidad de establecer la presencia digital del emprendimiento. Esta plataforma fue seleccionada debido a que permite publicar contenido visual ágil, interactuar con posibles clientes de forma orgánica, enviar mensajes directos y promocionar los servicios ofrecidos.
+
+La propuesta de valor se orienta a facilitar el desarrollo de trabajos académicos mediante herramientas tecnológicas y metodológicas. Por ello, el contenido de la cuenta aborda temas como inteligencia artificial aplicada a la investigación, manejo de programas estadísticos, redacción académica, elaboración de tesis y análisis de datos.
+
+## Construcción de la Comunidad Digital
+Después de crear la cuenta, se inició el proceso de construcción de una comunidad digital. En esta fase inicial, el emprendimiento busca aumentar su visibilidad, relacionarse con otras cuentas y captar personas que puedan tener interés en los productos o servicios.
+
+Entre las cuentas interactuantes se identificaron perfiles de estudiantes, profesionales, emprendimientos y colectivos académicos de Loja y el resto del país. Esta diversidad permitió consolidar la base de datos de leads potenciales.
+
+# Identificación de Clientes Potenciales y Registro CRM
+
+Un lead es un usuario que podría convertirse en cliente debido a que ha tenido algún tipo de contacto con el emprendimiento. En este caso, los perfiles con interacción en la cuenta de TikTok `@mindcode28` fueron considerados como la base inicial de leads. A partir de los perfiles identificados se construyó la base de datos del CRM, registrando el nombre de usuario, estado, observación de interés y acción comercial a realizar.
+
+\begingroup
+\singlespacing
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{0.75}
+
+| N° | Usuario TikTok | Estado | Observación | Acción siguiente |
+|:---:|:---|:---|:---|:---|
+| 1 | educageeks_ec | Interesado | Solicitó información detallada sobre el contenido y la modalidad del curso. | Enviar brochure y temario |
+| 2 | jose_dmaldo | Dudoso | Le interesa, pero aún no decide por falta de tiempo disponible. | Hacer seguimiento en 3 días |
+| 3 | tiffy_275 | No interesado | Indicó que por el momento no requiere servicios de capacitación. | Cerrar contacto |
+| 4 | juanfernandez27 | Interesado | Mostró interés y preguntó por el precio y las formas de pago. | Enviar precios y medios de pago |
+| 5 | christoferludena | Dudoso | Mostró interés, aunque considera que el precio podría limitar su inscripción. | Informar descuentos disponibles |
+| 6 | camila_anabelb | No responde | Se envió un mensaje inicial, pero no se obtuvo respuesta. | Reintentar en 3 días |
+| 7 | cristhianroman2028 | Interesado | Indicó que el curso puede ayudarle en su proyecto de investigación. | Enviar guía de inscripción |
+| 8 | sabi_js20 | Dudoso | Solicitó información, pero debe revisar primero sus horarios académicos. | Contactar la próxima semana |
+| 9 | johnni2023 | No interesado | Mencionó que la temática no se relaciona con sus necesidades actuales. | Cerrar contacto |
+| 10 | jefofaican | Interesado | Pidió conocer las fechas, horarios y duración de las sesiones. | Confirmar cronograma |
+| 11 | luluordinola_209 | Dudoso | Le parece útil, aunque necesita consultarlo antes de confirmar. | Enviar resumen y dar seguimiento |
+| 12 | beckhamrios11 | No responde | El mensaje fue enviado y permanece sin respuesta. | Realizar un último seguimiento |
+| 13 | rodrigueslonny | Interesado | Manifestó interés en aprender herramientas de IA aplicadas a la investigación. | Enviar caso práctico |
+| 14 | guissellan | Dudoso | Tiene interés, pero prefiere esperar a la siguiente cohorte. | Registrar para próxima cohorte |
+| 15 | jhon_japon_ | No interesado | Señaló que ya concluyó su trabajo de investigación. | Cerrar contacto |
+| 16 | elisabethtanya | Interesado | Solicitó información para compartirla con compañeros interesados. | Enviar material informativo |
+| 17 | ladyalvarez4 | Dudoso | Mencionó que actualmente tiene una alta carga de trabajo. | Recontactar en 7 días |
+| 18 | andrea18pavon | No responde | No respondió al primer contacto realizado por TikTok. | Reenviar mensaje breve |
+| 19 | manuelalejandrop... | Interesado | Le interesó el acompañamiento académico ofrecido por la plataforma. | Agendar llamada breve |
+| 20 | blancaestelamend... | Dudoso | Le interesa la temática, pero no está seguro de necesitar todos los módulos. | Explicar módulos y beneficios |
+| 21 | galletas.75 | No interesado | Manifestó que no está interesado en cursos virtuales. | Cerrar contacto |
+| 22 | el.elian.29 | Interesado | Consultó si se entrega certificado al finalizar la capacitación. | Confirmar certificación |
+| 23 | zahid_armijos | Dudoso | Pidió más información antes de tomar una decisión. | Enviar preguntas frecuentes |
+| 24 | cocaldu4.20 | No responde | Se intentó establecer contacto, pero no hubo interacción. | Revisar en 5 días |
+| 25 | _emil.gm | Interesado | Mostró disposición para participar y pidió el enlace de matrícula. | Enviar enlace de matrícula |
+| 26 | thae_lia0 | Dudoso | Considera la propuesta interesante, aunque todavía compara otras opciones. | Destacar propuesta de valor |
+| 27 | dm3_e_ | No interesado | Indicó que actualmente no desea recibir información comercial. | Cerrar contacto |
+| 28 | anthonny_conza2 | Interesado | Solicitó una demostración de los contenidos antes de decidir. | Invitar a clase demostrativa |
+| 29 | maicol_rojas_andr... | Dudoso | Tiene dudas sobre la modalidad virtual y el acompañamiento. | Explicar soporte y metodología |
+| 30 | ieeecomsocmmus... | No responde | No contestó el mensaje informativo enviado. | Marcar para segundo intento |
+| 31 | ivanova___28 | Interesado | Preguntó si el curso incluye ejercicios prácticos en R y Quarto. | Enviar temario ampliado |
+| 32 | kha.y0_ | Dudoso | Le interesa, pero debe confirmar si cuenta con computadora disponible. | Informar requisitos técnicos |
+| 33 | fervasquez406 | No interesado | Mencionó que prefiere aprender mediante recursos gratuitos. | Cerrar contacto |
+| 34 | 0.junixr_19 | Interesado | Manifestó interés en recibir asesoría personalizada adicional. | Ofrecer plan de asesoría |
+| 35 | jahirs_7 | Dudoso | Mostró curiosidad por el curso, aunque todavía no tiene un proyecto de tesis. | Enviar beneficios para principiantes |
+| 36 | bryansmithtuning | No responde | El contacto continúa pendiente de respuesta. | Esperar 48 horas |
+| 37 | carrera.artes.visu... | Interesado | Indicó que desea reservar un cupo para la próxima cohorte. | Registrar reserva |
+| 38 | layuli_029 | Dudoso | Indicó que podría participar si se ajustan los horarios. | Consultar horario preferido |
+| 39 | lojagritaart | No interesado | Señaló que no tiene previsto iniciar una investigación próximamente. | Cerrar contacto |
+| 40 | tessipoy___ | Interesado | Mostró interés y pidió que se le contacte por WhatsApp. | Solicitar número autorizado |
+| 41 | marco_leoon | Dudoso | Le parece útil, pero necesita verificar su presupuesto mensual. | Hacer seguimiento al fin de mes |
+| 42 | daniel.rap007 | No responde | No respondió después de dos intentos de contacto. | Cerrar por falta de respuesta |
+| 43 | mayraeliza2 | Interesado | Considera útil el curso para avanzar su tesis y desea más detalles. | Enviar información completa |
+| 44 | sastreriaangelvas... | Dudoso | Solicitó el temario para evaluar si se adapta a sus necesidades. | Enviar temario y seguimiento |
+| 45 | ieee.wie.umsa | No responde | La solicitud de mensaje continúa pendiente. | Revisar solicitud posteriormente |
+| 46 | jheni_elizabeth | Dudoso | Tiene interés parcial en el módulo de inteligencia artificial. | Enviar detalle del módulo de IA |
+| 47 | angieverenice_ | Dudoso | Mencionó que posiblemente se inscriba junto con un compañero. | Ofrecer descuento grupal |
+| 48 | erick_1 | Dudoso | Le interesa, pero no desea confirmar su matrícula todavía. | Mantener en seguimiento |
+| 49 | anaguaman959 | Dudoso | Preguntó por el curso, aunque aún no define su tema de investigación. | Enviar orientación inicial |
+| 50 | jesus_b56 | Dudoso | Considera atractivo el servicio, pero desea revisar testimonios. | Enviar testimonios |
+| 51 | jequita8 | Dudoso | Tiene dudas sobre el nivel de dificultad de R. | Enviar ejemplo introductorio |
+| 52 | aaugusto.zzz | Dudoso | Le interesa la propuesta, pero pidió ser contactado más adelante. | Programar nuevo contacto |
+| 53 | denis.cueva_ | Dudoso | Solicitó información y quedó en revisar los detalles enviados. | Revisar respuesta en 48 horas |
+| 54 | paumart_2313 | Dudoso | Mostró interés inicial, aunque no confirmó disponibilidad para las fechas. | Confirmar disponibilidad |
+
+: Base de Datos y Pipeline CRM de Seguidores del Canal `@mindcode28` {#tbl-crm tbl-colwidths="[5,22,13,38,22]"}
+
+\endgroup
+
+# Resultados y Validación del Piloto
+
+La validación del modelo de captación arrojó datos empíricos sobre la efectividad del túnel orgánico:
+
+1. **Captación de Prospectos:** El flujo orgánico derivó en la consolidación del grupo cerrado de WhatsApp **"Acelera tu investigación con IA, R, Quarto"** ([Enlace de Acceso](https://chat.whatsapp.com/C9lEjzzLdIBLmIGNBtZsJq?s=cl&p=a&ilr=1)).
+2. **Estrategia de Contacto Directo:** Se ejecutó un proceso de prospección directa mediante llamadas telefónicas personalizadas a los usuarios interesados pertenecientes a la comunidad y registrados en el CRM.
+3. **Conversión y Feedback:** Las llamadas permitieron identificar que la principal barrera no es el precio del curso, sino la necesidad de acompañamiento síncrono para la aplicación de herramientas estadísticas.
+
+# Evidencia Fotográfica y Archivos del Piloto
+
+Para asegurar la auditabilidad del proceso de ventas y el cumplimiento de las llamadas y publicidades, las capturas de pantalla de los chats, registros de llamadas y banners promocionales deben almacenarse en la siguiente ruta del repositorio:
+
+* **Directorio local de evidencias:** `docs/vaults/u1-ape-02-marketing-agency/assets/evidences/`

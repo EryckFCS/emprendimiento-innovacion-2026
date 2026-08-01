@@ -94,6 +94,45 @@
       "date_indexed": "2026-04-21",
       "status": "INDEXADO",
       "chunks_indexed": 68
+    },
+    {
+      "source_id": "ries_lean_startup_2011",
+      "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+      "authors": [
+        "Ries, Eric"
+      ],
+      "year": 2011,
+      "type": "libro",
+      "file": "bibliography/raw/ries_lean_startup_2011.pdf",
+      "collection": "innovation_economics",
+      "date_indexed": "2026-06-27",
+      "status": "INDEXADO"
+    },
+    {
+      "source_id": "spigel_entrepreneurial_ecosystems_2020",
+      "title": "Entrepreneurial Ecosystems: Theory, Practice and Futures",
+      "authors": [
+        "Spigel, Ben"
+      ],
+      "year": 2020,
+      "type": "libro",
+      "file": "bibliography/raw/spigel_entrepreneurial_ecosystems_2020.pdf",
+      "collection": "innovation_economics",
+      "date_indexed": "2026-06-27",
+      "status": "INDEXADO"
+    },
+    {
+      "source_id": "nunez_ecosistemas_de_emprendimiento_2015",
+      "title": "Ecosistemas de Emprendimiento: Una mirada desde la política pública",
+      "authors": [
+        "Nuñez, et al."
+      ],
+      "year": 2015,
+      "type": "libro",
+      "file": "bibliography/raw/nunez_ecosistemas_de_emprendimiento_2015.pdf",
+      "collection": "innovation_economics",
+      "date_indexed": "2026-06-27",
+      "status": "INDEXADO"
     }
   ],
   "pending": [

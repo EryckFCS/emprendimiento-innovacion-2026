@@ -1,33 +1,11 @@
 {
-  "collection": "innovation_economics",
-  "total_chunks": 1430,
-  "last_audit": "2026-04-24",
-  "status": "SINCRONIZADO",
+  "status": "synchronized",
+  "last_sync": "2026-06-27",
   "engine": "ecs_quantitative.ingestion.rag",
-  "indexed_documents": [
-    {
-      "source_name": "Manual_de_Oslo_2005",
-      "chunks": 625
-    },
-    {
-      "source_name": "Schumpeter_Theory_of_Economic_Development",
-      "chunks": 560
-    },
-    {
-      "source_name": "Freeman_Concept_Sharif_2006",
-      "chunks": 152
-    },
-    {
-      "source_name": "Nelson_National_Innovation_Systems_Summary",
-      "chunks": 68
-    },
-    {
-      "source_name": "SYLLABUS",
-      "chunks": 22
-    },
-    {
-      "source_name": "Freeman_Technology_Policy_EconStor_Summary",
-      "chunks": 3
-    }
-  ]
+  "method": "text-only",
+  "target_lobule": "innovation_economics",
+  "total_files": 8,
+  "total_chunks": 3087,
+  "scope": "docs/syllabus + docs/readings + bibliography/",
+  "note": "Ingesta idempotente — SHA256 deduplica. Añade PDFs a bibliography/ para ampliar cobertura."
 }
